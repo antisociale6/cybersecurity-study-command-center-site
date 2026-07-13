@@ -100,12 +100,11 @@ jobs:
         if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         shell: bash
         run: |
-          node .github/scripts/site-health.mjs --write-heartbeat-state
-          if git diff --quiet -- .github/runtime/last-heartbeat.json; then
+          heartbeat_message="$(node .github/scripts/site-health.mjs --heartbeat-message)"
+          if git log --format=%s --fixed-strings --grep="$heartbeat_message" -1 | grep -Fxq "$heartbeat_message"; then
             exit 0
           fi
           git config user.name "OpenClaw Cloud Guardian"
           git config user.email "openclaw-cloud-guardian@localhost"
-          git add .github/runtime/last-heartbeat.json
-          git commit -m "Maintain cloud guardian schedule [skip ci]"
+          git commit --allow-empty -m "$heartbeat_message"
           git push

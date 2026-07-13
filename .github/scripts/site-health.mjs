@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
 import {
   appendFileSync,
-  mkdirSync,
   readFileSync,
   writeFileSync,
 } from "node:fs";
@@ -187,25 +186,9 @@ export async function requestPagesRebuild({
   return { requested: true, status: response.status };
 }
 
-export function writeHeartbeatState({
-  repositoryRoot = process.cwd(),
-  now = new Date(),
-} = {}) {
+export function heartbeatCommitMessage({ now = new Date() } = {}) {
   const month = now.toISOString().slice(0, 7);
-  const destination = path.join(
-    path.resolve(repositoryRoot),
-    ".github",
-    "runtime",
-    "last-heartbeat.json",
-  );
-  mkdirSync(path.dirname(destination), { recursive: true });
-  const state = {
-    schema_version: 1,
-    active_month_utc: month,
-    purpose: "keep the public-repository guardian schedule active",
-  };
-  writeFileSync(destination, `${JSON.stringify(state, null, 2)}\n`, "utf8");
-  return { path: destination, state };
+  return `Maintain cloud guardian schedule ${month} [skip ci]`;
 }
 
 function readLocalManifest(repositoryRoot, checkoutUrl, leadMagnetUrl) {
@@ -361,8 +344,8 @@ function parseArguments(argv) {
       result.output = argv[++index];
     } else if (argument === "--request-pages-rebuild") {
       result.requestPagesRebuild = true;
-    } else if (argument === "--write-heartbeat-state") {
-      result.writeHeartbeatState = true;
+    } else if (argument === "--heartbeat-message") {
+      result.heartbeatMessage = true;
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }
@@ -413,9 +396,8 @@ async function main() {
     process.stdout.write(`${JSON.stringify(result)}\n`);
     return;
   }
-  if (args.writeHeartbeatState) {
-    const result = writeHeartbeatState();
-    process.stdout.write(`${JSON.stringify(result.state)}\n`);
+  if (args.heartbeatMessage) {
+    process.stdout.write(`${heartbeatCommitMessage()}\n`);
     return;
   }
 
