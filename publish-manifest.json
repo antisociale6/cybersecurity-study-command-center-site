@@ -24,7 +24,7 @@
   },
   "cloud_automation": {
     "schema_version": 1,
-    "bundle_sha256": "091f80a74fd1c4779f63987c61dbb54f543e8451015ce824823fb6a6769691cb",
+    "bundle_sha256": "c7744c9bf18da6a5df96ec662df808eac317094b07abce1a0f556552f5ca8e9b",
     "files": [
       {
         "path": ".gitattributes",
@@ -33,8 +33,8 @@
       },
       {
         "path": ".github/workflows/revenue-loop-health.yml",
-        "bytes": 3377,
-        "sha256": "50ccea9c0562223087f33f07d1403d01de5349eac2cfaebe66757ca9e4b957a3"
+        "bytes": 3501,
+        "sha256": "2636329145f6a606960297fd51faee5f4ca9bf6d4cc75969ce1335951280dce7"
       },
       {
         "path": ".github/scripts/site-health.mjs",
