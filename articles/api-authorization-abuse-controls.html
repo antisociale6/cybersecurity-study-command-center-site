@@ -11,13 +11,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Cybersecurity Study Command Center Membership">
+    <meta property="og:title" content="Enforce API Authorization and Abuse Controls">
+    <meta property="og:description" content="A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.">
+    <meta property="og:url" content="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+      content="default-src 'self'; script-src 'self' 'sha256-d+RNY7lxYzHmUfGBIcQrRfsDpjy2/GDgJDpzxGf0UiU='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
     >
     <title>Enforce API Authorization and Abuse Controls | Cybersecurity Study Command Center</title>
+    <link rel="canonical" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html">
+    <link rel="alternate" type="application/rss+xml" title="Cybersecurity Study Command Center Membership study notes" href="../feed.xml">
+    <link rel="prev" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html">
+    <link rel="next" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secrets-lifecycle-leak-guard.html">
     <link rel="stylesheet" href="../styles.css">
     <script src="../app.js" defer></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html","@type":"WebPage","description":"A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html#article"},"name":"Enforce API Authorization and Abuse Controls","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html#article","@type":"TechArticle","articleSection":"Defensive cybersecurity study","description":"A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.","educationalUse":"self study","headline":"Enforce API Authorization and Abuse Controls","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"API authorization test matrix for beginners","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html","name":"Enforce API Authorization and Abuse Controls","position":2}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -61,6 +72,16 @@
             and redactions visible so a reviewer can understand what the work
             demonstrates and what it does not.
           </p>
+
+          <nav class="article-series" aria-labelledby="article-series-title">
+            <h2 id="article-series-title">Continue the study-note series</h2>
+            <p>Study note 05 of 12</p>
+            <ul class="series-links">
+              <li><a rel="prev" href="authentication-session-control-review.html">Previous: Harden Authentication and Sessions</a></li>
+              <li><a href="../index.html#resources">All study notes</a></li>
+              <li><a rel="next" href="secrets-lifecycle-leak-guard.html">Next: Build a Secrets Lifecycle and Leak Guard</a></li>
+            </ul>
+          </nav>
         </div>
       </article>
 
@@ -99,6 +120,10 @@
       <div class="shell footer-inner">
         <p>Cybersecurity Study Command Center</p>
         <p>Use only in owned or explicitly authorized environments.</p>
+        <nav aria-label="Discovery links">
+          <a href="../feed.xml">Study-notes RSS feed</a>
+          <a href="../sitemap.xml">Sitemap</a>
+        </nav>
       </div>
     </footer>
   </body>

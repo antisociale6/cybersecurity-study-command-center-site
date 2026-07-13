@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://antisociale6.github.io/cybersecurity-study-command-center-site/sitemap.xml
