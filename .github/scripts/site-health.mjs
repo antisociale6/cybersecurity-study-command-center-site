@@ -24,6 +24,7 @@ export async function runHealthCheck({
   sleepImpl = sleep,
   retries = DEFAULT_RETRIES,
   timeoutMs = DEFAULT_TIMEOUT_MS,
+  requireCommerceReady = false,
 } = {}) {
   if (!MODES.has(mode)) throw new Error("Health mode must be quick or deep.");
   const site = cleanSiteUrl(siteUrl);
@@ -77,6 +78,7 @@ export async function runHealthCheck({
   ]);
   const paidState = detectGumroadPublication(paidHtml);
   const freeState = detectGumroadPublication(freeHtml);
+  const commerceReady = paidState === "published" && freeState === "published";
 
   let deepVerification = null;
   if (mode === "deep") {
@@ -95,7 +97,8 @@ export async function runHealthCheck({
     checked_at: new Date().toISOString(),
     mode,
     operational_ok: true,
-    commerce_ready: paidState === "published" && freeState === "published",
+    commerce_ready: commerceReady,
+    commerce_required: requireCommerceReady === true,
     products: {
       paid: { publication_state: paidState },
       free: { publication_state: freeState },
@@ -407,8 +410,12 @@ async function main() {
       siteUrl: process.env.SITE_URL,
       checkoutUrl: process.env.CHECKOUT_URL,
       leadMagnetUrl: process.env.LEAD_MAGNET_URL,
+      requireCommerceReady: process.env.REQUIRE_COMMERCE_READY === "true",
     });
     writeResult(result, args.output);
+    if (result.commerce_required && !result.commerce_ready) {
+      process.exitCode = 2;
+    }
   } catch (error) {
     const result = {
       schema_version: 1,
