@@ -1,0 +1,102 @@
+name: Revenue loop cloud guardian
+
+on:
+  push:
+    branches:
+      - gh-pages
+  schedule:
+    # Odd minutes reduce GitHub's documented top-of-hour scheduling delays.
+    - cron: "7,22,37,52 * * * *"
+    - cron: "43 3 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Verification depth
+        required: true
+        default: quick
+        type: choice
+        options:
+          - quick
+          - deep
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: revenue-loop-cloud-guardian
+  cancel-in-progress: false
+
+jobs:
+  guardian:
+    name: Verify and recover the public funnel
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Check out the published source
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Select verification depth
+        id: verification
+        shell: bash
+        run: |
+          mode="quick"
+          if [[ "${{ github.event.schedule }}" == "43 3 * * *" ]]; then
+            mode="deep"
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            mode="${{ inputs.mode }}"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+
+      - name: Run the first health check
+        id: first_check
+        shell: bash
+        env:
+          SITE_URL: https://antisociale6.github.io/cybersecurity-study-command-center-site/
+          CHECKOUT_URL: https://corcoran7.gumroad.com/l/vmyfq
+          LEAD_MAGNET_URL: https://corcoran7.gumroad.com/l/vlcjuo
+        run: |
+          if node .github/scripts/site-health.mjs \
+            --mode "${{ steps.verification.outputs.mode }}" \
+            --output health-result.json; then
+            echo "exit_code=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "exit_code=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Request a Pages rebuild after an operational failure
+        if: steps.first_check.outputs.exit_code != '0'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/site-health.mjs --request-pages-rebuild
+
+      - name: Allow the recovery deployment to settle
+        if: steps.first_check.outputs.exit_code != '0'
+        run: sleep 30
+
+      - name: Recheck after recovery
+        if: steps.first_check.outputs.exit_code != '0'
+        env:
+          SITE_URL: https://antisociale6.github.io/cybersecurity-study-command-center-site/
+          CHECKOUT_URL: https://corcoran7.gumroad.com/l/vmyfq
+          LEAD_MAGNET_URL: https://corcoran7.gumroad.com/l/vlcjuo
+        run: >-
+          node .github/scripts/site-health.mjs
+          --mode "${{ steps.verification.outputs.mode }}"
+          --output health-result-after-recovery.json
+
+      - name: Keep the public-repository schedule active
+        if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        shell: bash
+        run: |
+          node .github/scripts/site-health.mjs --write-heartbeat-state
+          if git diff --quiet -- .github/runtime/last-heartbeat.json; then
+            exit 0
+          fi
+          git config user.name "OpenClaw Cloud Guardian"
+          git config user.email "openclaw-cloud-guardian@localhost"
+          git add .github/runtime/last-heartbeat.json
+          git commit -m "Maintain cloud guardian schedule [skip ci]"
+          git push

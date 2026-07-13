@@ -1,0 +1,2 @@
+# The publish manifest attests exact bytes, so Git must not rewrite line endings.
+* -text

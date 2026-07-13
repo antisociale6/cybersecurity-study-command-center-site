@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "c8c86915805efd13dcb62a22d98ad45df6dbed5a2387abfc21de8b3f9698baf9",
-  "site_hash": "cd1fa3582e8b7c7fbe5a3e5850305f63b8deb125d7916e74925b0c169f32b1b3",
+  "source_build_id": "1e013a5a59f4a245577dd8ad38b4f8924b7f5275986140335375eaa99c40749b",
+  "site_hash": "97a40385563e008697e2c577dfe3ade22a4889c8324462d87fc8b9a2ca0a32ca",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -21,6 +21,27 @@
     "schema_version": 1,
     "key_path": "dd9cb7d7cd44f218818b6874851e76916e31bfa723ef0748a264919d4f8203ae.txt",
     "sitemap_path": "sitemap.xml"
+  },
+  "cloud_automation": {
+    "schema_version": 1,
+    "bundle_sha256": "091f80a74fd1c4779f63987c61dbb54f543e8451015ce824823fb6a6769691cb",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "bytes": 90,
+        "sha256": "2e40943b19ee15394f1868490c02ba6f4ee6ca4f9b85eb17961dad43291bb18e"
+      },
+      {
+        "path": ".github/workflows/revenue-loop-health.yml",
+        "bytes": 3377,
+        "sha256": "50ccea9c0562223087f33f07d1403d01de5349eac2cfaebe66757ca9e4b957a3"
+      },
+      {
+        "path": ".github/scripts/site-health.mjs",
+        "bytes": 12962,
+        "sha256": "a3ca90da60d8daf7345720c98ef84935cb032d42830512951488eb040a2d4ced"
+      }
+    ]
   },
   "published_files": [
     {
@@ -81,7 +102,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "1bdf55d3c18d5171287945cedacea1f972a415b9240e0cde34b06a5b4a725fc4"
+      "sha256": "5c336dae2abd5ed86fc3d3a7cefbe130979f2b4354ea335e7c239d17246e6967"
     },
     {
       "path": "data/membership-manifest.json",
@@ -101,7 +122,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "8354b2324b38f638d6dfe3fb248a724091ceb1cf4887f3ab89f7dcb69da2d3aa"
+      "sha256": "0e244d8d908baf8c15ba0cf9b0e5e03ed3d7c7d5d13fb5c5a4f1b287fa20d076"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
