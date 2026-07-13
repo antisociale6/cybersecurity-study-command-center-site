@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "e233f3c1be2e8d3c292edec9bcc3c15e9e239d901922127b5c858725c32464bc",
-  "site_hash": "cca7f7e61d65b7dd332baaab2f3918ec5af5c6dfacd0c59e8037ea1efbf3b14a",
+  "source_build_id": "c8c86915805efd13dcb62a22d98ad45df6dbed5a2387abfc21de8b3f9698baf9",
+  "site_hash": "cd1fa3582e8b7c7fbe5a3e5850305f63b8deb125d7916e74925b0c169f32b1b3",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -81,7 +81,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "4b9a40354fa647f7867ec6bfae4a104bd59526680d82370f660f9b0691090232"
+      "sha256": "1bdf55d3c18d5171287945cedacea1f972a415b9240e0cde34b06a5b4a725fc4"
     },
     {
       "path": "data/membership-manifest.json",
