@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source_build_id": "7c79aeef5c8a04393620964cabafa6a601ff4d699c16ea75cf4aaca2a8b83552",
-  "site_hash": "a376bac32211dca27773f9284280c83bdb68f67fe381d2ee8ed439132a30f569",
+  "site_hash": "36088f8203bbddc68fdac282b5b28926feba37a813cf41b7592dad35820002e1",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -92,7 +92,7 @@
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
-      "sha256": "7f8906c86433375eeac06a7adec81dd3f12ae09bced88ff5ae0f9dad49101939"
+      "sha256": "6455acd92f7e7e0f66b783fb708e3eed5e253fb90669eecf087a754d65d4d5a3"
     },
     {
       "path": "site-config.json",
