@@ -24,7 +24,7 @@
   },
   "cloud_automation": {
     "schema_version": 1,
-    "bundle_sha256": "c7744c9bf18da6a5df96ec662df808eac317094b07abce1a0f556552f5ca8e9b",
+    "bundle_sha256": "5025a9702fd283108d37a985830d2ad80fa710dfd60df2908828c628b4a1e238",
     "files": [
       {
         "path": ".gitattributes",
@@ -38,8 +38,8 @@
       },
       {
         "path": ".github/scripts/site-health.mjs",
-        "bytes": 12962,
-        "sha256": "a3ca90da60d8daf7345720c98ef84935cb032d42830512951488eb040a2d4ced"
+        "bytes": 13516,
+        "sha256": "c1c6d1eca6470acf988c1d4db1495076dc59635a0ada11870d0d93123bbded95"
       }
     ]
   },

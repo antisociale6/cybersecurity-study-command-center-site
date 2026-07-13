@@ -44,14 +44,32 @@ export async function runHealthCheck({
     throw new Error("The live publish manifest does not match the default branch.");
   }
 
+  const liveConfig = await fetchJson(new URL("site-config.json", site), {
+    fetchImpl,
+    sleepImpl,
+    retries,
+    timeoutMs,
+  });
+  if (
+    liveConfig?.schema_version !== 1 ||
+    liveConfig.checkout_url !== checkout ||
+    liveConfig.lead_magnet_url !== leadMagnet
+  ) {
+    throw new Error("The live site configuration does not contain both approved product URLs.");
+  }
+
   const homepage = await fetchText(site, {
     fetchImpl,
     sleepImpl,
     retries,
     timeoutMs,
   });
-  if (!homepage.includes(checkout) || !homepage.includes(leadMagnet)) {
-    throw new Error("The live homepage does not contain both approved product URLs.");
+  if (
+    !homepage.includes('data-funnel-link="checkout"') ||
+    !homepage.includes('data-funnel-link="lead_magnet"') ||
+    !homepage.includes('href="downloads/authorized-security-lab-command-checklist.zip" download')
+  ) {
+    throw new Error("The live homepage does not contain the checkout, lead, and fallback controls.");
   }
 
   const [paidHtml, freeHtml] = await Promise.all([
