@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "335cd3d5e19ecae7f2128e9b3ef31b1224e6f3970e9ac3ecf5816f9d1e9e02f1",
-  "site_hash": "b2b65e4dcd619c161257ec654e64d031c6f56198f5e543c084d73258f8b48c60",
+  "source_build_id": "e233f3c1be2e8d3c292edec9bcc3c15e9e239d901922127b5c858725c32464bc",
+  "site_hash": "cca7f7e61d65b7dd332baaab2f3918ec5af5c6dfacd0c59e8037ea1efbf3b14a",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -16,6 +16,11 @@
     "source_membership_manifest_sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "membership_archive_path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
     "free_checklist_path": "downloads/authorized-security-lab-command-checklist.zip"
+  },
+  "indexnow": {
+    "schema_version": 1,
+    "key_path": "dd9cb7d7cd44f218818b6874851e76916e31bfa723ef0748a264919d4f8203ae.txt",
+    "sitemap_path": "sitemap.xml"
   },
   "published_files": [
     {
@@ -76,11 +81,15 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "50a4647563a27463e019766a763ed47e03393998111385dff0bf8c706523d427"
+      "sha256": "4b9a40354fa647f7867ec6bfae4a104bd59526680d82370f660f9b0691090232"
     },
     {
       "path": "data/membership-manifest.json",
       "sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68"
+    },
+    {
+      "path": "dd9cb7d7cd44f218818b6874851e76916e31bfa723ef0748a264919d4f8203ae.txt",
+      "sha256": "ca13ef2ec716ef2f0e7c6e6de08aee381b1a468364c014d684e3aa35c3d91418"
     },
     {
       "path": "downloads/authorized-security-lab-command-checklist.zip",

@@ -71,6 +71,11 @@
       "sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68"
     },
     {
+      "bytes": 64,
+      "path": "dd9cb7d7cd44f218818b6874851e76916e31bfa723ef0748a264919d4f8203ae.txt",
+      "sha256": "ca13ef2ec716ef2f0e7c6e6de08aee381b1a468364c014d684e3aa35c3d91418"
+    },
+    {
       "bytes": 1417,
       "path": "downloads/authorized-security-lab-command-checklist.zip",
       "sha256": "acb09328157046c06e0a40996f1ee2905bb133305da7d2d4063b9083aca3db65"
@@ -106,11 +111,12 @@
       "sha256": "4ee0025b92998fdb91669a14912bc949d1fa872dcd38d2e92bd9005e7d2aafa6"
     }
   ],
-  "build_id": "335cd3d5e19ecae7f2128e9b3ef31b1224e6f3970e9ac3ecf5816f9d1e9e02f1",
+  "build_id": "e233f3c1be2e8d3c292edec9bcc3c15e9e239d901922127b5c858725c32464bc",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
     "feed": "feed.xml",
+    "indexnow_key": "dd9cb7d7cd44f218818b6874851e76916e31bfa723ef0748a264919d4f8203ae.txt",
     "robots": "robots.txt",
     "site_url": "https://antisociale6.github.io/cybersecurity-study-command-center-site/",
     "sitemap": "sitemap.xml",
@@ -120,11 +126,12 @@
     "app": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530",
     "article_template": "143a315628058342edd07168cd0b2e9cab2fc204e3f18765a905fe17e6d40960",
     "articles": "b1770faae5e888cb63f6eafb8788ec8d7e99ed101d099fa97adc62a4b4cb3fc4",
-    "builder": "6557483f03413c7a9fa23e4e4375ceaeeb211f8b5b8c0a88b769343a2ffa04a0",
+    "builder": "b3e5b66f5aa847efe84c424993f4adcfd12e00d87f8eaa6f5d1186e212015604",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "bd02944f64e0f2282cd3ee487ef70d2d38902d1c8e65f101d6b8d6212200e918",
     "index_template": "d28b8581443c32264d88df6f497af09333c9e50b839baa0a52cc8d2ee5f4f7a4",
+    "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "site_config": "01b8aec968b330bee0b5e44cab3ab6223376dd601ac335040b6367c7f7c6d968",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
