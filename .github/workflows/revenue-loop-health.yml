@@ -49,6 +49,10 @@ jobs:
           fi
           echo "mode=$mode" >> "$GITHUB_OUTPUT"
 
+      - name: Allow a branch-triggered Pages deployment to settle
+        if: github.event_name == 'push'
+        run: sleep 60
+
       - name: Run the first health check
         id: first_check
         shell: bash
