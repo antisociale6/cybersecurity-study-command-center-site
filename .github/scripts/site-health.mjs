@@ -78,6 +78,9 @@ export async function runHealthCheck({
   ]);
   const paidState = detectGumroadPublication(paidHtml);
   const freeState = detectGumroadPublication(freeHtml);
+  const paidContract = inspectGumroadOfferContract(paidHtml, "paid");
+  const freeContract = inspectGumroadOfferContract(freeHtml, "free");
+  const commerceContractOk = paidContract.valid && freeContract.valid;
   const commerceReady = paidState === "published" && freeState === "published";
 
   let deepVerification = null;
@@ -99,9 +102,18 @@ export async function runHealthCheck({
     operational_ok: true,
     commerce_ready: commerceReady,
     commerce_required: requireCommerceReady === true,
+    commerce_contract_ok: commerceContractOk,
     products: {
-      paid: { publication_state: paidState },
-      free: { publication_state: freeState },
+      paid: {
+        publication_state: paidState,
+        contract_ok: paidContract.valid,
+        contract_issue: paidContract.issue,
+      },
+      free: {
+        publication_state: freeState,
+        contract_ok: freeContract.valid,
+        contract_issue: freeContract.issue,
+      },
     },
     site: {
       source_build_id: localManifest.source_build_id,
@@ -115,17 +127,42 @@ export async function runHealthCheck({
 
 export function detectGumroadPublication(html) {
   if (typeof html !== "string") return "unknown";
-  const normalized = html
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#34;", '"')
-    .replaceAll("&#x22;", '"')
-    .replaceAll("\\u0022", '"');
+  const normalized = normalizeGumroadHtml(html);
   const matches = [
     ...normalized.matchAll(/\\?"is_published\\?"\s*:\s*(true|false)/gi),
   ].map((match) => match[1].toLowerCase());
   const states = new Set(matches);
   if (states.size !== 1) return "unknown";
   return states.has("true") ? "published" : "draft";
+}
+
+export function inspectGumroadOfferContract(html, kind) {
+  if (typeof html !== "string" || !new Set(["paid", "free"]).has(kind)) {
+    return { valid: false, issue: "offer contract input is invalid" };
+  }
+  const normalized = normalizeGumroadHtml(html);
+  const checks = kind === "paid"
+    ? [
+        ["offer name", /"name"\s*:\s*"Cybersecurity Study Command Center Membership"/],
+        ["fixed 12-month term", /"duration_in_months"\s*:\s*12\b/],
+        ["recurring billing", /"is_recurring_billing"\s*:\s*true\b/],
+        [
+          "EUR 9 monthly price",
+          /"recurrence_price_values"\s*:\s*\{\s*"monthly"\s*:\s*\{\s*"price_cents"\s*:\s*900\b/,
+        ],
+      ]
+    : [
+        ["lead-magnet name", /"name"\s*:\s*"Authorized Security Lab Command Checklist"/],
+        ["zero price", /"price_cents"\s*:\s*0\b/],
+        ["non-recurring delivery", /"is_recurring_billing"\s*:\s*false\b/],
+      ];
+  const missing = checks
+    .filter(([_name, pattern]) => !pattern.test(normalized))
+    .map(([name]) => name);
+  return {
+    valid: missing.length === 0,
+    issue: missing.length === 0 ? null : `missing ${missing.join(", ")}`,
+  };
 }
 
 export async function verifyPublishedFiles({
@@ -271,6 +308,15 @@ function cleanProductUrl(value, label) {
   return value;
 }
 
+function normalizeGumroadHtml(html) {
+  return html
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#34;", '"')
+    .replaceAll("&#x22;", '"')
+    .replaceAll("\\u0022", '"')
+    .replaceAll("&amp;", "&");
+}
+
 async function fetchJson(url, options) {
   const text = await fetchText(url, options);
   try {
@@ -367,7 +413,8 @@ function writeResult(result, outputName) {
     appendFileSync(
       process.env.GITHUB_OUTPUT,
       `operational_ok=${result.operational_ok === true}\n` +
-        `commerce_ready=${result.commerce_ready === true}\n`,
+        `commerce_ready=${result.commerce_ready === true}\n` +
+        `commerce_contract_ok=${result.commerce_contract_ok === true}\n`,
       "utf8",
     );
   }
@@ -379,6 +426,7 @@ function writeResult(result, outputName) {
         "",
         `- Operational: ${result.operational_ok === true ? "healthy" : "failed"}`,
         `- Commerce ready: ${result.commerce_ready === true ? "yes" : "no"}`,
+        `- Offer contract: ${result.commerce_contract_ok === true ? "valid" : "invalid"}`,
         `- Verification: ${result.mode ?? "recovery"}`,
         `- Paid product: ${result.products?.paid?.publication_state ?? "not checked"}`,
         `- Free product: ${result.products?.free?.publication_state ?? "not checked"}`,
@@ -413,7 +461,10 @@ async function main() {
       requireCommerceReady: process.env.REQUIRE_COMMERCE_READY === "true",
     });
     writeResult(result, args.output);
-    if (result.commerce_required && !result.commerce_ready) {
+    if (
+      result.commerce_contract_ok !== true ||
+      (result.commerce_required && !result.commerce_ready)
+    ) {
       process.exitCode = 2;
     }
   } catch (error) {

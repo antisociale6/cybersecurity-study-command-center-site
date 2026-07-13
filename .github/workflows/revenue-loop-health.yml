@@ -114,7 +114,7 @@ jobs:
         run: exit 1
 
       - name: Lock the first verified commerce-ready state
-        if: steps.first_check.outputs.exit_code == '0' && steps.first_check.outputs.commerce_ready == 'true' && steps.commerce_contract.outputs.required != 'true'
+        if: steps.first_check.outputs.exit_code == '0' && steps.first_check.outputs.commerce_ready == 'true' && steps.first_check.outputs.commerce_contract_ok == 'true' && steps.commerce_contract.outputs.required != 'true'
         shell: bash
         run: |
           git config user.name "OpenClaw Cloud Guardian"
