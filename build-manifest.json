@@ -1,0 +1,192 @@
+{
+  "artifacts": [
+    {
+      "bytes": 5751,
+      "path": "app.js",
+      "sha256": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530"
+    },
+    {
+      "bytes": 4935,
+      "path": "articles/api-authorization-abuse-controls.html",
+      "sha256": "5f2750dcc489c96f2e44d53435ade6725eeea2dacb85b288fcdc9b4a0a953f45"
+    },
+    {
+      "bytes": 4947,
+      "path": "articles/authentication-session-control-review.html",
+      "sha256": "c114912ee2ad5f3abd20c23f86e67623c2c46a4113b8f5acc07295172f91fa14"
+    },
+    {
+      "bytes": 4947,
+      "path": "articles/defensible-cyber-risk-baseline.html",
+      "sha256": "f9c13ee087d78b1a29c7cbdb2f95921ba86074a99a46f7957c370b9f9ec78b3c"
+    },
+    {
+      "bytes": 4979,
+      "path": "articles/detection-engineering-tuning.html",
+      "sha256": "6e70620019134addf9fc9abcf3aa998f751812bd849fa5d49b4032b198ae0e28"
+    },
+    {
+      "bytes": 5037,
+      "path": "articles/evidence-led-incident-tabletop.html",
+      "sha256": "ac710a51bb4361969cbc26d3c0d43128b89b3bd57bc5826ede7f85f35787ccde"
+    },
+    {
+      "bytes": 5000,
+      "path": "articles/least-privilege-container-hardening.html",
+      "sha256": "954978638da4e1325978c4f782cfb9c79d76f5093b3ffd23d15659fdecf6ae44"
+    },
+    {
+      "bytes": 4995,
+      "path": "articles/network-segmentation-policy-validation.html",
+      "sha256": "c58f85a039fe8bdcc54e6f405452dec293b3c0e272861665d5a4055e1c27ded0"
+    },
+    {
+      "bytes": 4988,
+      "path": "articles/safe-ransomware-recovery-exercise.html",
+      "sha256": "0d259afab9f15cd518f1160b3a1a6e64795b81eb3ae23b5e34fa05adbd95fdca"
+    },
+    {
+      "bytes": 4954,
+      "path": "articles/sbom-dependency-risk-decision.html",
+      "sha256": "0709c07d5d0924db4ab1876568409bb4bdff84f3cab7cc8b96df5cfa87a67e2a"
+    },
+    {
+      "bytes": 4924,
+      "path": "articles/secrets-lifecycle-leak-guard.html",
+      "sha256": "7df18dcc8e6f2b06ac0c65da264988dc19b1246540226ff9e8653df5b0bcc952"
+    },
+    {
+      "bytes": 4984,
+      "path": "articles/secure-configuration-drift-check.html",
+      "sha256": "8cef579cc37b44aaa3354d9c0f71d5f69529b1661b702928bd89c84a66668841"
+    },
+    {
+      "bytes": 4943,
+      "path": "articles/threat-model-small-web-service.html",
+      "sha256": "c20e51710036e3097e11c72cff583e91f6407e7b9a0e69f8c63d3269a0a5e0c1"
+    },
+    {
+      "bytes": 8818,
+      "path": "data/membership-manifest.json",
+      "sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68"
+    },
+    {
+      "bytes": 1417,
+      "path": "downloads/authorized-security-lab-command-checklist.zip",
+      "sha256": "acb09328157046c06e0a40996f1ee2905bb133305da7d2d4063b9083aca3db65"
+    },
+    {
+      "bytes": 20847,
+      "path": "index.html",
+      "sha256": "9afb21ac9a3755eb05bf9cbf6ee81bc41a0b79c23b2aa393013ba5cd48e711b3"
+    },
+    {
+      "bytes": 148,
+      "path": "site-config.json",
+      "sha256": "6cfbf35259716764dcf68a2b27678efce2e2e5b74c72275657aca78a9a5c2989"
+    },
+    {
+      "bytes": 10986,
+      "path": "styles.css",
+      "sha256": "18f0b3e6964d683e5ae74dde7490b4bafff6e750472ec94edda00579ce29f198"
+    }
+  ],
+  "build_id": "7c79aeef5c8a04393620964cabafa6a601ff4d699c16ea75cf4aaca2a8b83552",
+  "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
+  "checkout_ready": true,
+  "input_hashes": {
+    "app": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530",
+    "article_template": "f0c2d279c13551159da6f817a06bb4416c465e9919c6e82b537a5e8d7ce53613",
+    "articles": "b1770faae5e888cb63f6eafb8788ec8d7e99ed101d099fa97adc62a4b4cb3fc4",
+    "builder": "a131d9af8056499a0929bbf3dd54f7ab3f657cc9f2efa54c53c96ff9f8b06d49",
+    "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
+    "hardened_lead_template": "bd02944f64e0f2282cd3ee487ef70d2d38902d1c8e65f101d6b8d6212200e918",
+    "index_template": "37f5bb429c1bad6565af68b70a4d036d1b13ef68e5a6dbc2817ac3468cdadddd",
+    "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
+    "site_config": "01b8aec968b330bee0b5e44cab3ab6223376dd601ac335040b6367c7f7c6d968",
+    "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
+    "styles": "18f0b3e6964d683e5ae74dde7490b4bafff6e750472ec94edda00579ce29f198"
+  },
+  "offer": {
+    "billing_frequency": "monthly",
+    "name": "Cybersecurity Study Command Center Membership",
+    "price_eur_per_month": 9.0,
+    "slug": "cybersecurity-study-command-center-membership",
+    "term_months": 12
+  },
+  "owned_content": {
+    "article_count": 12,
+    "articles": [
+      {
+        "campaign_tag": "owned-curriculum-m01-risk-baseline",
+        "sequence": 1,
+        "slug": "defensible-cyber-risk-baseline"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m02-threat-model",
+        "sequence": 2,
+        "slug": "threat-model-small-web-service"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m03-configuration-drift",
+        "sequence": 3,
+        "slug": "secure-configuration-drift-check"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m04-authentication-sessions",
+        "sequence": 4,
+        "slug": "authentication-session-control-review"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m05-api-authorization",
+        "sequence": 5,
+        "slug": "api-authorization-abuse-controls"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m06-secrets-lifecycle",
+        "sequence": 6,
+        "slug": "secrets-lifecycle-leak-guard"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m07-sbom-dependency-risk",
+        "sequence": 7,
+        "slug": "sbom-dependency-risk-decision"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m08-container-hardening",
+        "sequence": 8,
+        "slug": "least-privilege-container-hardening"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m09-network-segmentation",
+        "sequence": 9,
+        "slug": "network-segmentation-policy-validation"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m10-logging-detection",
+        "sequence": 10,
+        "slug": "detection-engineering-tuning"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m11-incident-tabletop",
+        "sequence": 11,
+        "slug": "evidence-led-incident-tabletop"
+      },
+      {
+        "campaign_tag": "owned-curriculum-m12-ransomware-recovery",
+        "sequence": 12,
+        "slug": "safe-ransomware-recovery-exercise"
+      }
+    ]
+  },
+  "publication_plan": {
+    "catalog_sha256": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
+    "featured_article_sequence": 7,
+    "schema_version": 1,
+    "stage": "traffic",
+    "variant_id": "traffic-free-first-v1",
+    "window_key": "2026-07-12"
+  },
+  "schema_version": 2,
+  "variant_sha256": "24e2baec5fb3b934085928883bcd86ed2dd8b5c94a92a5b1c101f1134c506535"
+}

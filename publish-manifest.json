@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "source_build_id": "7c79aeef5c8a04393620964cabafa6a601ff4d699c16ea75cf4aaca2a8b83552",
+  "site_hash": "a376bac32211dca27773f9284280c83bdb68f67fe381d2ee8ed439132a30f569",
+  "publication_plan": {
+    "schema_version": 1,
+    "stage": "traffic",
+    "window_key": "2026-07-12",
+    "variant_id": "traffic-free-first-v1",
+    "featured_article_sequence": 7,
+    "catalog_sha256": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6"
+  },
+  "checkout_url": "https://corcoran7.gumroad.com/l/vmyfq",
+  "lead_magnet_url": "https://corcoran7.gumroad.com/l/vlcjuo",
+  "delivery_fallback": {
+    "source_membership_manifest_sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
+    "membership_archive_path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
+    "free_checklist_path": "downloads/authorized-security-lab-command-checklist.zip"
+  },
+  "published_files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.js",
+      "sha256": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530"
+    },
+    {
+      "path": "articles/api-authorization-abuse-controls.html",
+      "sha256": "5f2750dcc489c96f2e44d53435ade6725eeea2dacb85b288fcdc9b4a0a953f45"
+    },
+    {
+      "path": "articles/authentication-session-control-review.html",
+      "sha256": "c114912ee2ad5f3abd20c23f86e67623c2c46a4113b8f5acc07295172f91fa14"
+    },
+    {
+      "path": "articles/defensible-cyber-risk-baseline.html",
+      "sha256": "f9c13ee087d78b1a29c7cbdb2f95921ba86074a99a46f7957c370b9f9ec78b3c"
+    },
+    {
+      "path": "articles/detection-engineering-tuning.html",
+      "sha256": "6e70620019134addf9fc9abcf3aa998f751812bd849fa5d49b4032b198ae0e28"
+    },
+    {
+      "path": "articles/evidence-led-incident-tabletop.html",
+      "sha256": "ac710a51bb4361969cbc26d3c0d43128b89b3bd57bc5826ede7f85f35787ccde"
+    },
+    {
+      "path": "articles/least-privilege-container-hardening.html",
+      "sha256": "954978638da4e1325978c4f782cfb9c79d76f5093b3ffd23d15659fdecf6ae44"
+    },
+    {
+      "path": "articles/network-segmentation-policy-validation.html",
+      "sha256": "c58f85a039fe8bdcc54e6f405452dec293b3c0e272861665d5a4055e1c27ded0"
+    },
+    {
+      "path": "articles/safe-ransomware-recovery-exercise.html",
+      "sha256": "0d259afab9f15cd518f1160b3a1a6e64795b81eb3ae23b5e34fa05adbd95fdca"
+    },
+    {
+      "path": "articles/sbom-dependency-risk-decision.html",
+      "sha256": "0709c07d5d0924db4ab1876568409bb4bdff84f3cab7cc8b96df5cfa87a67e2a"
+    },
+    {
+      "path": "articles/secrets-lifecycle-leak-guard.html",
+      "sha256": "7df18dcc8e6f2b06ac0c65da264988dc19b1246540226ff9e8653df5b0bcc952"
+    },
+    {
+      "path": "articles/secure-configuration-drift-check.html",
+      "sha256": "8cef579cc37b44aaa3354d9c0f71d5f69529b1661b702928bd89c84a66668841"
+    },
+    {
+      "path": "articles/threat-model-small-web-service.html",
+      "sha256": "c20e51710036e3097e11c72cff583e91f6407e7b9a0e69f8c63d3269a0a5e0c1"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "7c90406852ede8db146cba86c04d3ff44f1058c04350d59071ae64ff393239b2"
+    },
+    {
+      "path": "data/membership-manifest.json",
+      "sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68"
+    },
+    {
+      "path": "downloads/authorized-security-lab-command-checklist.zip",
+      "sha256": "acb09328157046c06e0a40996f1ee2905bb133305da7d2d4063b9083aca3db65"
+    },
+    {
+      "path": "index.html",
+      "sha256": "9afb21ac9a3755eb05bf9cbf6ee81bc41a0b79c23b2aa393013ba5cd48e711b3"
+    },
+    {
+      "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
+      "sha256": "7f8906c86433375eeac06a7adec81dd3f12ae09bced88ff5ae0f9dad49101939"
+    },
+    {
+      "path": "site-config.json",
+      "sha256": "6cfbf35259716764dcf68a2b27678efce2e2e5b74c72275657aca78a9a5c2989"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "18f0b3e6964d683e5ae74dde7490b4bafff6e750472ec94edda00579ce29f198"
+    }
+  ]
+}

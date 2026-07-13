@@ -1,0 +1,105 @@
+<!doctype html>
+<html
+  lang="en"
+  data-config-path="../site-config.json"
+  data-default-utm-source="owned-site"
+  data-default-utm-medium="article"
+  data-default-utm-campaign="owned-curriculum-m02-threat-model"
+  data-default-utm-content="traffic-free-first-v1"
+>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A design-stage workflow for mapping assets, actors, data flows, trust boundaries, and reviewable security decisions for a small web service.">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+    >
+    <title>Threat-Model a Small Web Service | Cybersecurity Study Command Center</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="../index.html" aria-label="Cybersecurity Study Command Center home">
+          <span class="brand-mark" aria-hidden="true">C//</span>
+          <span>Study Command Center</span>
+        </a>
+        <a class="back-link" href="../index.html#resources">All study notes</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <article class="section article-body">
+        <div class="shell narrow-shell">
+          <p class="eyebrow">Authorized-lab study note 02</p>
+          <h1>Threat-Model a Small Web Service</h1>
+          <p class="article-intro">A design-stage workflow for mapping assets, actors, data flows, trust boundaries, and reviewable security decisions for a small web service.</p>
+          <p class="article-meta"><strong>Useful when searching for:</strong> beginner web service threat model example</p>
+
+          <h2>A practical, evidence-led method</h2>
+          <ol class="method-list">
+            <li>Describe a fictional or locally owned service, its users, business purpose, and the decisions the model should inform.</li>
+            <li>Map components, data stores, external dependencies, actors, and data flows at a level a reviewer can understand.</li>
+            <li>Mark trust boundaries and identify where identity, sensitive information, or administrative authority changes hands.</li>
+            <li>Write plausible misuse or failure scenarios and connect each scenario to a specific asset and boundary.</li>
+            <li>Document proposed controls, residual uncertainty, an accountable owner, and evidence needed for later validation.</li>
+          </ol>
+
+          <aside class="boundary-box" aria-labelledby="safety-title">
+            <h2 id="safety-title">Safety boundary</h2>
+            <p>Keep the exercise at design-review level and use a fictional or owned local service. Do not probe public services, enumerate real users, or include credentials or personal information.</p>
+          </aside>
+
+          <h2>What to prove</h2>
+          <p>
+            Aim to produce a reviewable artifact such as
+            <strong>Design-Stage Threat Model for a Local Appointment Service</strong>. Keep facts, assumptions, limits,
+            and redactions visible so a reviewer can understand what the work
+            demonstrates and what it does not.
+          </p>
+        </div>
+      </article>
+
+      <section class="section cta-section" aria-labelledby="article-cta-title">
+        <div class="shell cta-box">
+          <div>
+            <p class="eyebrow">Continue safely</p>
+            <h2 id="article-cta-title">Use the checklist before the lab.</h2>
+            <p>
+              Start with the free authorization-and-evidence checklist. If this
+              method helps, the membership expands it into twelve prepared sprints.
+            </p>
+            <p id="link-status" class="link-status" aria-live="polite">
+              Links are disabled until reviewed configuration loads.
+            </p>
+          </div>
+          <div class="button-stack">
+            <a
+              class="button button-primary"
+              data-funnel-link="lead_magnet"
+              href="#download-unavailable"
+              aria-disabled="true"
+            >Get the free checklist</a>
+            <a
+              class="button button-secondary"
+              data-funnel-link="checkout"
+              href="#checkout-unavailable"
+              aria-disabled="true"
+            >Review the €9 membership</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>Cybersecurity Study Command Center</p>
+        <p>Use only in owned or explicitly authorized environments.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html
+  lang="en"
+  data-config-path="../site-config.json"
+  data-default-utm-source="owned-site"
+  data-default-utm-medium="article"
+  data-default-utm-campaign="owned-curriculum-m05-api-authorization"
+  data-default-utm-content="traffic-free-first-v1"
+>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+    >
+    <title>Enforce API Authorization and Abuse Controls | Cybersecurity Study Command Center</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="../index.html" aria-label="Cybersecurity Study Command Center home">
+          <span class="brand-mark" aria-hidden="true">C//</span>
+          <span>Study Command Center</span>
+        </a>
+        <a class="back-link" href="../index.html#resources">All study notes</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <article class="section article-body">
+        <div class="shell narrow-shell">
+          <p class="eyebrow">Authorized-lab study note 05</p>
+          <h1>Enforce API Authorization and Abuse Controls</h1>
+          <p class="article-intro">A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.</p>
+          <p class="article-meta"><strong>Useful when searching for:</strong> API authorization test matrix for beginners</p>
+
+          <h2>A practical, evidence-led method</h2>
+          <ol class="method-list">
+            <li>Define a loopback-only fictional API with synthetic resources, roles, ownership rules, and permitted actions.</li>
+            <li>Build a subject-resource-action-context matrix that includes expected allow and deny decisions.</li>
+            <li>Describe test cases for owners, non-owners, guests, and administrators without using live tokens or customer records.</li>
+            <li>Compare expected and observed decisions while noting status, response behavior, audit evidence, and information leakage.</li>
+            <li>Document deny-by-default rules, abuse controls, unresolved cases, and the evidence required before any broader use.</li>
+          </ol>
+
+          <aside class="boundary-box" aria-labelledby="safety-title">
+            <h2 id="safety-title">Safety boundary</h2>
+            <p>Use only synthetic data in an owned loopback or disposable lab API. Do not test third-party endpoints, evade access controls, reuse real tokens, or retain personal data.</p>
+          </aside>
+
+          <h2>What to prove</h2>
+          <p>
+            Aim to produce a reviewable artifact such as
+            <strong>Object-Level API Authorization Verification</strong>. Keep facts, assumptions, limits,
+            and redactions visible so a reviewer can understand what the work
+            demonstrates and what it does not.
+          </p>
+        </div>
+      </article>
+
+      <section class="section cta-section" aria-labelledby="article-cta-title">
+        <div class="shell cta-box">
+          <div>
+            <p class="eyebrow">Continue safely</p>
+            <h2 id="article-cta-title">Use the checklist before the lab.</h2>
+            <p>
+              Start with the free authorization-and-evidence checklist. If this
+              method helps, the membership expands it into twelve prepared sprints.
+            </p>
+            <p id="link-status" class="link-status" aria-live="polite">
+              Links are disabled until reviewed configuration loads.
+            </p>
+          </div>
+          <div class="button-stack">
+            <a
+              class="button button-primary"
+              data-funnel-link="lead_magnet"
+              href="#download-unavailable"
+              aria-disabled="true"
+            >Get the free checklist</a>
+            <a
+              class="button button-secondary"
+              data-funnel-link="checkout"
+              href="#checkout-unavailable"
+              aria-disabled="true"
+            >Review the €9 membership</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>Cybersecurity Study Command Center</p>
+        <p>Use only in owned or explicitly authorized environments.</p>
+      </div>
+    </footer>
+  </body>
+</html>

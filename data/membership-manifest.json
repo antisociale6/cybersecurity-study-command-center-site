@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "name": "Cybersecurity Study Command Center Membership",
+  "slug": "cybersecurity-study-command-center-membership",
+  "curriculum_subtitle": "Lab-to-Portfolio: 12 Defensive Security Sprints",
+  "release_model": "front-loaded fixed-length 12-month membership",
+  "offer": {
+    "tier": "Cybersecurity Study Command Center Membership",
+    "price_eur_per_month": 9.0,
+    "billing_frequency": "monthly",
+    "term_months": 12
+  },
+  "external_actions": "none; local build artifacts and setup drafts only",
+  "base_vault": {
+    "canonical_source_reference": "outputs/flagship/current/cybersecurity-study-command-center/delivery.zip",
+    "copy": "base-vault/cybersecurity-study-command-center-base-vault.zip",
+    "entry_count": 17,
+    "content_sha256": "168a727f002e7cc431c98ae1c6b70f7614339ac34fd6429bf54d6eca5e36fde5",
+    "archive_sha256": "48b431654ff6fc62587b72ea29f46fb345a9e0f761774a0f870c3771a417f4f1",
+    "bytes": 30512,
+    "copy_preserves_source_entries": true
+  },
+  "months": [
+    {
+      "month": 1,
+      "title": "Build a Defensible Cyber-Risk Baseline",
+      "slug": "risk-baseline",
+      "path": "months/month-01-risk-baseline.zip",
+      "sha256": "9c3e3553098c145d44192d4c7312d543a9d1204d43ee04c76c3964de992926a0",
+      "portfolio_artifact": "Cyber-Risk Baseline for a Synthetic Small Business",
+      "official_source_count": 3
+    },
+    {
+      "month": 2,
+      "title": "Threat-Model a Small Web Service",
+      "slug": "threat-model",
+      "path": "months/month-02-threat-model.zip",
+      "sha256": "37ae9b13ad37d1071458c50eeaf0e299b8d55c6f081c0f6520ec0786b51b7ecd",
+      "portfolio_artifact": "Design-Stage Threat Model for a Local Appointment Service",
+      "official_source_count": 3
+    },
+    {
+      "month": 3,
+      "title": "Create a Secure Configuration and Drift Check",
+      "slug": "configuration-drift",
+      "path": "months/month-03-configuration-drift.zip",
+      "sha256": "961d31e711d5fe09e00364c47c32772d59d7180e610baf7d4ef3057c615b16e2",
+      "portfolio_artifact": "Evidence-Led Windows Configuration Drift Assessment",
+      "official_source_count": 4
+    },
+    {
+      "month": 4,
+      "title": "Harden Authentication and Sessions",
+      "slug": "authentication-sessions",
+      "path": "months/month-04-authentication-sessions.zip",
+      "sha256": "fd88574999409c2d0c64611c3307f3abbcd166ea4b5e01fcc7896a33ae0b89f9",
+      "portfolio_artifact": "Authentication and Session Control Design Review",
+      "official_source_count": 3
+    },
+    {
+      "month": 5,
+      "title": "Enforce API Authorization and Abuse Controls",
+      "slug": "api-authorization",
+      "path": "months/month-05-api-authorization.zip",
+      "sha256": "95cfbf9b460f2e11f8262ac6648f13bc8a39b884bc8fd8146c076ba2adf50aa1",
+      "portfolio_artifact": "Object-Level API Authorization Verification",
+      "official_source_count": 3
+    },
+    {
+      "month": 6,
+      "title": "Build a Secrets Lifecycle and Leak Guard",
+      "slug": "secrets-lifecycle",
+      "path": "months/month-06-secrets-lifecycle.zip",
+      "sha256": "eead93b34264c2e3e5794ffe82a04736aa5abc1709f35ade642f43c256230c62",
+      "portfolio_artifact": "Secrets Lifecycle and Local Leak-Prevention Control",
+      "official_source_count": 3
+    },
+    {
+      "month": 7,
+      "title": "Produce and Use an SBOM",
+      "slug": "sbom-dependency-risk",
+      "path": "months/month-07-sbom-dependency-risk.zip",
+      "sha256": "c3c2a74373a29509114a4a59b15a5d5e300298172487dcb01226109b6c14f26f",
+      "portfolio_artifact": "SBOM Quality Review and Dependency Risk Decision",
+      "official_source_count": 3
+    },
+    {
+      "month": 8,
+      "title": "Harden a Containerized Service",
+      "slug": "container-hardening",
+      "path": "months/month-08-container-hardening.zip",
+      "sha256": "aa804d18e7329da3687127095b00b12d0b57421f8d63e3ccbe04200ebc44bcf4",
+      "portfolio_artifact": "Least-Privilege Container Hardening Assessment",
+      "official_source_count": 2
+    },
+    {
+      "month": 9,
+      "title": "Validate Segmentation and Firewall Policy",
+      "slug": "network-segmentation",
+      "path": "months/month-09-network-segmentation.zip",
+      "sha256": "7c9cd6422bc7b87749a831c4abf81a0434e2b78755475cb2a13879c0525512a4",
+      "portfolio_artifact": "Least-Access Network Segmentation Validation",
+      "official_source_count": 3
+    },
+    {
+      "month": 10,
+      "title": "Engineer and Tune a Detection",
+      "slug": "logging-detection",
+      "path": "months/month-10-logging-detection.zip",
+      "sha256": "3fcc414b2eb95ddade966bbcadb3fb8ec4e385b2f8ed296188f6ed1526b14191",
+      "portfolio_artifact": "Behavior-Based Detection Engineering and Tuning",
+      "official_source_count": 3
+    },
+    {
+      "month": 11,
+      "title": "Run an Evidence-Led Incident Tabletop",
+      "slug": "incident-response-tabletop",
+      "path": "months/month-11-incident-response-tabletop.zip",
+      "sha256": "a61f8798864eaf1bb9274bdf5a22b1545982ca64db41b1a47da8a20a8370de1a",
+      "portfolio_artifact": "Synthetic Incident Response Tabletop and After-Action Review",
+      "official_source_count": 2
+    },
+    {
+      "month": 12,
+      "title": "Prove Recovery Without Running Ransomware",
+      "slug": "ransomware-recovery",
+      "path": "months/month-12-ransomware-recovery.zip",
+      "sha256": "1f2fc11f48214a135ea55c54f34993d433c1000eee57216f3701cec9eadeb530",
+      "portfolio_artifact": "Measured Ransomware-Resilience Restore Exercise",
+      "official_source_count": 3
+    }
+  ],
+  "gumroad": {
+    "setup_guide": "gumroad/GUMROAD_SETUP_GUIDE.md",
+    "workflow_schedule": "gumroad/WORKFLOW_SCHEDULE.csv",
+    "workflow_state": "DRAFT_ONLY_NOT_CONFIGURED",
+    "delivery_note": "All files are available immediately; scheduled emails provide pacing, not access control."
+  },
+  "hash_inventory": "SHA256SUMS.txt",
+  "quality_report": "QUALITY_REPORT.md",
+  "quality_status": "PASS",
+  "artifacts": [
+    {
+      "path": "base-vault/cybersecurity-study-command-center-base-vault.zip",
+      "bytes": 30512,
+      "sha256": "48b431654ff6fc62587b72ea29f46fb345a9e0f761774a0f870c3771a417f4f1"
+    },
+    {
+      "path": "gumroad/GUMROAD_SETUP_GUIDE.md",
+      "bytes": 9226,
+      "sha256": "3ff1083df277a26d9951f8a3a0157f87387028d295dae8485aa09f49f58234be"
+    },
+    {
+      "path": "gumroad/WORKFLOW_SCHEDULE.csv",
+      "bytes": 2652,
+      "sha256": "921f043632fc56f419ede86801b4cdecb74968c72ea3e584e0a323a60c918122"
+    },
+    {
+      "path": "months/month-01-risk-baseline.zip",
+      "bytes": 15874,
+      "sha256": "9c3e3553098c145d44192d4c7312d543a9d1204d43ee04c76c3964de992926a0"
+    },
+    {
+      "path": "months/month-02-threat-model.zip",
+      "bytes": 15413,
+      "sha256": "37ae9b13ad37d1071458c50eeaf0e299b8d55c6f081c0f6520ec0786b51b7ecd"
+    },
+    {
+      "path": "months/month-03-configuration-drift.zip",
+      "bytes": 16450,
+      "sha256": "961d31e711d5fe09e00364c47c32772d59d7180e610baf7d4ef3057c615b16e2"
+    },
+    {
+      "path": "months/month-04-authentication-sessions.zip",
+      "bytes": 15760,
+      "sha256": "fd88574999409c2d0c64611c3307f3abbcd166ea4b5e01fcc7896a33ae0b89f9"
+    },
+    {
+      "path": "months/month-05-api-authorization.zip",
+      "bytes": 15684,
+      "sha256": "95cfbf9b460f2e11f8262ac6648f13bc8a39b884bc8fd8146c076ba2adf50aa1"
+    },
+    {
+      "path": "months/month-06-secrets-lifecycle.zip",
+      "bytes": 16066,
+      "sha256": "eead93b34264c2e3e5794ffe82a04736aa5abc1709f35ade642f43c256230c62"
+    },
+    {
+      "path": "months/month-07-sbom-dependency-risk.zip",
+      "bytes": 21533,
+      "sha256": "c3c2a74373a29509114a4a59b15a5d5e300298172487dcb01226109b6c14f26f"
+    },
+    {
+      "path": "months/month-08-container-hardening.zip",
+      "bytes": 21095,
+      "sha256": "aa804d18e7329da3687127095b00b12d0b57421f8d63e3ccbe04200ebc44bcf4"
+    },
+    {
+      "path": "months/month-09-network-segmentation.zip",
+      "bytes": 20996,
+      "sha256": "7c9cd6422bc7b87749a831c4abf81a0434e2b78755475cb2a13879c0525512a4"
+    },
+    {
+      "path": "months/month-10-logging-detection.zip",
+      "bytes": 23005,
+      "sha256": "3fcc414b2eb95ddade966bbcadb3fb8ec4e385b2f8ed296188f6ed1526b14191"
+    },
+    {
+      "path": "months/month-11-incident-response-tabletop.zip",
+      "bytes": 23683,
+      "sha256": "a61f8798864eaf1bb9274bdf5a22b1545982ca64db41b1a47da8a20a8370de1a"
+    },
+    {
+      "path": "months/month-12-ransomware-recovery.zip",
+      "bytes": 23743,
+      "sha256": "1f2fc11f48214a135ea55c54f34993d433c1000eee57216f3701cec9eadeb530"
+    }
+  ]
+}
