@@ -143,6 +143,22 @@
     }
   }
 
+  function configureEmbeddedLinks() {
+    let readyCount = 0;
+    const links = document.querySelectorAll("[data-funnel-link]");
+    for (const link of links) {
+      const type = link.dataset.funnelLink;
+      const destination = validatedDestination(link.getAttribute("href"), type);
+      if (!destination) {
+        continue;
+      }
+      link.dataset.baseDestination = destination.href;
+      link.removeAttribute("aria-disabled");
+      readyCount += 1;
+    }
+    return readyCount;
+  }
+
   async function loadConfig() {
     const status = document.getElementById("link-status");
     try {
@@ -171,11 +187,14 @@
       }
     } catch (_error) {
       if (status) {
-        status.textContent = "Links are disabled because the local configuration could not be verified.";
+        status.textContent = embeddedLinkCount > 0
+          ? "Using the reviewed links embedded in this page."
+          : "Links are disabled because the local configuration could not be verified.";
       }
     }
   }
 
+  const embeddedLinkCount = configureEmbeddedLinks();
   configureClickSafety();
   loadConfig();
 })();

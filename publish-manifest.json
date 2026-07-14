@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "0ddeaa99a3c46454fd7343828ac9067be11e21aca02ce222580bfaea509fd08d",
-  "site_hash": "3092edeb02126460a86c8e658f9d7900b0989722482ced66ad9e48bc4b33af47",
+  "source_build_id": "e6e634509f2ef6284746b8ae60ebe2d725b32efcf441632e65fd202b5547e9db",
+  "site_hash": "2ae916aaa9296d7063f39bea47148804866f73c4aad3e91fa3b805a15a48c687",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -50,59 +50,59 @@
     },
     {
       "path": "app.js",
-      "sha256": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530"
+      "sha256": "c32d9a4654d3ca3346ef7f0131b6ad253fc51bc7b5a925b8164adde5ef8602f9"
     },
     {
       "path": "articles/api-authorization-abuse-controls.html",
-      "sha256": "127e93624b669cf6c988c3195d8914b43d7870886a29bd1ac75d929706841123"
+      "sha256": "c1c8568daafa527c67a629e469bbffa731302819997eb6ad5d9d4dd8b41c9b4e"
     },
     {
       "path": "articles/authentication-session-control-review.html",
-      "sha256": "78e28c459e867e0f0a4f07e2ec3a3784091f36d78b9e4811600dfb19f917be98"
+      "sha256": "a23f9c80509a5b7361d7bb1feb43c43bb6332cd6772e8eb99f2a18db18c816b9"
     },
     {
       "path": "articles/defensible-cyber-risk-baseline.html",
-      "sha256": "6e1c6e285af36c7e36128c6fc302a09c9521673e1012527dcc13de757621679a"
+      "sha256": "4b72a84c8fe8253eec955c8efe538d4ae56bc172e96b4610a507cbe159211334"
     },
     {
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "c22dae90c8521e7d1367124e1ef25197c5f662198296c00280b629670cec170b"
+      "sha256": "68a3981c1dd9429cc4cb3259058e0d11cf579f9539d7e15625175f6ec3393a5d"
     },
     {
       "path": "articles/evidence-led-incident-tabletop.html",
-      "sha256": "3021ccea198573a1c16375b642e248c2e2abbfe3737845699c16c3be2d354f3b"
+      "sha256": "357cc95bba890bb050d3e7d9caac6959fdc772fc6aeba130f3d4a49951714c90"
     },
     {
       "path": "articles/least-privilege-container-hardening.html",
-      "sha256": "d154a8e0b7a60f2f56d21162a93c52d48c0c417ac022e1c7b7246715945994ad"
+      "sha256": "726543278e79ccfd27b3848a3edcb7d4639857744954f7ddfa42bbb44dceb443"
     },
     {
       "path": "articles/network-segmentation-policy-validation.html",
-      "sha256": "918a2c1063cc51454fe49abd7c0f21c91431614ac72c63b224a9fe2a758673ac"
+      "sha256": "152124dd8e16d04ddeddb1564a9f7a82b99ee0f199985132225c4e389e209b58"
     },
     {
       "path": "articles/safe-ransomware-recovery-exercise.html",
-      "sha256": "2270b92b4388366b9bd20178bb927c369eaf84d070534bdee17110abe4958058"
+      "sha256": "e1b50ece75d54f8024fc643166a00f796f21c159558f4fe9ca4d2b6c9a36dc76"
     },
     {
       "path": "articles/sbom-dependency-risk-decision.html",
-      "sha256": "52dec4a06ce13f72b952dacee9f0ceb29271e9041518cdca3f0240a4e0ec0041"
+      "sha256": "6453cb1471b86b8a81ae4fc70559cfe6f0968be5100ead4014420d358be3fe69"
     },
     {
       "path": "articles/secrets-lifecycle-leak-guard.html",
-      "sha256": "9c0587e13aeec7b48110c33f91375ea044c4535680ac7dbf31d7b6238b647877"
+      "sha256": "96196db485b5b25026fd7de49a771740abec5a12a9cf6cf36da8a49405c8d4a3"
     },
     {
       "path": "articles/secure-configuration-drift-check.html",
-      "sha256": "08e720c4b89088f730dd307e57e567320056dc4c693cb994fb89255c9ef1ccff"
+      "sha256": "5cd5d8bfb4ceee013200951b644ea6b552b05b6a12db60321b5fe0f019d0cb61"
     },
     {
       "path": "articles/threat-model-small-web-service.html",
-      "sha256": "74f559e96e559d6c6f4ee3e8ae36d493e09f097b392fe982af54ca3818e18a9a"
+      "sha256": "f1242bd9bab2a7e42aa2cd35e6b7fdada098b4dd1b07724942c6fafa3113012c"
     },
     {
       "path": "build-manifest.json",
-      "sha256": "48fc70e200d94d327fb47868874f1b1f1edc319bcbcce923c3fb1b6a0fe70258"
+      "sha256": "e12e6c616869fc9b4000c0e530f5e14ac587d6401684a1074afe751c2824c2fd"
     },
     {
       "path": "data/membership-manifest.json",
@@ -122,7 +122,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "0e244d8d908baf8c15ba0cf9b0e5e03ed3d7c7d5d13fb5c5a4f1b287fa20d076"
+      "sha256": "b3ea6e0a9c653c0317ba20241f33a2ed1b33e4771cdb7bc233c9794f72f98776"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
