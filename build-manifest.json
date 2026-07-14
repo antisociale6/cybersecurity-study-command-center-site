@@ -76,9 +76,9 @@
       "sha256": "ca13ef2ec716ef2f0e7c6e6de08aee381b1a468364c014d684e3aa35c3d91418"
     },
     {
-      "bytes": 1417,
+      "bytes": 1531,
       "path": "downloads/authorized-security-lab-command-checklist.zip",
-      "sha256": "acb09328157046c06e0a40996f1ee2905bb133305da7d2d4063b9083aca3db65"
+      "sha256": "0667b88a820acf064483f2f6b699da94a3d6251c9247b8c826e7ce427df47bb5"
     },
     {
       "bytes": 7912,
@@ -111,7 +111,7 @@
       "sha256": "4ee0025b92998fdb91669a14912bc949d1fa872dcd38d2e92bd9005e7d2aafa6"
     }
   ],
-  "build_id": "1e013a5a59f4a245577dd8ad38b4f8924b7f5275986140335375eaa99c40749b",
+  "build_id": "0ddeaa99a3c46454fd7343828ac9067be11e21aca02ce222580bfaea509fd08d",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -126,10 +126,10 @@
     "app": "9821c9b6c402729e9817a5a22e7301d138bdf9e5eb44f654dbbc3ac848632530",
     "article_template": "143a315628058342edd07168cd0b2e9cab2fc204e3f18765a905fe17e6d40960",
     "articles": "b1770faae5e888cb63f6eafb8788ec8d7e99ed101d099fa97adc62a4b4cb3fc4",
-    "builder": "33cb32b85d9293edbc34a4bd758124f69457dc792a05a0069efbb45f8b73f528",
+    "builder": "2917fd47f90161ec0bb39b8ec6e8054bec09091709bd2ebf7fa0c4e4dc96f766",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
-    "hardened_lead_template": "bd02944f64e0f2282cd3ee487ef70d2d38902d1c8e65f101d6b8d6212200e918",
+    "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "index_template": "8d8b1b4633dd86bbcef226d01af2da31d965380dd613714e17f77b72392b0be0",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
