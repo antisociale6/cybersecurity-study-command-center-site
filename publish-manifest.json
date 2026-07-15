@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "5abb7f10407aab7b1d02fa4914a6f924d1292ee64a4333729497fc34b8d4e66b",
-  "site_hash": "2f9d10b42e20379519b883cc74ae01dbbf782e32626b5b90d22342f468197a0b",
+  "source_build_id": "ee054668a4c4c05ca19764f16dc687e68785d42b2d3814d94ce451b5b46af800",
+  "site_hash": "a905826c1d52956a2f985ccf8c9ab4dd944387e1baaa1ebc1a64f6cc73ba9807",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -54,7 +54,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "c32d9a4654d3ca3346ef7f0131b6ad253fc51bc7b5a925b8164adde5ef8602f9"
+      "sha256": "e93d3d68272334f39e6812f8c5451d6e00bc94738fca923a3d081924016d420f"
     },
     {
       "path": "articles/api-authorization-abuse-controls.html",
@@ -106,7 +106,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "b80316ec018a72213be1ab8bd59acb9c8d90b49748f12859cc4d53f6b9d88713"
+      "sha256": "d34aacfa59d1e36e6a1bad8a10720c319527ede8406a75484abe88beee915420"
     },
     {
       "path": "data/membership-manifest.json",
@@ -126,7 +126,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "57fa1dc7638a1ac8f55f33f101fdc43c88ad6d6c9d018b78de66cf622597f819"
+      "sha256": "0d31228ac3a3429b16267640fe06c2a8c75712e4278df4770a97aeedefe6d870"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -146,7 +146,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "4ee0025b92998fdb91669a14912bc949d1fa872dcd38d2e92bd9005e7d2aafa6"
+      "sha256": "fee779e23f357a89501667730e4e88b0dd22202320d5f017d91b09689c184e0e"
     }
   ]
 }

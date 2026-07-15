@@ -241,6 +241,9 @@ h3 {
   padding: 0.75rem 1.1rem;
   border: 1px solid transparent;
   border-radius: 0.55rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 850;
   line-height: 1.2;
   text-align: center;
@@ -384,6 +387,73 @@ h3 {
   background: var(--surface);
 }
 
+.study-planner {
+  margin: 2.5rem 0 1.5rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--page);
+}
+
+.study-planner-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.study-planner-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.study-planner-field span {
+  font-weight: 800;
+}
+
+.study-planner-field select {
+  width: 100%;
+  min-height: 3.2rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--surface-strong);
+  color: var(--ink);
+  font: inherit;
+}
+
+.study-planner-field select:hover {
+  border-color: var(--accent);
+}
+
+.study-planner-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.study-planner-actions p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.study-plan-summary {
+  max-width: 52rem;
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 0.2rem solid var(--accent);
+  background: rgb(94 242 194 / 6%);
+}
+
+.study-plan-summary h3 {
+  font-size: 1.35rem;
+}
+
+.study-plan-summary p:last-child {
+  margin-bottom: 0;
+}
+
 .feature-grid,
 .sprint-grid {
   display: grid;
@@ -426,6 +496,34 @@ h3 {
 
 .sprint-card p {
   font-size: 0.9rem;
+}
+
+.sprint-card h3 a {
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 0.12rem;
+  text-underline-offset: 0.25rem;
+}
+
+.study-plan-rhythm {
+  color: var(--muted);
+}
+
+.study-planner-cta {
+  display: grid;
+  align-items: center;
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid var(--accent-strong);
+  border-radius: var(--radius);
+  background: linear-gradient(120deg, rgb(25 200 148 / 12%), transparent 60%);
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 2rem;
+}
+
+.study-planner-cta p {
+  margin-bottom: 0;
+  color: var(--muted);
 }
 
 .boundaries-grid {
@@ -625,7 +723,12 @@ h3 {
 @media (max-width: 58rem) {
   .hero-grid,
   .boundaries-grid,
-  .cta-box {
+  .cta-box,
+  .study-planner-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .study-planner-controls {
     grid-template-columns: 1fr;
   }
 
@@ -663,8 +766,15 @@ h3 {
   .button-row,
   .button-row .button,
   .button-stack,
-  .button-stack .button {
+  .button-stack .button,
+  .study-planner-actions,
+  .study-planner-actions .button {
     width: 100%;
+  }
+
+  .study-planner-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .fact-grid,

@@ -43,8 +43,8 @@
         </a>
         <nav aria-label="Main navigation">
           <ul class="nav-list">
+            <li><a href="#sprints">Build a plan</a></li>
             <li><a href="#included">Included</a></li>
-            <li><a href="#sprints">12 sprints</a></li>
             <li><a href="#resources">Study notes</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
@@ -154,74 +154,147 @@
 
       <section class="section section-contrast" id="sprints" aria-labelledby="sprints-title">
         <div class="shell">
-          <p class="eyebrow">Lab-to-Portfolio: 12 Defensive Security Sprints</p>
-          <h2 id="sprints-title">Twelve sprints. Twelve concrete outputs.</h2>
+          <p class="eyebrow">Free cybersecurity study planner</p>
+          <h2 id="sprints-title">Build a 12-month defensive cybersecurity study plan.</h2>
           <p class="section-intro">
-            Work at your own pace. Every prepared sprint is available immediately,
-            and each one names the artifact you should be able to produce.
+            Choose the weekly time you can protect and the experience you already
+            have. The plan keeps one safe, evidence-led sprint per month and adjusts
+            the study rhythm to fit. No sign-up is required, and your choices stay
+            in this browser tab.
           </p>
+
+          <form class="study-planner" id="study-planner">
+            <div class="study-planner-controls">
+              <label class="study-planner-field" for="study-hours">
+                <span>Weekly study time</span>
+                <select id="study-hours" name="hours">
+                  <option value="2">2 hours per week</option>
+                  <option value="4" selected>4 hours per week</option>
+                  <option value="6">6 hours per week</option>
+                </select>
+              </label>
+              <label class="study-planner-field" for="study-experience">
+                <span>Starting point</span>
+                <select id="study-experience" name="experience">
+                  <option value="new" selected>New to structured security labs</option>
+                  <option value="some">Some controlled-lab experience</option>
+                </select>
+              </label>
+            </div>
+            <div class="study-planner-actions">
+              <button class="button button-primary" type="submit">Update my study plan</button>
+              <p>Private by design: no account, analytics, or saved answers.</p>
+            </div>
+          </form>
+
+          <div class="study-plan-summary">
+            <p class="eyebrow">Your baseline plan</p>
+            <h3>One authorized sprint and one evidence artifact each month.</h3>
+            <p id="study-plan-summary" role="status" aria-live="polite">
+              Begin with one disposable local or synthetic environment. Each week,
+              use two 90-minute lab sessions and one 60-minute evidence review.
+              Complete one sprint and its named portfolio artifact each month.
+            </p>
+            <noscript>
+              <p>The four-hour baseline is shown because JavaScript is unavailable. The complete plan and every free study note still work.</p>
+            </noscript>
+          </div>
+
           <ol class="sprint-grid">
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="1">
             <p class="sprint-number">Month 01</p>
-            <h3>Build a Defensible Cyber-Risk Baseline</h3>
+            <h3><a href="articles/defensible-cyber-risk-baseline.html">Build a Defensible Cyber-Risk Baseline</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Cyber-Risk Baseline for a Synthetic Small Business</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="2">
             <p class="sprint-number">Month 02</p>
-            <h3>Threat-Model a Small Web Service</h3>
+            <h3><a href="articles/threat-model-small-web-service.html">Threat-Model a Small Web Service</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Design-Stage Threat Model for a Local Appointment Service</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="3">
             <p class="sprint-number">Month 03</p>
-            <h3>Create a Secure Configuration and Drift Check</h3>
+            <h3><a href="articles/secure-configuration-drift-check.html">Create a Secure Configuration and Drift Check</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Evidence-Led Windows Configuration Drift Assessment</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="4">
             <p class="sprint-number">Month 04</p>
-            <h3>Harden Authentication and Sessions</h3>
+            <h3><a href="articles/authentication-session-control-review.html">Harden Authentication and Sessions</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Authentication and Session Control Design Review</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="5">
             <p class="sprint-number">Month 05</p>
-            <h3>Enforce API Authorization and Abuse Controls</h3>
+            <h3><a href="articles/api-authorization-abuse-controls.html">Enforce API Authorization and Abuse Controls</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Object-Level API Authorization Verification</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="6">
             <p class="sprint-number">Month 06</p>
-            <h3>Build a Secrets Lifecycle and Leak Guard</h3>
+            <h3><a href="articles/secrets-lifecycle-leak-guard.html">Build a Secrets Lifecycle and Leak Guard</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Secrets Lifecycle and Local Leak-Prevention Control</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="7">
             <p class="sprint-number">Month 07</p>
-            <h3>Produce and Use an SBOM</h3>
+            <h3><a href="articles/sbom-dependency-risk-decision.html">Produce and Use an SBOM</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> SBOM Quality Review and Dependency Risk Decision</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="8">
             <p class="sprint-number">Month 08</p>
-            <h3>Harden a Containerized Service</h3>
+            <h3><a href="articles/least-privilege-container-hardening.html">Harden a Containerized Service</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Least-Privilege Container Hardening Assessment</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="9">
             <p class="sprint-number">Month 09</p>
-            <h3>Validate Segmentation and Firewall Policy</h3>
+            <h3><a href="articles/network-segmentation-policy-validation.html">Validate Segmentation and Firewall Policy</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Least-Access Network Segmentation Validation</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="10">
             <p class="sprint-number">Month 10</p>
-            <h3>Engineer and Tune a Detection</h3>
+            <h3><a href="articles/detection-engineering-tuning.html">Engineer and Tune a Detection</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Behavior-Based Detection Engineering and Tuning</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="11">
             <p class="sprint-number">Month 11</p>
-            <h3>Run an Evidence-Led Incident Tabletop</h3>
+            <h3><a href="articles/evidence-led-incident-tabletop.html">Run an Evidence-Led Incident Tabletop</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Synthetic Incident Response Tabletop and After-Action Review</p>
           </li>
-          <li class="sprint-card">
+          <li class="sprint-card" data-study-month="12">
             <p class="sprint-number">Month 12</p>
-            <h3>Prove Recovery Without Running Ransomware</h3>
+            <h3><a href="articles/safe-ransomware-recovery-exercise.html">Prove Recovery Without Running Ransomware</a></h3>
+            <p class="study-plan-rhythm" data-study-rhythm>4 hours/week: two 90-minute lab sessions plus one 60-minute evidence review.</p>
             <p><strong>Portfolio output:</strong> Measured Ransomware-Resilience Restore Exercise</p>
           </li>
           </ol>
+
+          <div class="study-planner-cta">
+            <div>
+              <h3>Start Month 01 with the free authorized-lab checklist.</h3>
+              <p>Use the checklist to set scope, record commands, preserve evidence, and write an honest conclusion before deciding whether you need the complete system.</p>
+            </div>
+            <div class="button-stack">
+              <a
+                class="button button-primary"
+                data-funnel-link="lead_magnet"
+                data-funnel-utm-term="study-plan-free"
+                href="https://corcoran7.gumroad.com/l/vlcjuo?utm_source=owned-site&amp;utm_medium=landing-page&amp;utm_campaign=membership-traffic&amp;utm_content=traffic-free-first-v1"
+              >Get the free checklist</a>
+              <a
+                class="button button-secondary"
+                data-funnel-link="checkout"
+                data-funnel-utm-term="study-plan-membership"
+                href="https://corcoran7.gumroad.com/l/vmyfq?utm_source=owned-site&amp;utm_medium=landing-page&amp;utm_campaign=membership-traffic&amp;utm_content=traffic-free-first-v1"
+              >Review the complete 12-month system</a>
+            </div>
+          </div>
         </div>
       </section>
 

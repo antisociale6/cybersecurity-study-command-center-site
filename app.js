@@ -12,6 +12,29 @@
     "utm_term",
     "utm_content",
   ];
+  const PLAN_OPTIONS = Object.freeze({
+    hours: Object.freeze({
+      "2": Object.freeze({
+        label: "2 hours/week",
+        cadence: "one 75-minute lab session and one 45-minute evidence review",
+        monthlyHours: 8,
+      }),
+      "4": Object.freeze({
+        label: "4 hours/week",
+        cadence: "two 90-minute lab sessions and one 60-minute evidence review",
+        monthlyHours: 16,
+      }),
+      "6": Object.freeze({
+        label: "6 hours/week",
+        cadence: "three 90-minute lab sessions and one 90-minute evidence review",
+        monthlyHours: 24,
+      }),
+    }),
+    experience: Object.freeze({
+      new: "Begin with one disposable local or synthetic environment and learn the method before changing anything.",
+      some: "Use an existing owned or explicitly authorized lab and begin each sprint by naming the evidence gap you want to close.",
+    }),
+  });
 
   function cleanValue(value) {
     if (typeof value !== "string") {
@@ -83,13 +106,14 @@
     }
   }
 
-  function destinationWithUtm(destination) {
+  function destinationWithUtm(destination, link) {
     const result = new URL(destination.href);
     if (!isGumroadProductUrl(result)) {
       return result.href;
     }
+    const linkTerm = cleanValue(link?.dataset.funnelUtmTerm);
     for (const key of UTM_KEYS) {
-      const value = utmValues[key];
+      const value = key === "utm_term" && linkTerm ? linkTerm : utmValues[key];
       if (value) {
         result.searchParams.set(key, value);
       }
@@ -138,9 +162,47 @@
         }
 
         // The strict UTM allowlist is appended only to HTTPS Gumroad links.
-        link.href = destinationWithUtm(new URL(baseDestination));
+        link.href = destinationWithUtm(new URL(baseDestination), link);
       });
     }
+  }
+
+  function knownOption(options, value, fallback) {
+    return Object.prototype.hasOwnProperty.call(options, value)
+      ? options[value]
+      : options[fallback];
+  }
+
+  function configureStudyPlanner() {
+    const form = document.getElementById("study-planner");
+    const hoursSelect = document.getElementById("study-hours");
+    const experienceSelect = document.getElementById("study-experience");
+    const summary = document.getElementById("study-plan-summary");
+    const rhythmNodes = document.querySelectorAll("[data-study-rhythm]");
+
+    if (!form || !hoursSelect || !experienceSelect || !summary || rhythmNodes.length !== 12) {
+      return;
+    }
+
+    const updatePlan = () => {
+      const rhythm = knownOption(PLAN_OPTIONS.hours, hoursSelect.value, "4");
+      const introduction = knownOption(
+        PLAN_OPTIONS.experience,
+        experienceSelect.value,
+        "new",
+      );
+
+      summary.textContent = `${introduction} Each week, use ${rhythm.cadence}. Budget about ${rhythm.monthlyHours} focused hours for each four-week sprint and finish its named portfolio artifact.`;
+      for (const node of rhythmNodes) {
+        node.textContent = `${rhythm.label}: ${rhythm.cadence}.`;
+      }
+    };
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      updatePlan();
+    });
+    updatePlan();
   }
 
   function configureEmbeddedLinks() {
@@ -196,5 +258,6 @@
 
   const embeddedLinkCount = configureEmbeddedLinks();
   configureClickSafety();
+  configureStudyPlanner();
   loadConfig();
 })();
