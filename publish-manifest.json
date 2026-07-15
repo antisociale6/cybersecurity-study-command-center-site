@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "source_build_id": "e6e634509f2ef6284746b8ae60ebe2d725b32efcf441632e65fd202b5547e9db",
-  "site_hash": "2ae916aaa9296d7063f39bea47148804866f73c4aad3e91fa3b805a15a48c687",
+  "source_build_id": "5abb7f10407aab7b1d02fa4914a6f924d1292ee64a4333729497fc34b8d4e66b",
+  "site_hash": "2f9d10b42e20379519b883cc74ae01dbbf782e32626b5b90d22342f468197a0b",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
-    "window_key": "2026-07-12",
+    "window_key": "2026-07-15",
     "variant_id": "traffic-free-first-v1",
-    "featured_article_sequence": 7,
+    "featured_article_sequence": 8,
     "catalog_sha256": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6"
   },
   "checkout_url": "https://corcoran7.gumroad.com/l/vmyfq",
@@ -47,6 +47,10 @@
     {
       "path": ".nojekyll",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7ae0ea71d10d8b8025786dd3e8baa1585810ef39a33e925f874c64895aff0082"
     },
     {
       "path": "app.js",
@@ -102,7 +106,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "e12e6c616869fc9b4000c0e530f5e14ac587d6401684a1074afe751c2824c2fd"
+      "sha256": "b80316ec018a72213be1ab8bd59acb9c8d90b49748f12859cc4d53f6b9d88713"
     },
     {
       "path": "data/membership-manifest.json",
@@ -122,7 +126,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b3ea6e0a9c653c0317ba20241f33a2ed1b33e4771cdb7bc233c9794f72f98776"
+      "sha256": "57fa1dc7638a1ac8f55f33f101fdc43c88ad6d6c9d018b78de66cf622597f819"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",

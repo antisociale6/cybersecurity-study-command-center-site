@@ -1,6 +1,11 @@
 {
   "artifacts": [
     {
+      "bytes": 1104,
+      "path": "README.md",
+      "sha256": "7ae0ea71d10d8b8025786dd3e8baa1585810ef39a33e925f874c64895aff0082"
+    },
+    {
       "bytes": 6396,
       "path": "app.js",
       "sha256": "c32d9a4654d3ca3346ef7f0131b6ad253fc51bc7b5a925b8164adde5ef8602f9"
@@ -88,7 +93,7 @@
     {
       "bytes": 29192,
       "path": "index.html",
-      "sha256": "b3ea6e0a9c653c0317ba20241f33a2ed1b33e4771cdb7bc233c9794f72f98776"
+      "sha256": "57fa1dc7638a1ac8f55f33f101fdc43c88ad6d6c9d018b78de66cf622597f819"
     },
     {
       "bytes": 115,
@@ -111,7 +116,7 @@
       "sha256": "4ee0025b92998fdb91669a14912bc949d1fa872dcd38d2e92bd9005e7d2aafa6"
     }
   ],
-  "build_id": "e6e634509f2ef6284746b8ae60ebe2d725b32efcf441632e65fd202b5547e9db",
+  "build_id": "5abb7f10407aab7b1d02fa4914a6f924d1292ee64a4333729497fc34b8d4e66b",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -126,14 +131,15 @@
     "app": "c32d9a4654d3ca3346ef7f0131b6ad253fc51bc7b5a925b8164adde5ef8602f9",
     "article_template": "21ef8c6792d4b63e5ca4514bbb963aafaf7880162b6eed93683fe3ca338378ee",
     "articles": "b1770faae5e888cb63f6eafb8788ec8d7e99ed101d099fa97adc62a4b4cb3fc4",
-    "builder": "ada110f629c6886c4fadd7324bc117e379f7cf9d2833643772236369f0790d5a",
+    "builder": "3d6e1d8e3a19db231e942096f16b372b4e446be943d7e999cce4632934a16b88",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "index_template": "d8c4c089970bb1cba09bc63043054a494f1769582bb1ba65b994c66c99497d1d",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
-    "site_config": "01b8aec968b330bee0b5e44cab3ab6223376dd601ac335040b6367c7f7c6d968",
+    "repository_readme_template": "18b0c4f241a63d1a8a8feef730561a0e0530f81d2269e3253e7baa0c105cde0e",
+    "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
     "styles": "4ee0025b92998fdb91669a14912bc949d1fa872dcd38d2e92bd9005e7d2aafa6"
   },
@@ -211,11 +217,11 @@
   },
   "publication_plan": {
     "catalog_sha256": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
-    "featured_article_sequence": 7,
+    "featured_article_sequence": 8,
     "schema_version": 1,
     "stage": "traffic",
     "variant_id": "traffic-free-first-v1",
-    "window_key": "2026-07-12"
+    "window_key": "2026-07-15"
   },
   "schema_version": 2,
   "variant_sha256": "24e2baec5fb3b934085928883bcd86ed2dd8b5c94a92a5b1c101f1134c506535"
