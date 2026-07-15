@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 1104,
+      "bytes": 6851,
       "path": "README.md",
-      "sha256": "7ae0ea71d10d8b8025786dd3e8baa1585810ef39a33e925f874c64895aff0082"
+      "sha256": "f5df5f64fd4dfe8d40cc3bb0c8769cdbe2223f72ea4a20aca9f40c8e7ef7a488"
     },
     {
       "bytes": 8789,
@@ -116,7 +116,7 @@
       "sha256": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16"
     }
   ],
-  "build_id": "1ab15dfd058e1be16d766a4bcf449eb219f98b44f72063385d751d14a021fc24",
+  "build_id": "7beaec79bb907f2b46ec293bb4ab7069cec2d70d312b38e3cb16258ee92a976f",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -131,14 +131,14 @@
     "app": "e93d3d68272334f39e6812f8c5451d6e00bc94738fca923a3d081924016d420f",
     "article_template": "d369b3ce297bb7d1a3224f3b719c4f28ed7f73daefe9ceaee190a91c07f1101b",
     "articles": "2f9b36a4506ffb83250f090e79218ae3f952b5154f06cd4960b22cc836f4c85a",
-    "builder": "e636c478c7b2609b31e7984729d309a1c3c4949b7a5a2f290b4bd2e4ee647fab",
+    "builder": "acc5c2fb5e3bb95c24e7f2d11081cb3a27ab432ba48a721ea2b14b784b280991",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "index_template": "32dde57a912f7773a3ab6df4a7451961df94fc5846a6b9e2bddb7604ebf526a5",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
-    "repository_readme_template": "18b0c4f241a63d1a8a8feef730561a0e0530f81d2269e3253e7baa0c105cde0e",
+    "repository_readme_template": "733077e7e37540c044c008d1644884be8477060b6362329363a6bc29f92581ee",
     "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
     "styles": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16"
