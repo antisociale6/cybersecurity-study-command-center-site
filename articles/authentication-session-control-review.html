@@ -49,7 +49,7 @@
           <p class="eyebrow">Authorized-lab study note 04</p>
           <h1>Harden Authentication and Sessions</h1>
           <p class="article-intro">An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.</p>
-          <p class="article-meta"><strong>Useful when searching for:</strong> authentication and session security review checklist</p>
+          <p class="article-meta"><strong>This note helps you create:</strong> Authentication and Session Control Design Review</p>
 
           <h2>A practical, evidence-led method</h2>
           <ol class="method-list">
@@ -65,6 +65,48 @@
             <p>Use fictional accounts and an owned local design or application. Never test real credentials, attempt account takeover, bypass rate limits, or collect another person&#x27;s session data.</p>
           </aside>
 
+          <section class="artifact-template" aria-labelledby="artifact-outline-title">
+            <h2 id="artifact-outline-title">Copy-ready artifact outline</h2>
+            <p>
+              Start a document named <strong>Authentication and Session Control Design Review</strong> and use
+              these five sections. Replace every prompt with evidence from your
+              owned, synthetic, or explicitly authorized lab.
+            </p>
+            <ol class="artifact-outline">
+            <li class="artifact-outline-card">
+              <h3>Roles and protected actions</h3>
+              <p>Define fictional roles, protected actions, assurance needs, session sensitivity, and the synthetic identities used for the review.</p>
+            </li>
+            <li class="artifact-outline-card">
+              <h3>Account-journey map</h3>
+              <p>Trace registration, sign-in, recovery, reauthentication, sign-out, expiry, and privilege change, including the expected user-visible state at each step.</p>
+            </li>
+            <li class="artifact-outline-card">
+              <h3>Control review</h3>
+              <p>Record how each journey handles secrets, failed attempts, device changes, ambiguous state, session renewal, monitoring, and safe failure behavior.</p>
+            </li>
+            <li class="artifact-outline-card">
+              <h3>Synthetic test matrix</h3>
+              <p>For every positive and negative case, list the fictional actor, starting state, action, expected result, evidence to capture, and observed result.</p>
+            </li>
+            <li class="artifact-outline-card">
+              <h3>Decisions and unresolved risks</h3>
+              <p>Document accepted controls, usability tradeoffs, monitoring ownership, evidence gaps, residual risk, and the condition for a future reassessment.</p>
+            </li>
+            </ol>
+            <p class="artifact-checklist-link">
+              <a data-funnel-link="lead_magnet" href="https://corcoran7.gumroad.com/l/vlcjuo?utm_source=owned-site&amp;utm_medium=article&amp;utm_campaign=owned-curriculum-m04-authentication-sessions&amp;utm_content=traffic-free-first-v1">Use the free authorization-and-evidence checklist before running this outline.</a>
+            </p>
+          </section>
+
+          <h2>Before you call it complete</h2>
+          <ul class="completion-list">
+            <li>Authorization and scope are visible.</li>
+            <li>Every conclusion points to evidence or is labeled as an assumption.</li>
+            <li>Sensitive details are removed or redacted.</li>
+            <li>Cleanup, rollback, and remaining limitations are recorded.</li>
+          </ul>
+
           <h2>What to prove</h2>
           <p>
             Aim to produce a reviewable artifact such as
@@ -72,6 +114,16 @@
             and redactions visible so a reviewer can understand what the work
             demonstrates and what it does not.
           </p>
+
+          <aside class="preparation-note" aria-labelledby="preparation-title">
+            <h2 id="preparation-title">How this note is prepared</h2>
+            <p>
+              This note is generated from a fixed twelve-sprint curriculum. The
+              deterministic build validates its title, artifact, safety boundary,
+              and links against the same offer manifest before publication. It is
+              a study structure, not professional advice, grading, or certification.
+            </p>
+          </aside>
 
           <nav class="article-series" aria-labelledby="article-series-title">
             <h2 id="article-series-title">Continue the study-note series</h2>
