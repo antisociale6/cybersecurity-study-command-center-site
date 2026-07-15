@@ -136,8 +136,11 @@
         continue;
       }
 
-      link.href = destination.href;
       link.dataset.baseDestination = destination.href;
+      // Keep the validated campaign URL on the anchor before any click so
+      // middle-click, open-in-new-tab, copying, and keyboard activation retain
+      // the same attribution as a primary click.
+      link.href = destinationWithUtm(destination, link);
       link.removeAttribute("aria-disabled");
       if (type === "lead_magnet" && destination.origin === window.location.origin) {
         link.setAttribute("download", "");
@@ -215,6 +218,7 @@
         continue;
       }
       link.dataset.baseDestination = destination.href;
+      link.href = destinationWithUtm(destination, link);
       link.removeAttribute("aria-disabled");
       readyCount += 1;
     }

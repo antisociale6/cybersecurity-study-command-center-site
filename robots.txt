@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /cybersecurity-study-command-center-site/templates/*.md$
 Sitemap: https://antisociale6.github.io/cybersecurity-study-command-center-site/sitemap.xml
