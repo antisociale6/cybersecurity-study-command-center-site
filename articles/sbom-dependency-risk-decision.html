@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'sha256-CbqwTkUJSQfyNfXzb1DmbI9WL25ERWro+lo7ZNWfSWY='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+      content="default-src 'self'; script-src 'self' 'sha256-Ot7LPr9nW9aypv7o0YBNj+jElduTm8IlQEbHNH6fA3E='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
     >
     <title>Produce and Use an SBOM | Cybersecurity Study Command Center</title>
     <link rel="canonical" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html">
@@ -28,7 +28,7 @@
     <link rel="next" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/least-privilege-container-hardening.html">
     <link rel="stylesheet" href="../styles.css">
     <script src="../app.js" defer></script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html","@type":"WebPage","description":"An evidence-led workflow for reviewing a software bill of materials, dependency identity, known risk signals, and documented remediation decisions.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html#article"},"name":"Produce and Use an SBOM","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html#article","@type":"TechArticle","articleSection":"Defensive cybersecurity study","description":"An evidence-led workflow for reviewing a software bill of materials, dependency identity, known risk signals, and documented remediation decisions.","educationalUse":"self study","headline":"Produce and Use an SBOM","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"SBOM review workflow for students","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html","name":"Produce and Use an SBOM","position":2}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html","@type":"WebPage","description":"An evidence-led workflow for reviewing a software bill of materials, dependency identity, known risk signals, and documented remediation decisions.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html#article"},"name":"Produce and Use an SBOM","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html#article","@type":"Article","articleSection":"Defensive cybersecurity study","citation":["https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf","https://cyclonedx.org/specification/overview/"],"description":"An evidence-led workflow for reviewing a software bill of materials, dependency identity, known risk signals, and documented remediation decisions.","educationalUse":"self study","headline":"Produce and Use an SBOM","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"SBOM review workflow for students","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html","name":"Produce and Use an SBOM","position":2}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -114,6 +114,32 @@
             and redactions visible so a reviewer can understand what the work
             demonstrates and what it does not.
           </p>
+
+          <section class="reference-section" aria-labelledby="reference-title">
+            <h2 id="reference-title">Primary references</h2>
+            <p>
+              Check your decisions against these official sources. Record the
+              version or access date you used because guidance can change.
+            </p>
+            <ul class="reference-list">
+            <li class="reference-card">
+              <h3>
+                <a href="https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  Minimum Elements for a Software Bill of Materials - CISA
+                </a>
+              </h3>
+              <p>Use this government baseline to decide which component, dependency, provenance, generation, coverage, and update fields an SBOM should contain.</p>
+            </li>
+            <li class="reference-card">
+              <h3>
+                <a href="https://cyclonedx.org/specification/overview/" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  CycloneDX Specification Overview
+                </a>
+              </h3>
+              <p>Use the current specification overview to normalize component identities, relationships, metadata, and machine-readable SBOM formats.</p>
+            </li>
+            </ul>
+          </section>
 
           <aside class="preparation-note" aria-labelledby="preparation-title">
             <h2 id="preparation-title">How this note is prepared</h2>

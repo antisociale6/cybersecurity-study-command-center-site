@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'sha256-aCp+OFww2efmHG4H11G4RxGCWwA0yNHOxe2wnebrdME='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+      content="default-src 'self'; script-src 'self' 'sha256-Lq3ZJnswdaG6SF7HFWiZicx2LRY8w6BS1lzLUF15DeM='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
     >
     <title>Engineer and Tune a Detection | Cybersecurity Study Command Center</title>
     <link rel="canonical" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html">
@@ -28,7 +28,7 @@
     <link rel="next" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/evidence-led-incident-tabletop.html">
     <link rel="stylesheet" href="../styles.css">
     <script src="../app.js" defer></script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html","@type":"WebPage","description":"A safe detection-engineering workflow for defining behavior, using synthetic events, testing positive and negative cases, and recording limitations.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html#article"},"name":"Engineer and Tune a Detection","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html#article","@type":"TechArticle","articleSection":"Defensive cybersecurity study","description":"A safe detection-engineering workflow for defining behavior, using synthetic events, testing positive and negative cases, and recording limitations.","educationalUse":"self study","headline":"Engineer and Tune a Detection","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"detection engineering lab workflow for beginners","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html","name":"Engineer and Tune a Detection","position":2}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html","@type":"WebPage","description":"A safe detection-engineering workflow for defining behavior, using synthetic events, testing positive and negative cases, and recording limitations.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html#article"},"name":"Engineer and Tune a Detection","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html#article","@type":"Article","articleSection":"Defensive cybersecurity study","citation":["https://attack.mitre.org/detectionstrategies/","https://sigmahq.io/docs/basics/rules.html"],"description":"A safe detection-engineering workflow for defining behavior, using synthetic events, testing positive and negative cases, and recording limitations.","educationalUse":"self study","headline":"Engineer and Tune a Detection","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"detection engineering lab workflow for beginners","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html","name":"Engineer and Tune a Detection","position":2}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -114,6 +114,32 @@
             and redactions visible so a reviewer can understand what the work
             demonstrates and what it does not.
           </p>
+
+          <section class="reference-section" aria-labelledby="reference-title">
+            <h2 id="reference-title">Primary references</h2>
+            <p>
+              Check your decisions against these official sources. Record the
+              version or access date you used because guidance can change.
+            </p>
+            <ul class="reference-list">
+            <li class="reference-card">
+              <h3>
+                <a href="https://attack.mitre.org/detectionstrategies/" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  MITRE ATT&amp;CK Detection Strategies
+                </a>
+              </h3>
+              <p>Use its technique-linked strategies and platform-specific analytics to frame a behavioral hypothesis and identify required telemetry.</p>
+            </li>
+            <li class="reference-card">
+              <h3>
+                <a href="https://sigmahq.io/docs/basics/rules.html" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  Sigma Detection Format - Rules
+                </a>
+              </h3>
+              <p>Use its log-source, detection-logic, false-positive, and status fields to document a testable detection and its tuning decisions.</p>
+            </li>
+            </ul>
+          </section>
 
           <aside class="preparation-note" aria-labelledby="preparation-title">
             <h2 id="preparation-title">How this note is prepared</h2>

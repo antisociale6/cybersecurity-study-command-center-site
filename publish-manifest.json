@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "c6d0024ae720746d2eb4e086914c8eafdb34056886ef408de485ccb191ae555f",
-  "site_hash": "09b402ff676ff66a23df9199ba9875206ca0d226b92507413106909fcd4ac5c2",
+  "source_build_id": "1ab15dfd058e1be16d766a4bcf449eb219f98b44f72063385d751d14a021fc24",
+  "site_hash": "b0e9a0780b8ee52fc7e6738cdbdc5cab896ee3629a3ab33f44cbbda497054d9e",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -58,55 +58,55 @@
     },
     {
       "path": "articles/api-authorization-abuse-controls.html",
-      "sha256": "8091c7dc0fc08ab53628e95e8dd0e18ba1e2c2a6dc85a7a7153d12cb8fdf25dc"
+      "sha256": "42e3b54185ba332211922fc2086d5d694bf76b9a4a0c3a15b0034ee3caba58e8"
     },
     {
       "path": "articles/authentication-session-control-review.html",
-      "sha256": "2ffb9f5f8d10228a2c7e95479f8f93036dd5d00b3199ca9dd90194b0e9d5b844"
+      "sha256": "157c5c2f6c8d05ad9b9e4bbd73de5f9ed7247a11c4aed463f7dbb7291cba5c71"
     },
     {
       "path": "articles/defensible-cyber-risk-baseline.html",
-      "sha256": "517c3619b01d26c4c6eaa45f84291968275a795adfb71cc22a3e57d828f47785"
+      "sha256": "b2c0c0680f49255d89240c00c21a13c2233333bed9b90f3b83a9e8eab759e238"
     },
     {
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "67e09224c88e05ee296fa8b3ad4bb79d790695a8964f277233dc12f841e50e29"
+      "sha256": "f73c8183579161cde6528cb20d2541dedc5aca57e275d75a1d42a95c909d29ff"
     },
     {
       "path": "articles/evidence-led-incident-tabletop.html",
-      "sha256": "05cb96ea741f12c85ecee6ad956edc9e32317cce544951851f623dab65d86f69"
+      "sha256": "075e7c8245806a7bfa99face88a10c5aeaf29d55b20d7c1971cd6145091a0d45"
     },
     {
       "path": "articles/least-privilege-container-hardening.html",
-      "sha256": "cf69b1fe94ffbc5631da8e0f6ecd114ec665da539daa405b63199b273435405e"
+      "sha256": "bb4c955d57ad5577988a9e2c5fc20102a88ecdeb4cb4cebf3e7d2c7109965a06"
     },
     {
       "path": "articles/network-segmentation-policy-validation.html",
-      "sha256": "54d7ca28134bdd0dce06571771079451dc2dc9b915859fee219da2174f49a62a"
+      "sha256": "709c333ed264b462851c223ae1c4a158ca8497f66aeeb5a5fc6d0c4a17b35de7"
     },
     {
       "path": "articles/safe-ransomware-recovery-exercise.html",
-      "sha256": "ffddc5fdd290118190e94b86d0ff0892033bb97df9eeb70d7cc7c7b17feba42a"
+      "sha256": "c101a44d40e9fc348b67e9969b528835436579efa42242a230f7205636764e9c"
     },
     {
       "path": "articles/sbom-dependency-risk-decision.html",
-      "sha256": "d8cdf9ce31b1188f9139f64a288ff418f86602d5f9b77ff5f35ce9eee0dfa906"
+      "sha256": "1ff89868e6e1149b2633dc78b5c7eeca90ce2fb41941519e08c5a3797b3a2581"
     },
     {
       "path": "articles/secrets-lifecycle-leak-guard.html",
-      "sha256": "da26c450a6d2359b55e136b3073e6e96a59ae2644a7f45bbc3753c055e83b82b"
+      "sha256": "d75933213c4667ed7f70aba180173cd8474d85a7e9b6c5067b1da2312bb617eb"
     },
     {
       "path": "articles/secure-configuration-drift-check.html",
-      "sha256": "059dc407b84c83637067f7c8b26885b3248ea401353fe92302727fda0ca052ed"
+      "sha256": "80cb9c7577a7a3068c9bbb83e8bc1d3743c4cca41bb91ade0bc4b97e61406797"
     },
     {
       "path": "articles/threat-model-small-web-service.html",
-      "sha256": "270c1dcd760f10660e310157cefa7551c0ca1ab2388eeda3164b4a2d8a2efda2"
+      "sha256": "6a2639d13840be71f52e381285bf2caa6ec9b7b62411381121d4c6f9bc41265d"
     },
     {
       "path": "build-manifest.json",
-      "sha256": "3aa52df04186e09b5abf9b81d68e9a99914826a46f8c4b99def7545495e96127"
+      "sha256": "6a5bf293a9aea8c873597e130d3549eefce8245632e1c08a7548374a2ae36c03"
     },
     {
       "path": "data/membership-manifest.json",
@@ -126,7 +126,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "5158c48da96d605add37f01b86e55b2e43a5f713920e0b97b33d30010d4147f4"
+      "sha256": "da1f094fef6b01d109597664ce2b1e3f9189a4569f8825875917e86ce9df9b18"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -146,7 +146,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "5d05f0d59bea638841d94b10f108050b7233cb0ba0cd4a0437964cd354c442c2"
+      "sha256": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16"
     }
   ]
 }

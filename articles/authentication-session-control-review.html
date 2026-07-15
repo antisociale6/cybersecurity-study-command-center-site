@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'sha256-jgdEuhrh+ENcOY97C2WgfYK+/gCkfkjX8n2CLiMGFhc='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
+      content="default-src 'self'; script-src 'self' 'sha256-erNJ/tYDKuYYk8fPLkR3vvwCxLeRwMHBud4OSaak8UI='; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self' https:"
     >
     <title>Harden Authentication and Sessions | Cybersecurity Study Command Center</title>
     <link rel="canonical" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html">
@@ -28,7 +28,7 @@
     <link rel="next" href="https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html">
     <link rel="stylesheet" href="../styles.css">
     <script src="../app.js" defer></script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html","@type":"WebPage","description":"An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html#article"},"name":"Harden Authentication and Sessions","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html#article","@type":"TechArticle","articleSection":"Defensive cybersecurity study","description":"An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.","educationalUse":"self study","headline":"Harden Authentication and Sessions","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"authentication and session security review checklist","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html","name":"Harden Authentication and Sessions","position":2}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html","@type":"WebPage","description":"An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"mainEntity":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html#article"},"name":"Harden Authentication and Sessions","url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html#article","@type":"Article","articleSection":"Defensive cybersecurity study","citation":["https://csrc.nist.gov/pubs/sp/800/63/b/4/final","https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"],"description":"An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.","educationalUse":"self study","headline":"Harden Authentication and Sessions","inLanguage":"en","isPartOf":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/#website"},"keywords":"authentication and session security review checklist","learningResourceType":"study note","mainEntityOfPage":{"@id":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},"url":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/","name":"Study Command Center","position":1},{"@type":"ListItem","item":"https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html","name":"Harden Authentication and Sessions","position":2}]}]}</script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -114,6 +114,32 @@
             and redactions visible so a reviewer can understand what the work
             demonstrates and what it does not.
           </p>
+
+          <section class="reference-section" aria-labelledby="reference-title">
+            <h2 id="reference-title">Primary references</h2>
+            <p>
+              Check your decisions against these official sources. Record the
+              version or access date you used because guidance can change.
+            </p>
+            <ul class="reference-list">
+            <li class="reference-card">
+              <h3>
+                <a href="https://csrc.nist.gov/pubs/sp/800/63/b/4/final" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  NIST SP 800-63B-4 - Authentication and Authenticator Management
+                </a>
+              </h3>
+              <p>Use its current guidance for authenticators, account recovery, reauthentication, session management, and user-safe lifecycle controls.</p>
+            </li>
+            <li class="reference-card">
+              <h3>
+                <a href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html" rel="external noopener noreferrer" referrerpolicy="no-referrer">
+                  Session Management - OWASP Cheat Sheet Series
+                </a>
+              </h3>
+              <p>Use its practical criteria for session identifiers, cookies, timeouts, logout, renewal, privilege changes, and invalidation.</p>
+            </li>
+            </ul>
+          </section>
 
           <aside class="preparation-note" aria-labelledby="preparation-title">
             <h2 id="preparation-title">How this note is prepared</h2>
