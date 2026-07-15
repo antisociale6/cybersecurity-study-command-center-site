@@ -71,6 +71,21 @@
       "sha256": "3f91987471746f4250dbc215a132a0a2fc08ede2d30d7d6984d287f3f8d29e36"
     },
     {
+      "bytes": 302864,
+      "path": "assets/cover01overview.png",
+      "sha256": "d0dc2c7fd703cbad8c69918c5e84042bb984b88a41eb5d6ce6dca917466dfd8b"
+    },
+    {
+      "bytes": 282030,
+      "path": "assets/cover02worksheet.png",
+      "sha256": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c"
+    },
+    {
+      "bytes": 299390,
+      "path": "assets/cover03review.png",
+      "sha256": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22"
+    },
+    {
       "bytes": 8818,
       "path": "data/membership-manifest.json",
       "sha256": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68"
@@ -91,9 +106,9 @@
       "sha256": "a7cdb1627b22cf57c32a5270f23ccf331c4f67efbea35d218430bfc1e511f9f2"
     },
     {
-      "bytes": 41206,
+      "bytes": 44709,
       "path": "index.html",
-      "sha256": "a3af9c5551d8d29fa184b8479a464f07113511f336a8c027ce0ea1f6095aa6ea"
+      "sha256": "3581a050f24d649d794044e79df4ea21d82cf715988a0ae208abbf1941fece17"
     },
     {
       "bytes": 182,
@@ -111,9 +126,9 @@
       "sha256": "32f11b4726bec163713652371da0dc4a16a30e083594946ff0839bef0569e041"
     },
     {
-      "bytes": 15947,
+      "bytes": 16892,
       "path": "styles.css",
-      "sha256": "4cec2b14b7887b043d85ab4ee93fa7271d97c57da9ff4e783df93d5ef03012ae"
+      "sha256": "b0475ea2809403f962a9cb16e6cbd159cb3fe421edcbde3655b0843f087d5942"
     },
     {
       "bytes": 4208,
@@ -246,7 +261,7 @@
       "sha256": "35f3dffce75cbda54c5b1247aae016bc80c04a4fa037b2279a3bb9f28b1493ef"
     }
   ],
-  "build_id": "d3767e723e75b8c2f35a6b63aa32b65ee28db6ca67fca330e13e56c4ac4fbe77",
+  "build_id": "de9fdbb90fff41c1d908086a88d6ac708d2c869ace0d87d663c4615ecee65351",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -261,18 +276,23 @@
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "4c5f9b136e2977c42621a5599e8716e71df414d4a524cabd8ac2c6cf2b31bc6a",
     "articles": "b436d4ef6f0b35732fa20c18e8021e7b1fb32cea5d80422b2244bca09f2ac720",
-    "builder": "aa9ab9f97cb4380e5edd76018c126a247a0cc0a8bdd3c652951e056931a1e3c9",
+    "builder": "093529cb9185f4ec3f20f1f591667c0341ac4a8d6083080ff4517b014d5fe8ba",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "56ba15c033c401ba87ca8a47ca1f3565543b47bc7a47f0de9dc6241b3777df09",
+    "index_template": "34959756cf1aff2abeee6c8f8bf230ba83a1f033cb4dba966473a36a1f4a694b",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_template": "246c59709809985cc5b3147c8b14a20c210ae2b64b0512c151ceb72bdc9ceb1b",
     "repository_readme_template": "ca0fd06422edfd1bd40d2ce2b1a003efab4f05f1c3ea49ee8487bb77fedb4a13",
     "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
-    "styles": "4cec2b14b7887b043d85ab4ee93fa7271d97c57da9ff4e783df93d5ef03012ae",
+    "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
+    "storefront_cover01overview.png": "d0dc2c7fd703cbad8c69918c5e84042bb984b88a41eb5d6ce6dca917466dfd8b",
+    "storefront_cover02worksheet.png": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c",
+    "storefront_cover03review.png": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22",
+    "storefront_thumbnail.png": "329496f405e700e502a9f8514e635f49638a872535f1dd81cde2c3a4464b3107",
+    "styles": "b0475ea2809403f962a9cb16e6cbd159cb3fe421edcbde3655b0843f087d5942",
     "template_page_template": "6f0fe44a6addf17405a769cb50fe8550de074425d0d1d4fd4f824ab4354cfc47",
     "templates_index_template": "711bcc9e727653887f9cc2596ef06f11d473a9d19e8774cca036282eed95cda5",
     "templates_readme_template": "7db456de7898f1c4db017ce8cb19fc91eaf3cc6f26b695d331f4f4bd05fb44b7"

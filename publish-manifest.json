@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "d3767e723e75b8c2f35a6b63aa32b65ee28db6ca67fca330e13e56c4ac4fbe77",
-  "site_hash": "1d2569c92f4c3a72f2b5a062a0c0ae9dfcdd903df6b51a0a62024b3ec80a8afd",
+  "source_build_id": "de9fdbb90fff41c1d908086a88d6ac708d2c869ace0d87d663c4615ecee65351",
+  "site_hash": "89f0bc171b303043ef28bbe0ecbd2f8adb3d5bd939005f02a0f38e3dafe071d0",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -105,8 +105,20 @@
       "sha256": "3f91987471746f4250dbc215a132a0a2fc08ede2d30d7d6984d287f3f8d29e36"
     },
     {
+      "path": "assets/cover01overview.png",
+      "sha256": "d0dc2c7fd703cbad8c69918c5e84042bb984b88a41eb5d6ce6dca917466dfd8b"
+    },
+    {
+      "path": "assets/cover02worksheet.png",
+      "sha256": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c"
+    },
+    {
+      "path": "assets/cover03review.png",
+      "sha256": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22"
+    },
+    {
       "path": "build-manifest.json",
-      "sha256": "592741f2d6b06aaa8d07952870f7859681c1d56496912e3a21046b021fd7f638"
+      "sha256": "bc82ebd7a08272caef62282d7310b7324d81d2b8f1daa4887a11601fb0c7afcc"
     },
     {
       "path": "data/membership-manifest.json",
@@ -126,7 +138,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "a3af9c5551d8d29fa184b8479a464f07113511f336a8c027ce0ea1f6095aa6ea"
+      "sha256": "3581a050f24d649d794044e79df4ea21d82cf715988a0ae208abbf1941fece17"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -146,7 +158,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "4cec2b14b7887b043d85ab4ee93fa7271d97c57da9ff4e783df93d5ef03012ae"
+      "sha256": "b0475ea2809403f962a9cb16e6cbd159cb3fe421edcbde3655b0843f087d5942"
     },
     {
       "path": "templates/README.md",

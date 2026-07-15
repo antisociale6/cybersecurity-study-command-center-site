@@ -382,6 +382,53 @@ h3 {
   padding-block: clamp(4.5rem, 9vw, 7.5rem);
 }
 
+.preview-section {
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 85% 0%, rgb(94 242 194 / 8%), transparent 28rem),
+    var(--page);
+}
+
+.preview-grid {
+  display: grid;
+  margin-top: 2.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.preview-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.preview-card-wide {
+  grid-column: 1 / -1;
+}
+
+.preview-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #071010;
+}
+
+.preview-card figcaption {
+  min-height: 4.4rem;
+  padding: 1rem 1.1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.preview-actions {
+  margin-top: 1.4rem;
+}
+
 .section-contrast {
   border-block: 1px solid var(--line);
   background: var(--surface);
@@ -868,6 +915,14 @@ h3 {
 
   .study-planner-controls {
     grid-template-columns: 1fr;
+  }
+
+  .preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .preview-card-wide {
+    grid-column: auto;
   }
 
   .feature-grid {
