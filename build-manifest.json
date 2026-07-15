@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 6851,
+      "bytes": 8393,
       "path": "README.md",
-      "sha256": "f5df5f64fd4dfe8d40cc3bb0c8769cdbe2223f72ea4a20aca9f40c8e7ef7a488"
+      "sha256": "38393050682b47fd3e035a5865e9c71435c770e6971b880aeffe2c1037281f78"
     },
     {
       "bytes": 8789,
@@ -114,9 +114,74 @@
       "bytes": 15442,
       "path": "styles.css",
       "sha256": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16"
+    },
+    {
+      "bytes": 4208,
+      "path": "templates/README.md",
+      "sha256": "c5242bb09d04ed5e80168f25f758fd988a04cb663f2d97c6ed878b96f3c163c9"
+    },
+    {
+      "bytes": 5483,
+      "path": "templates/api-authorization-test-matrix-template.md",
+      "sha256": "6bedc61290d65ae961719ae39d8110ab3ea1cc0dd075e59ca4af48d1dc16f1c7"
+    },
+    {
+      "bytes": 5478,
+      "path": "templates/authentication-session-review-template.md",
+      "sha256": "e5ce2f0a49c2850a6df122f4e494682084e322d63816f8b5de2c73ecdb389303"
+    },
+    {
+      "bytes": 5481,
+      "path": "templates/configuration-drift-check-template.md",
+      "sha256": "61470724bdf4e3598a463df773671ba15e2786df27c323f8c3b17b3b06534fc3"
+    },
+    {
+      "bytes": 5486,
+      "path": "templates/container-hardening-review-template.md",
+      "sha256": "35b616a4c67bee0f27f96e7fe79168ab0da8c49d43b6dbc0f9d6b4299482e341"
+    },
+    {
+      "bytes": 5459,
+      "path": "templates/cyber-risk-register-template.md",
+      "sha256": "0fc22a5919e9293f5bed8b275c4e259537e37f0912f94283330b038f48bca08a"
+    },
+    {
+      "bytes": 5451,
+      "path": "templates/detection-tuning-evaluation-template.md",
+      "sha256": "bf72234079e0c49b8db7fc69ca0d1be1a6c4468abaf48f9782f9d91122fd855d"
+    },
+    {
+      "bytes": 5515,
+      "path": "templates/incident-tabletop-decision-log-template.md",
+      "sha256": "b36011e6970bdec5020f45da138228cde410242d1890b3cf1becb0d7b8543ba4"
+    },
+    {
+      "bytes": 5478,
+      "path": "templates/network-segmentation-test-matrix-template.md",
+      "sha256": "5e7457c1c441116cc1febaca68daa6a4593ec4a929b324cf686281bdb788e506"
+    },
+    {
+      "bytes": 5511,
+      "path": "templates/recovery-evidence-report-template.md",
+      "sha256": "851178749e381841ad300067b685b8ee19a0dfb4815c475c255b904bb9840236"
+    },
+    {
+      "bytes": 5491,
+      "path": "templates/sbom-risk-decision-template.md",
+      "sha256": "c1d1f8ec8bb0b29447aa4a68a29c04f6aeb23ecf2b499001652c14724ba65a9f"
+    },
+    {
+      "bytes": 5432,
+      "path": "templates/secrets-lifecycle-template.md",
+      "sha256": "58ce515ea676b457cff6c2228df4219afda1f4a1d17c3fe34f2a154e609bd82e"
+    },
+    {
+      "bytes": 5483,
+      "path": "templates/web-service-threat-model-template.md",
+      "sha256": "35f3dffce75cbda54c5b1247aae016bc80c04a4fa037b2279a3bb9f28b1493ef"
     }
   ],
-  "build_id": "7beaec79bb907f2b46ec293bb4ab7069cec2d70d312b38e3cb16258ee92a976f",
+  "build_id": "280d245a899057e0a9b35180e16efe44eb2f19030558ed0e332e41bf2c98f688",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -130,18 +195,20 @@
   "input_hashes": {
     "app": "e93d3d68272334f39e6812f8c5451d6e00bc94738fca923a3d081924016d420f",
     "article_template": "d369b3ce297bb7d1a3224f3b719c4f28ed7f73daefe9ceaee190a91c07f1101b",
-    "articles": "2f9b36a4506ffb83250f090e79218ae3f952b5154f06cd4960b22cc836f4c85a",
-    "builder": "acc5c2fb5e3bb95c24e7f2d11081cb3a27ab432ba48a721ea2b14b784b280991",
+    "articles": "b436d4ef6f0b35732fa20c18e8021e7b1fb32cea5d80422b2244bca09f2ac720",
+    "builder": "75c571ff5a6729127708b77abe6e3b5642c85d2bdb33bec8454b46d12c7615a0",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "index_template": "32dde57a912f7773a3ab6df4a7451961df94fc5846a6b9e2bddb7604ebf526a5",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
-    "repository_readme_template": "733077e7e37540c044c008d1644884be8477060b6362329363a6bc29f92581ee",
+    "portfolio_template": "246c59709809985cc5b3147c8b14a20c210ae2b64b0512c151ceb72bdc9ceb1b",
+    "repository_readme_template": "ca0fd06422edfd1bd40d2ce2b1a003efab4f05f1c3ea49ee8487bb77fedb4a13",
     "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
-    "styles": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16"
+    "styles": "c4967743cd05f10b97d05588cf9d072ea7c13024cfc40ea04e96fbf47a70de16",
+    "templates_readme_template": "7db456de7898f1c4db017ce8cb19fc91eaf3cc6f26b695d331f4f4bd05fb44b7"
   },
   "offer": {
     "billing_frequency": "monthly",
@@ -212,6 +279,57 @@
         "campaign_tag": "owned-curriculum-m12-ransomware-recovery",
         "sequence": 12,
         "slug": "safe-ransomware-recovery-exercise"
+      }
+    ],
+    "template_count": 12,
+    "templates": [
+      {
+        "sequence": 1,
+        "slug": "cyber-risk-register-template"
+      },
+      {
+        "sequence": 2,
+        "slug": "web-service-threat-model-template"
+      },
+      {
+        "sequence": 3,
+        "slug": "configuration-drift-check-template"
+      },
+      {
+        "sequence": 4,
+        "slug": "authentication-session-review-template"
+      },
+      {
+        "sequence": 5,
+        "slug": "api-authorization-test-matrix-template"
+      },
+      {
+        "sequence": 6,
+        "slug": "secrets-lifecycle-template"
+      },
+      {
+        "sequence": 7,
+        "slug": "sbom-risk-decision-template"
+      },
+      {
+        "sequence": 8,
+        "slug": "container-hardening-review-template"
+      },
+      {
+        "sequence": 9,
+        "slug": "network-segmentation-test-matrix-template"
+      },
+      {
+        "sequence": 10,
+        "slug": "detection-tuning-evaluation-template"
+      },
+      {
+        "sequence": 11,
+        "slug": "incident-tabletop-decision-log-template"
+      },
+      {
+        "sequence": 12,
+        "slug": "recovery-evidence-report-template"
       }
     ]
   },

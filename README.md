@@ -1,6 +1,6 @@
-# Cybersecurity Study Command Center Membership
+# Cybersecurity Study Command Center - Free Planner and Portfolio Templates
 
-A practical defensive-security study system for turning authorized lab work into portfolio evidence.
+Free study planning, evidence-led notes, and blank portfolio worksheets for controlled defensive-security labs.
 
 ## Build your free study plan
 
@@ -31,9 +31,26 @@ Each note includes a five-section artifact outline, a completion gate, a safety 
 11. [Run an Evidence-Led Incident Tabletop](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/evidence-led-incident-tabletop.html?utm_source=github&utm_medium=repository&utm_campaign=owned-curriculum-m11-incident-tabletop&utm_content=traffic-free-first-v1) - A structured tabletop method for testing roles, evidence handling, decisions, communications, recovery priorities, and follow-up actions.
 12. [Prove Recovery Without Running Ransomware](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/safe-ransomware-recovery-exercise.html?utm_source=github&utm_medium=repository&utm_campaign=owned-curriculum-m12-ransomware-recovery&utm_content=traffic-free-first-v1) - A malware-free recovery exercise using disposable copies, integrity evidence, restore criteria, and documented recovery limitations.
 
+## Free cybersecurity portfolio templates
+
+Copy one of these blank Markdown worksheets into an owned or explicitly authorized lab project. Each template includes scope, evidence, decision, limitation, cleanup, and redaction fields.
+
+1. [Cyber-Risk Baseline for a Synthetic Small Business](templates/cyber-risk-register-template.md)
+2. [Design-Stage Threat Model for a Local Appointment Service](templates/web-service-threat-model-template.md)
+3. [Evidence-Led Windows Configuration Drift Assessment](templates/configuration-drift-check-template.md)
+4. [Authentication and Session Control Design Review](templates/authentication-session-review-template.md)
+5. [Object-Level API Authorization Verification](templates/api-authorization-test-matrix-template.md)
+6. [Secrets Lifecycle and Local Leak-Prevention Control](templates/secrets-lifecycle-template.md)
+7. [SBOM Quality Review and Dependency Risk Decision](templates/sbom-risk-decision-template.md)
+8. [Least-Privilege Container Hardening Assessment](templates/container-hardening-review-template.md)
+9. [Least-Access Network Segmentation Validation](templates/network-segmentation-test-matrix-template.md)
+10. [Behavior-Based Detection Engineering and Tuning](templates/detection-tuning-evaluation-template.md)
+11. [Synthetic Incident Response Tabletop and After-Action Review](templates/incident-tabletop-decision-log-template.md)
+12. [Measured Ransomware-Resilience Restore Exercise](templates/recovery-evidence-report-template.md)
+
 ## Continue with the complete system
 
-[View the live study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the €9/month membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1).
+[Use the free study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the paid €9/month 12-sprint membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1).
 
 The membership is a fixed 12-month plan. Every prepared file is available from day one; monthly messages provide pacing, not access control.
 
