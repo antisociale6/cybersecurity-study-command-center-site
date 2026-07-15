@@ -91,9 +91,9 @@
       "sha256": "a7cdb1627b22cf57c32a5270f23ccf331c4f67efbea35d218430bfc1e511f9f2"
     },
     {
-      "bytes": 35112,
+      "bytes": 35169,
       "path": "index.html",
-      "sha256": "0d31228ac3a3429b16267640fe06c2a8c75712e4278df4770a97aeedefe6d870"
+      "sha256": "5158c48da96d605add37f01b86e55b2e43a5f713920e0b97b33d30010d4147f4"
     },
     {
       "bytes": 115,
@@ -116,7 +116,7 @@
       "sha256": "fee779e23f357a89501667730e4e88b0dd22202320d5f017d91b09689c184e0e"
     }
   ],
-  "build_id": "ee054668a4c4c05ca19764f16dc687e68785d42b2d3814d94ce451b5b46af800",
+  "build_id": "f169b8b094e6dd967db78c0591d15bea59b11117cb7ed33696aa40368752b5f9",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -131,11 +131,11 @@
     "app": "e93d3d68272334f39e6812f8c5451d6e00bc94738fca923a3d081924016d420f",
     "article_template": "21ef8c6792d4b63e5ca4514bbb963aafaf7880162b6eed93683fe3ca338378ee",
     "articles": "b1770faae5e888cb63f6eafb8788ec8d7e99ed101d099fa97adc62a4b4cb3fc4",
-    "builder": "94f614189b5f4850d81de7f5e2e5b5427e496560a27442a7a62d4c5b4a74aa5f",
+    "builder": "26168cb34c4b8c3c64bd6f879aeabb5794075753d2bf8867bfe7b41818011c60",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "52342001aad309836fddc5ebc019dd1981589395ee391be44a3432c40db32a22",
+    "index_template": "32dde57a912f7773a3ab6df4a7451961df94fc5846a6b9e2bddb7604ebf526a5",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "repository_readme_template": "18b0c4f241a63d1a8a8feef730561a0e0530f81d2269e3253e7baa0c105cde0e",
