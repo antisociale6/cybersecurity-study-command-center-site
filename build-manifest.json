@@ -106,9 +106,14 @@
       "sha256": "f64754bf26ab86fe17fbeea5190c8b1c1cb4d14f264ac83aa4ed464f971bfcba"
     },
     {
-      "bytes": 44865,
+      "bytes": 13022,
+      "path": "free-security-lab-command-checklist.html",
+      "sha256": "55af58dd6dc691faaf6d67f7feb71a6dc58b30cb38f1847f6ad56cda7d4bab03"
+    },
+    {
+      "bytes": 45041,
       "path": "index.html",
-      "sha256": "9b21e688a3fc8838ded247885aebb1c5dd8c784ba95a571f1e6e7c98a2a60728"
+      "sha256": "5500c9827a2368a327989b02396194a59f74464caa56a21d8fdde6d856a79a99"
     },
     {
       "bytes": 182,
@@ -121,9 +126,9 @@
       "sha256": "6cfbf35259716764dcf68a2b27678efce2e2e5b74c72275657aca78a9a5c2989"
     },
     {
-      "bytes": 3764,
+      "bytes": 3900,
       "path": "sitemap.xml",
-      "sha256": "32f11b4726bec163713652371da0dc4a16a30e083594946ff0839bef0569e041"
+      "sha256": "e9abe6a4e0ab9d888212ac1b6c96964365fe0f1d82d546defe46b54c3805b46d"
     },
     {
       "bytes": 16892,
@@ -261,7 +266,7 @@
       "sha256": "35f3dffce75cbda54c5b1247aae016bc80c04a4fa037b2279a3bb9f28b1493ef"
     }
   ],
-  "build_id": "69828252ee8c6a27f4d786c613ac1dff2823f6bcb8950c7a9ef10528bf11b9ab",
+  "build_id": "85d87e97ad86c7eef0e37a6deb17a4975649b73769d36e458f44917c6354116b",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -270,17 +275,18 @@
     "robots": "robots.txt",
     "site_url": "https://antisociale6.github.io/cybersecurity-study-command-center-site/",
     "sitemap": "sitemap.xml",
-    "structured_data_pages": 26
+    "structured_data_pages": 27
   },
   "input_hashes": {
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "6e7f8baaa9e0737e5fe80aa563a7ef810f018a1ebd2f272bef7840881506aa75",
     "articles": "2129f39e6b7b255c58bebd6be74909c9488a289e4a6c50f1b75b613647aa273a",
-    "builder": "8d77598c3dce04c42b398ff6b058f937f3db27aad83afc6d17ee7705776239fc",
+    "builder": "c7f63b4e11c6a80c54008c84d58f701e70111771f3548728f1e4e372e1ef2b3f",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
+    "free_checklist_template": "de503e5a89a49a391336a219c132cae453996e7a50395cf8889abcea029008d6",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "34959756cf1aff2abeee6c8f8bf230ba83a1f033cb4dba966473a36a1f4a694b",
+    "index_template": "47a68f4a2eb40d0d5a318f58b46428b12b4a4068c41fcb96752afe03c9487820",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_template": "246c59709809985cc5b3147c8b14a20c210ae2b64b0512c151ceb72bdc9ceb1b",
@@ -296,6 +302,13 @@
     "template_page_template": "6f0fe44a6addf17405a769cb50fe8550de074425d0d1d4fd4f824ab4354cfc47",
     "templates_index_template": "711bcc9e727653887f9cc2596ef06f11d473a9d19e8774cca036282eed95cda5",
     "templates_readme_template": "7db456de7898f1c4db017ce8cb19fc91eaf3cc6f26b695d331f4f4bd05fb44b7"
+  },
+  "lead_magnet_provenance": {
+    "download": "downloads/authorized-security-lab-command-checklist.zip",
+    "hardened_source_sha256": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
+    "landing_page": "free-security-lab-command-checklist.html",
+    "landing_template_sha256": "de503e5a89a49a391336a219c132cae453996e7a50395cf8889abcea029008d6",
+    "rendered_markdown_sha256": "f1ac398af73f361aa7eff2537a53a79d92ffbbf72a0cab92fca1b71e9e7ec253"
   },
   "offer": {
     "billing_frequency": "monthly",
@@ -368,6 +381,8 @@
         "slug": "safe-ransomware-recovery-exercise"
       }
     ],
+    "free_checklist_page": "free-security-lab-command-checklist.html",
+    "free_checklist_page_count": 1,
     "html_template_page_count": 12,
     "template_count": 12,
     "templates": [

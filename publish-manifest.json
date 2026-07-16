@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "69828252ee8c6a27f4d786c613ac1dff2823f6bcb8950c7a9ef10528bf11b9ab",
-  "site_hash": "7a718f7723441a2e4e7ed0d5b0f346e66d45909108a16ed4d7252cc1e3e2feb1",
+  "source_build_id": "85d87e97ad86c7eef0e37a6deb17a4975649b73769d36e458f44917c6354116b",
+  "site_hash": "c5d288a829c0a6a378384a7c67a78778ce164d891a9bf2c3aa13cedca30953a8",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "a36226ff61b67c53a9f01addb82e4ffb7af5864df414c37409291a6ddc118950"
+      "sha256": "bcb580f2469d59f057cf45136f69c4afb6c4dfa440b82e13ef7e78fc0f2b0798"
     },
     {
       "path": "data/membership-manifest.json",
@@ -137,8 +137,12 @@
       "sha256": "f64754bf26ab86fe17fbeea5190c8b1c1cb4d14f264ac83aa4ed464f971bfcba"
     },
     {
+      "path": "free-security-lab-command-checklist.html",
+      "sha256": "55af58dd6dc691faaf6d67f7feb71a6dc58b30cb38f1847f6ad56cda7d4bab03"
+    },
+    {
       "path": "index.html",
-      "sha256": "9b21e688a3fc8838ded247885aebb1c5dd8c784ba95a571f1e6e7c98a2a60728"
+      "sha256": "5500c9827a2368a327989b02396194a59f74464caa56a21d8fdde6d856a79a99"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -154,7 +158,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "32f11b4726bec163713652371da0dc4a16a30e083594946ff0839bef0569e041"
+      "sha256": "e9abe6a4e0ab9d888212ac1b6c96964365fe0f1d82d546defe46b54c3805b46d"
     },
     {
       "path": "styles.css",
