@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "58b7d4bdf840c59a39125698f3da3b6121fb26240f292f3fe5a23bd1738d542d",
-  "site_hash": "4699b3029d5a5f8de440375f6e91f5bc604273b990a5c85cb89a63b8f8245ccc",
+  "source_build_id": "739de79c1d616a271ca95f720fce0e338ea844b90b3121f5402efc7295015711",
+  "site_hash": "a4aad2816f2956e9a6e6a00dc47fe6452851d4c4fa8333559ad1a69224db7de9",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -50,7 +50,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1cd9b51b657874e9aa8bf30042555cc3a36ded1c715f405254bb8346fb823feb"
+      "sha256": "e7e42a469b62c818259ba19fd353e8a862ac23a190e88ad996c0ec5a4f0557e1"
     },
     {
       "path": "app.js",
@@ -70,7 +70,7 @@
     },
     {
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "ce3d33338791ca65883043e534b85ce220965b56e3dc6b24d492f7f74fdd34f7"
+      "sha256": "0e79681d6e11068e9ba557802340b754271c752ca1535ba0feef8dcd397b3629"
     },
     {
       "path": "articles/evidence-led-incident-tabletop.html",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "2d9f2bc83c0e87faba142576f7d8789c288090e2dd1b03dcacbbe41de119e74a"
+      "sha256": "428ac700e7593c3546e5317d63af6f34ec4a0722d6c3de7143bd58efec08ead0"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -142,7 +142,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "3cc3f3b3705c93763fee7733c356d52bb4c8525e7f72e633ef79e258c625fca7"
+      "sha256": "b7f31ee216fc0e9152fb2e49805d02167c68fa8ac55c6a5e677cbc28ff04b79e"
     },
     {
       "path": "free-security-lab-command-checklist.html",
@@ -150,7 +150,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "4d475af57884e97498f3f397ce8de288d3057ea7593e6042e6df7612c0136b3e"
+      "sha256": "ccc2ebf92e4bc97dc55cdf23e14f0bef51e678625beb69b89c7f67846cf65413"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -166,7 +166,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "4e6ebc5a653d0d597911275607dec20e86ee2d9284ece727f14a930ab895ebf3"
+      "sha256": "c1c900ddba147b14420084e1274e6ff927a08916f22157dee0619974e3deda31"
     },
     {
       "path": "styles.css",
@@ -174,7 +174,7 @@
     },
     {
       "path": "templates/README.md",
-      "sha256": "27e4bbe51297e2df27161d8c0788e5b33670dfce21c6de633b96c68d4db46bd9"
+      "sha256": "b8debd4594f4aea74eeecf389140f301b787073b0c5425f83142862b546cf231"
     },
     {
       "path": "templates/api-authorization-test-matrix-template.html",

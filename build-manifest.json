@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 13118,
+      "bytes": 13130,
       "path": "README.md",
-      "sha256": "1cd9b51b657874e9aa8bf30042555cc3a36ded1c715f405254bb8346fb823feb"
+      "sha256": "e7e42a469b62c818259ba19fd353e8a862ac23a190e88ad996c0ec5a4f0557e1"
     },
     {
       "bytes": 9072,
@@ -26,9 +26,9 @@
       "sha256": "0e970e1aed26c0a5c94682e9d6b64198ca2d4011ac07ae59fe1a8e9220522786"
     },
     {
-      "bytes": 23106,
+      "bytes": 23189,
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "ce3d33338791ca65883043e534b85ce220965b56e3dc6b24d492f7f74fdd34f7"
+      "sha256": "0e79681d6e11068e9ba557802340b754271c752ca1535ba0feef8dcd397b3629"
     },
     {
       "bytes": 14988,
@@ -111,9 +111,9 @@
       "sha256": "78325d7c78b1c49ed7e052d47ec37845e94d86779ad23dc86cb2015343a203a1"
     },
     {
-      "bytes": 8706,
+      "bytes": 8718,
       "path": "feed.xml",
-      "sha256": "3cc3f3b3705c93763fee7733c356d52bb4c8525e7f72e633ef79e258c625fca7"
+      "sha256": "b7f31ee216fc0e9152fb2e49805d02167c68fa8ac55c6a5e677cbc28ff04b79e"
     },
     {
       "bytes": 13254,
@@ -121,9 +121,9 @@
       "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
     },
     {
-      "bytes": 50570,
+      "bytes": 50586,
       "path": "index.html",
-      "sha256": "4d475af57884e97498f3f397ce8de288d3057ea7593e6042e6df7612c0136b3e"
+      "sha256": "ccc2ebf92e4bc97dc55cdf23e14f0bef51e678625beb69b89c7f67846cf65413"
     },
     {
       "bytes": 182,
@@ -138,7 +138,7 @@
     {
       "bytes": 4515,
       "path": "sitemap.xml",
-      "sha256": "4e6ebc5a653d0d597911275607dec20e86ee2d9284ece727f14a930ab895ebf3"
+      "sha256": "c1c900ddba147b14420084e1274e6ff927a08916f22157dee0619974e3deda31"
     },
     {
       "bytes": 22885,
@@ -146,9 +146,9 @@
       "sha256": "1fca1a3b2657efa50985e4c2c34c0868ace6f4aaf2fc73c5fdd9a6509f3e3a40"
     },
     {
-      "bytes": 8209,
+      "bytes": 8217,
       "path": "templates/README.md",
-      "sha256": "27e4bbe51297e2df27161d8c0788e5b33670dfce21c6de633b96c68d4db46bd9"
+      "sha256": "b8debd4594f4aea74eeecf389140f301b787073b0c5425f83142862b546cf231"
     },
     {
       "bytes": 14857,
@@ -276,7 +276,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "58b7d4bdf840c59a39125698f3da3b6121fb26240f292f3fe5a23bd1738d542d",
+  "build_id": "739de79c1d616a271ca95f720fce0e338ea844b90b3121f5402efc7295015711",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -290,7 +290,7 @@
   "input_hashes": {
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "848e33dbfa7f000ebfec9e37e07201d7ed8dfcd4aa5696bddaa4e4e9e27be420",
-    "articles": "4e6a2d7947f1e70e73b384c734bef657615d9be5be522d9328f851eab38f9519",
+    "articles": "63f9745525b2e308ba6ddd6439811e59e2584db42c47f005f5a3a6b1ea68f0b5",
     "builder": "bbbecf800426c6fa1e90f4d7588c947f2a764bff995ffaf8428f7f2cb79e2b50",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
