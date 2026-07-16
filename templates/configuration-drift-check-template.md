@@ -8,6 +8,8 @@ Companion study note: [Create a Secure Configuration and Drift Check](https://an
 
 [Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/configuration-drift-check-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=configuration-drift-check-template&utm_content=traffic-free-first-v1)
 
+**Before the lab:** [Claim the free authorization-and-evidence checklist](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=configuration-drift-check-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

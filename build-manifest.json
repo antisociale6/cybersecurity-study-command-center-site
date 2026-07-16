@@ -136,84 +136,84 @@
       "sha256": "86efac3040bfa7e3bb337e2545d755fedd1cebf99c1132e59b4b9a77dcc4f456"
     },
     {
-      "bytes": 17754,
+      "bytes": 17808,
       "path": "styles.css",
-      "sha256": "ed0ff3d6bdef339ec37e57ea4b1812a9e18175a2ddd19d6356ac0e073d5d4a3a"
+      "sha256": "cc85a5d1df194566786c8fe2bb38b12682134b786d8188fac94216bb57887371"
     },
     {
-      "bytes": 7952,
+      "bytes": 8209,
       "path": "templates/README.md",
-      "sha256": "eb0e31528aab15c12c816b6f95c2aaa5f9dc85ce0b82066ffce89e491bf043a6"
+      "sha256": "27e4bbe51297e2df27161d8c0788e5b33670dfce21c6de633b96c68d4db46bd9"
     },
     {
-      "bytes": 14301,
+      "bytes": 14857,
       "path": "templates/api-authorization-test-matrix-template.html",
-      "sha256": "d68ea3dd92969bfe7c661fff5f3e29967966ba93042dbbeedefa647cc25b15cf"
+      "sha256": "b1488ce25ade1c41edf9892a0b46c08269639652643088b171caebde6d323816"
     },
     {
-      "bytes": 5807,
+      "bytes": 6082,
       "path": "templates/api-authorization-test-matrix-template.md",
-      "sha256": "62a272caa2a8dda72dfaa383c91b9b8f4aecab3bed1118ec8a4f7cdbe30bee27"
+      "sha256": "37661a2933b3a3dea381096099a4a538152361e99e538a9c984ae83c1564cc5b"
     },
     {
-      "bytes": 14321,
+      "bytes": 14877,
       "path": "templates/authentication-session-review-template.html",
-      "sha256": "abf5dcc84c281f52a7fcb6cb408c9fae5a54cf89087b29f47814ae7dd0629080"
+      "sha256": "dfda1392d0c6217156f379b54749ef9bb84d4dd549edeb3b35903a3087197bac"
     },
     {
-      "bytes": 5802,
+      "bytes": 6077,
       "path": "templates/authentication-session-review-template.md",
-      "sha256": "8e6f52d67458911ce7e90a03de646194f7e93f1e09ead600c21d7ecae0fce317"
+      "sha256": "a0a7b5754c655d3ce7ea2a9442bd710cd30ba854452fa1b8356a8e9d06d312c3"
     },
     {
-      "bytes": 14247,
+      "bytes": 14795,
       "path": "templates/configuration-drift-check-template.html",
-      "sha256": "1a903bfc07decbd8f9f881f2a8b85a6dc77743af3e1f20309290c3aed682cc39"
+      "sha256": "d5681ac9cf7a79b4c8f71df22dbcec806349ae75cc9ae6b19ceebe46f52294ad"
     },
     {
-      "bytes": 5797,
+      "bytes": 6068,
       "path": "templates/configuration-drift-check-template.md",
-      "sha256": "78ba872616e98592716bbfde6f81b82ea259242b0f0ac4bb6f29ec23c319abce"
+      "sha256": "25186147e9edd06b19455e1d7ee65063336113ea9fb6952fd74103b19c9517c9"
     },
     {
-      "bytes": 14259,
+      "bytes": 14809,
       "path": "templates/container-hardening-review-template.html",
-      "sha256": "88b1d8660f956804185f1092160e93bce710073192af066f1883bd234edb35a0"
+      "sha256": "a59f10c8a82b3f196e2002fb1b8560160762fa38bcab2381dd8892bc72c06d03"
     },
     {
-      "bytes": 5804,
+      "bytes": 6076,
       "path": "templates/container-hardening-review-template.md",
-      "sha256": "bcd773039743153086b2f379940ed83ffa2c91baaf57179d3a214d4ac7497373"
+      "sha256": "c2cbb29d63ade57a0195dc53b5819c154f0637b5e072d56b997f468592779de4"
     },
     {
-      "bytes": 14106,
+      "bytes": 14642,
       "path": "templates/cyber-risk-register-template.html",
-      "sha256": "c1e106ebac50b3e35250546888ba0c063ebe8035eb8849afd7fb3ef3d4b16582"
+      "sha256": "f4e6b867ad32b38455a7e3782d50e4a83cef1a2d185a48ffa41987319b577549"
     },
     {
-      "bytes": 5763,
+      "bytes": 6028,
       "path": "templates/cyber-risk-register-template.md",
-      "sha256": "8366f24d92ed38f33af29154475691d66a281abf4fe39c504aa4ffb08b7c0bf5"
+      "sha256": "3ca9a69dfeaef4c618fbb68c1be6ae89f9eba0e23c123fb21b78368f1ccfaada"
     },
     {
-      "bytes": 14239,
+      "bytes": 14791,
       "path": "templates/detection-tuning-evaluation-template.html",
-      "sha256": "0bf7b7922b787e0750730a527c2ae3f93ce99a99ba16e66fd63670ad30979dc8"
+      "sha256": "521cb83e5207a4faf290ab4ec8e6f8c5acfd5cb98dafdb8825707da6fb002ffb"
     },
     {
-      "bytes": 5771,
+      "bytes": 6044,
       "path": "templates/detection-tuning-evaluation-template.md",
-      "sha256": "2e8dedb4b0589de7277d75ee66b90b05dbc83c267c32866c55126ae84e84a6b0"
+      "sha256": "7f84f325d826df9220344b2aec4b2dd60b8191a0c24866c9395e82a8a585e01a"
     },
     {
-      "bytes": 14401,
+      "bytes": 14959,
       "path": "templates/incident-tabletop-decision-log-template.html",
-      "sha256": "36fb2ae5266f1f0b20c69f20c9d4f55471d14108153f6277a675232b42325fd8"
+      "sha256": "88c88060bd7f792279dc82ccbafa9e23544f695c120affb7f55cbaffe0e12b77"
     },
     {
-      "bytes": 5841,
+      "bytes": 6117,
       "path": "templates/incident-tabletop-decision-log-template.md",
-      "sha256": "c9887374d9fb28ff87e0cd757b21b07df8801591913237dd75551c4423393c4b"
+      "sha256": "6497b008bed979aae8ccb381cb6d75525cb76311dc621057062cdc1b3175b4f7"
     },
     {
       "bytes": 18332,
@@ -221,57 +221,57 @@
       "sha256": "ba212731c5fbb97b5694271c648010ec6921ba4fdcffdcba522c8a5cf0669e2e"
     },
     {
-      "bytes": 14362,
+      "bytes": 14924,
       "path": "templates/network-segmentation-test-matrix-template.html",
-      "sha256": "f4d67fb705cd58e6b48fc2a55fd307de9c2b805e31bec9d59cd4c36d6aac4d9d"
+      "sha256": "5b3375e852ab140bd52ab96fcfe082716276aeabad0a4cd5add32301f29cc5a3"
     },
     {
-      "bytes": 5808,
+      "bytes": 6086,
       "path": "templates/network-segmentation-test-matrix-template.md",
-      "sha256": "c2d0895b4ae8acb8a2ace517a877c52ea587602980d98eb4a7ecc8fe15998177"
+      "sha256": "3455387cf6c29b1d4ff606fd40c18ba5f25cbefe7df349810c858d2c364f8533"
     },
     {
-      "bytes": 14247,
+      "bytes": 14793,
       "path": "templates/recovery-evidence-report-template.html",
-      "sha256": "994c45357992fe2da92c02248861ef94b964537d11e18453a033c070b573629d"
+      "sha256": "4938387f7c0b684cd736292dbe992c245414cbc8b00e4dfe90ca474e7ac708a6"
     },
     {
-      "bytes": 5825,
+      "bytes": 6095,
       "path": "templates/recovery-evidence-report-template.md",
-      "sha256": "0c51d011fcaf9bbf930146837679c1fae32e37c07eab48147d4d5bb80f29f097"
+      "sha256": "fd4fb624ae868d68b0ec1d64ca9f60466194b2bae0470f32ef2d02c40f998a84"
     },
     {
-      "bytes": 14117,
+      "bytes": 14651,
       "path": "templates/sbom-risk-decision-template.html",
-      "sha256": "a8e1bc2a4bef126ba7fddcd8c1dc7378e5bb9cb30e1efcdb73ed753102d19cbc"
+      "sha256": "2635a7efaf9574689df59360143d2f3dde5dbcadf7937f07c30be63a68674538"
     },
     {
-      "bytes": 5793,
+      "bytes": 6057,
       "path": "templates/sbom-risk-decision-template.md",
-      "sha256": "801b78e54cb2d0643cc3d088a25961c751118d7b23075223f0baa30d64e573b4"
+      "sha256": "04a4abeb99d15256091d0dc19588f8d71a8e8358129796f213323b995e1d0fdf"
     },
     {
-      "bytes": 14042,
+      "bytes": 14574,
       "path": "templates/secrets-lifecycle-template.html",
-      "sha256": "87f898a31b3be97b5b60dfa594a1a72112a1c45e4eeb874d83da693004393041"
+      "sha256": "bb845002d848b4308aeef6030500daff1a96bb51db562cca4274fdebe1e316c8"
     },
     {
-      "bytes": 5732,
+      "bytes": 5995,
       "path": "templates/secrets-lifecycle-template.md",
-      "sha256": "10a55acc729a3e5b44c9c8b1a23e84c7706792d031cc2cc2b7ca18ac2c1ea4af"
+      "sha256": "0d18138cbadd983f62fd79739a2f72d7dc16a7c94e1f63218dd7af3708213a2f"
     },
     {
-      "bytes": 14246,
+      "bytes": 14792,
       "path": "templates/web-service-threat-model-template.html",
-      "sha256": "3845ed55b1842971f76198eabc26ab412c670db7af687b61d7cc062b6894b025"
+      "sha256": "1c97d03c6da61028db89c2823adcfa2e94510625c52a2197f46f9c20864db5e6"
     },
     {
-      "bytes": 5797,
+      "bytes": 6067,
       "path": "templates/web-service-threat-model-template.md",
-      "sha256": "a955ee6e367696dece68aacc3174f6a732bcab99275d3684a62ae2dfd5275128"
+      "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "fc43d8cb75930c9f94f702fbe1dd2ab32cecd4443bc21ce56a1917fc26025468",
+  "build_id": "083535ef6f56717240938c67054558d445277bd6b746d7ee795722bd3fd137a7",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -286,7 +286,7 @@
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "ac80b6a2071d3709c057866827c6a43e81825e98d92715bff6b9b257ced47bfc",
     "articles": "e0eac31eb03d057fede9d5883a95aa4734e6ba74a0ae314c2ea9af34fe4e8b77",
-    "builder": "9b48c174972f70b233f994ba87e03dfef6d64c3521bc6f8135305c5f37a2389f",
+    "builder": "82fa5f0bc81ca78c60fb7a50655cf94bf9a8e8bfb9ce96d7bd91e0e41fa99386",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
@@ -295,7 +295,7 @@
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_projects_template": "fed78b8e5c4dd5eba735ea49b1d91cce8a15ae44194b6f30dca38b23732487d7",
-    "portfolio_template": "75faac5759121245c6628f06ffe0339e243bdf68ef249e72973f298ed7fb1b42",
+    "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",
     "repository_readme_template": "ee4c13fb6ecf506ce8560d5d4cd9f1d34cf5c5f8f68c2dcdaa590feb1c24b4fb",
     "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
@@ -304,10 +304,10 @@
     "storefront_cover02worksheet.png": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c",
     "storefront_cover03review.png": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22",
     "storefront_thumbnail.png": "329496f405e700e502a9f8514e635f49638a872535f1dd81cde2c3a4464b3107",
-    "styles": "ed0ff3d6bdef339ec37e57ea4b1812a9e18175a2ddd19d6356ac0e073d5d4a3a",
-    "template_page_template": "6f0fe44a6addf17405a769cb50fe8550de074425d0d1d4fd4f824ab4354cfc47",
+    "styles": "cc85a5d1df194566786c8fe2bb38b12682134b786d8188fac94216bb57887371",
+    "template_page_template": "636cd64b2a1873ca4f1fad97dd8f8c716771bf8ebe753f4d456cf7b068346c56",
     "templates_index_template": "598b7226ac39caf7a2d406f07e691ed65514910a65005200a3126b5a6d6caeca",
-    "templates_readme_template": "7db456de7898f1c4db017ce8cb19fc91eaf3cc6f26b695d331f4f4bd05fb44b7"
+    "templates_readme_template": "62df368df3465053ec2dc758837cc040706b5a0085dd3bfef58dc12ccc0adc17"
   },
   "lead_magnet_provenance": {
     "download": "downloads/authorized-security-lab-command-checklist.zip",

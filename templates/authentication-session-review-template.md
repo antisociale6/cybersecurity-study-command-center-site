@@ -8,6 +8,8 @@ Companion study note: [Harden Authentication and Sessions](https://antisociale6.
 
 [Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/authentication-session-review-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=authentication-session-review-template&utm_content=traffic-free-first-v1)
 
+**Before the lab:** [Claim the free authorization-and-evidence checklist](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=authentication-session-review-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

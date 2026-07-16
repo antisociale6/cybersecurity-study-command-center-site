@@ -8,6 +8,8 @@ Companion study note: [Threat-Model a Small Web Service](https://antisociale6.gi
 
 [Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/web-service-threat-model-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=web-service-threat-model-template&utm_content=traffic-free-first-v1)
 
+**Before the lab:** [Claim the free authorization-and-evidence checklist](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=web-service-threat-model-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

@@ -767,6 +767,10 @@ h3 {
   font-size: 0.85rem;
 }
 
+.template-early-cta {
+  margin: 1.25rem 0 1.75rem;
+}
+
 .method-list {
   display: grid;
   padding-left: 1.4rem;

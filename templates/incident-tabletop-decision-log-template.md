@@ -8,6 +8,8 @@ Companion study note: [Run an Evidence-Led Incident Tabletop](https://antisocial
 
 [Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/incident-tabletop-decision-log-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=incident-tabletop-decision-log-template&utm_content=traffic-free-first-v1)
 
+**Before the lab:** [Claim the free authorization-and-evidence checklist](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=incident-tabletop-decision-log-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`
