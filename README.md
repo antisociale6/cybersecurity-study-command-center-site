@@ -8,6 +8,12 @@ Free study planning, evidence-led notes, and blank portfolio worksheets for cont
 
 Choose two, four, or six hours per week and get a complete twelve-sprint route. Planner choices stay in the page only; the site uses no cookies or external analytics.
 
+## Build a cybersecurity portfolio
+
+[Explore 12 defensive cybersecurity portfolio projects for beginners](https://antisociale6.github.io/cybersecurity-study-command-center-site/cybersecurity-portfolio-projects-for-beginners.html)
+
+Each project has a safe scope, a named evidence output, a free guide, and a blank worksheet.
+
 ## Get the lab checklist
 
 [Preview the Authorized Security Lab Command Checklist](https://antisociale6.github.io/cybersecurity-study-command-center-site/free-security-lab-command-checklist.html)
