@@ -389,6 +389,160 @@ h3 {
     var(--page);
 }
 
+.product-proof-grid {
+  display: grid;
+  margin-top: 2.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.raw-proof-card,
+.proof-finish-card {
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.raw-proof-card {
+  border-color: rgb(94 242 194 / 42%);
+  background: linear-gradient(145deg, rgb(94 242 194 / 8%), var(--surface));
+}
+
+.raw-proof-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.9rem;
+  margin-bottom: 1.35rem;
+  border-bottom: 1px solid var(--line);
+  gap: 1rem;
+}
+
+.raw-proof-header span {
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.raw-proof-header code {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+.raw-proof-card h3,
+.proof-finish-card h3 {
+  font-size: clamp(1.35rem, 3vw, 2rem);
+}
+
+.proof-field {
+  padding-top: 1rem;
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+
+.proof-field h4,
+.proof-safety-note h4 {
+  margin: 0 0 0.55rem;
+  color: var(--warm);
+  font-size: 0.9rem;
+}
+
+.proof-field p,
+.proof-safety-note p,
+.proof-time-box {
+  color: var(--muted);
+}
+
+.proof-time-box {
+  padding: 0.9rem 1rem;
+  margin: 1.25rem 0 0;
+  border-left: 0.2rem solid var(--accent);
+  background: var(--surface-strong);
+}
+
+.proof-time-box strong {
+  color: var(--ink);
+}
+
+.proof-finish-card .completion-list {
+  margin-block: 1.35rem;
+}
+
+.proof-safety-note {
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+}
+
+.proof-safety-note p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.proof-inventory {
+  display: grid;
+  align-items: start;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.65fr);
+  gap: 1.5rem;
+}
+
+.file-inventory {
+  display: grid;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  list-style: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.file-inventory li {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+}
+
+.file-inventory code {
+  color: var(--accent);
+  overflow-wrap: anywhere;
+  font-size: 0.78rem;
+}
+
+.proof-inventory-summary {
+  padding: 1rem;
+  margin: 0;
+  border-left: 0.2rem solid var(--warm);
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.supporting-preview-title {
+  margin-top: 2.5rem;
+}
+
+.supporting-preview-grid {
+  margin-top: 1rem;
+}
+
+.proof-caption {
+  max-width: 58rem;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
 .preview-grid {
   display: grid;
   margin-top: 2.2rem;
@@ -967,6 +1121,11 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .product-proof-grid,
+  .proof-inventory {
+    grid-template-columns: 1fr;
+  }
+
   .comparison-grid {
     grid-template-columns: 1fr;
   }
@@ -1021,6 +1180,10 @@ h3 {
   .study-planner-actions,
   .study-planner-actions .button {
     width: 100%;
+  }
+
+  .file-inventory {
+    grid-template-columns: 1fr;
   }
 
   .study-planner-actions {

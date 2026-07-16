@@ -1,14 +1,14 @@
 {
   "schema_version": 2,
-  "source_build_id": "083535ef6f56717240938c67054558d445277bd6b746d7ee795722bd3fd137a7",
-  "site_hash": "23a330f295f2e5454129fc3e2e2ba5184a0c085b10158b660c7340a3aa5ec3a0",
+  "source_build_id": "79a7fce7be00f0a579164e01657d7b913e9a4926991c7dcd3452d167d5f745f0",
+  "site_hash": "75f1b90edc357ad520526f03d2daf94ca3e84c46b1173079a3cb5d8b6f85d176",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
     "window_key": "2026-07-15",
     "variant_id": "traffic-free-first-v1",
     "featured_article_sequence": 8,
-    "catalog_sha256": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6"
+    "catalog_sha256": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c"
   },
   "checkout_url": "https://corcoran7.gumroad.com/l/vmyfq",
   "lead_magnet_url": "https://corcoran7.gumroad.com/l/vlcjuo",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "2bcedf2c7210a9032479dd4b43db77882ea26e7ddfde0ab704f1e0f71879a028"
+      "sha256": "6d539d916c8317e2738b76414d42f584171a231f37a0a37e69baafded126ca67"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -138,7 +138,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "fc118e1d7ae4df6e34ec42d4d444b551a4ac771f140f34568a0cece472364d4f"
+      "sha256": "b13f4c1074275ef3458bf8a247f6b819d0f9d5612efe071ec552d71865fe9db2"
     },
     {
       "path": "free-security-lab-command-checklist.html",
@@ -146,7 +146,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "8faaa9e244d89d3a72b0f8702e868486d5e7e1bc42f79d94f0ef7f82f5d49bbc"
+      "sha256": "29e856393a15cd0fcc8d93f0302e7aaed475ca1d9d4663f2ed298849a652bddb"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -166,7 +166,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "cc85a5d1df194566786c8fe2bb38b12682134b786d8188fac94216bb57887371"
+      "sha256": "5d500c19ec9a5dbadc1186881ed1d1580539c36daf501ac8816921507a731452"
     },
     {
       "path": "templates/README.md",
