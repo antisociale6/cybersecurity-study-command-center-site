@@ -6,9 +6,9 @@
       "sha256": "a99504c8df80de9059a2b652a3acd071877affdb3cb3252800cdcbfe736c90bc"
     },
     {
-      "bytes": 9072,
+      "bytes": 10913,
       "path": "app.js",
-      "sha256": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b"
+      "sha256": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea"
     },
     {
       "bytes": 15082,
@@ -121,14 +121,14 @@
       "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
     },
     {
-      "bytes": 50773,
+      "bytes": 50838,
       "path": "index.html",
-      "sha256": "0ca496167c4837332c7489c4d04d5f214553a911d1a41b5a126011381b313bfe"
+      "sha256": "1529baa56f7a04151f3251e7269c8dcf1011618afa92cfe66d26cfc338a73431"
     },
     {
-      "bytes": 55912,
+      "bytes": 55977,
       "path": "membership-contents.html",
-      "sha256": "702a6ff9d3bb66851764b95ddfeed442dd39186eead8019f5fad47236e826f2b"
+      "sha256": "dba978a70429e6440e941558b3c4dc997d011d2cc187393f1fbcf7683853a212"
     },
     {
       "bytes": 182,
@@ -281,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "765ecfd4568c3a7a2da3139fc80b71ace8d0e70b328b568a9625523092da5cad",
+  "build_id": "c9f30c284e588b215032d80e61c46392c4d8225209a2aa82af0ad1450f7d12ab",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -293,17 +293,17 @@
     "structured_data_pages": 29
   },
   "input_hashes": {
-    "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
+    "app": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea",
     "article_template": "cf4073870a1e889a05115eadb19dacf707e52263ec5b66d40d4d4330df528643",
     "articles": "63f9745525b2e308ba6ddd6439811e59e2584db42c47f005f5a3a6b1ea68f0b5",
-    "builder": "446118015fa2e254b24a7f938160ac8bfc3752ae5dcc53919ccfcbf8ea353605",
+    "builder": "a617c083d9240cb6fd24561ae29124af9238a04bb5d6e3c99050d8afd60acf6d",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "a9233528c5205b34750484c6833c6fd094efd2cf76dbc71c25a4b4552f0c89ac",
+    "index_template": "5e79a87741991da8408c707bbc9235a4fe35b5c97313af111476a50aa3145afe",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
-    "membership_contents_template": "c15e9347dc0cab3e0d141f1866cbf96e018744d7277af3d44663fecdb7769b6b",
+    "membership_contents_template": "495fc03dc08decda7ee402237ebd9fcb4f2b45b5aa6092afdeab1a63caacd955",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_projects_template": "fed78b8e5c4dd5eba735ea49b1d91cce8a15ae44194b6f30dca38b23732487d7",
     "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",

@@ -80,11 +80,47 @@
     return (
       destination.protocol === "https:" &&
       isGumroadHost(destination.hostname) &&
-      destination.pathname.replace(/^\/+|\/+$/g, "").length > 0
+      destination.username === "" &&
+      destination.password === "" &&
+      destination.port === "" &&
+      destination.hash === "" &&
+      /^\/l\/[A-Za-z0-9._~-]+\/?$/.test(destination.pathname)
     );
   }
 
-  function validatedDestination(rawValue, type) {
+  function hasValidDirectCheckoutMarker(link) {
+    const marker = link?.getAttribute("data-funnel-direct-checkout");
+    return marker === null || marker === "true";
+  }
+
+  function hasSafeEmbeddedAttribution(destination, link) {
+    if (!hasValidDirectCheckoutMarker(link)) {
+      return false;
+    }
+    const directCheckout = link?.dataset.funnelDirectCheckout === "true";
+    const seen = new Set();
+    let hasWanted = false;
+
+    for (const [key, value] of destination.searchParams.entries()) {
+      if (seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      if (key === "wanted") {
+        if (!directCheckout || value !== "true") {
+          return false;
+        }
+        hasWanted = true;
+        continue;
+      }
+      if (!UTM_KEYS.includes(key) || cleanValue(value) !== value) {
+        return false;
+      }
+    }
+    return hasWanted === directCheckout;
+  }
+
+  function validatedDestination(rawValue, type, link = null) {
     if (typeof rawValue !== "string" || !rawValue.trim() || isPlaceholder(rawValue)) {
       return null;
     }
@@ -100,6 +136,17 @@
       if (type === "lead_magnet" && !isSameOrigin && !isGumroad) {
         return null;
       }
+      if (destination.hash || (!isGumroad && destination.search)) {
+        return null;
+      }
+      if (isGumroad) {
+        const queryIsSafe = link
+          ? hasSafeEmbeddedAttribution(destination, link)
+          : destination.search === "";
+        if (!queryIsSafe) {
+          return null;
+        }
+      }
       return destination;
     } catch (_error) {
       return null;
@@ -111,6 +158,14 @@
     if (!isGumroadProductUrl(result)) {
       return result.href;
     }
+    // Rebuild the query from reviewed controls so unknown or duplicate values
+    // can never survive an embedded link or a refreshed site configuration.
+    result.search = "";
+    if (link?.dataset.funnelDirectCheckout === "true") {
+      result.searchParams.set("wanted", "true");
+    } else {
+      result.searchParams.delete("wanted");
+    }
     const linkTerm = cleanValue(link?.dataset.funnelUtmTerm);
     for (const key of UTM_KEYS) {
       const value = key === "utm_term" && linkTerm ? linkTerm : utmValues[key];
@@ -121,18 +176,22 @@
     return result.href;
   }
 
+  function disableLink(link) {
+    // Removing the destination also protects middle-click, open-in-new-tab,
+    // copying, and keyboard activation when an embedded URL is invalid.
+    link.removeAttribute("href");
+    link.removeAttribute("download");
+    delete link.dataset.baseDestination;
+    link.setAttribute("aria-disabled", "true");
+  }
+
   function configureLinks(type, rawValue) {
     const destination = validatedDestination(rawValue, type);
     const links = document.querySelectorAll(`[data-funnel-link="${type}"]`);
 
     for (const link of links) {
-      if (!destination) {
-        // A disabled link must not inherit the current page query string.
-        // Removing the destination also keeps it out of keyboard navigation.
-        link.removeAttribute("href");
-        link.removeAttribute("download");
-        delete link.dataset.baseDestination;
-        link.setAttribute("aria-disabled", "true");
+      if (!destination || !hasValidDirectCheckoutMarker(link)) {
+        disableLink(link);
         continue;
       }
 
@@ -164,7 +223,7 @@
           return;
         }
 
-        // The strict UTM allowlist is appended only to HTTPS Gumroad links.
+        // Apply only the reviewed checkout control and UTM values to Gumroad links.
         link.href = destinationWithUtm(new URL(baseDestination), link);
       });
     }
@@ -213,8 +272,9 @@
     const links = document.querySelectorAll("[data-funnel-link]");
     for (const link of links) {
       const type = link.dataset.funnelLink;
-      const destination = validatedDestination(link.getAttribute("href"), type);
+      const destination = validatedDestination(link.getAttribute("href"), type, link);
       if (!destination) {
+        disableLink(link);
         continue;
       }
       link.dataset.baseDestination = destination.href;
