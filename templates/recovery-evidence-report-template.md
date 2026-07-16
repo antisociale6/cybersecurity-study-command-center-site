@@ -6,6 +6,8 @@ instructions that do not apply instead of inventing an answer.
 
 Companion study note: [Prove Recovery Without Running Ransomware](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/safe-ransomware-recovery-exercise.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=recovery-evidence-report-template&utm_content=traffic-free-first-v1)
 
+[Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/recovery-evidence-report-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=recovery-evidence-report-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

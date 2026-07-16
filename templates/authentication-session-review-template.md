@@ -6,6 +6,8 @@ instructions that do not apply instead of inventing an answer.
 
 Companion study note: [Harden Authentication and Sessions](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=authentication-session-review-template&utm_content=traffic-free-first-v1)
 
+[Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/authentication-session-review-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=authentication-session-review-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

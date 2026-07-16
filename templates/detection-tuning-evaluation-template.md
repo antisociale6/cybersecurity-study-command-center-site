@@ -6,6 +6,8 @@ instructions that do not apply instead of inventing an answer.
 
 Companion study note: [Engineer and Tune a Detection](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=detection-tuning-evaluation-template&utm_content=traffic-free-first-v1)
 
+[Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/detection-tuning-evaluation-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=detection-tuning-evaluation-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`

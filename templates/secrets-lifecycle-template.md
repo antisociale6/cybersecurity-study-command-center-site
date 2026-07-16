@@ -6,6 +6,8 @@ instructions that do not apply instead of inventing an answer.
 
 Companion study note: [Build a Secrets Lifecycle and Leak Guard](https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secrets-lifecycle-leak-guard.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=secrets-lifecycle-template&utm_content=traffic-free-first-v1)
 
+[Use this worksheet in your browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/secrets-lifecycle-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=secrets-lifecycle-template&utm_content=traffic-free-first-v1)
+
 ## Scope and authorization record
 
 - Owner: `_______________________________________________________________`
