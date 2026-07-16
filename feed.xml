@@ -5,11 +5,13 @@
     <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/</link>
     <description>Use a free authorized-lab checklist, then review a clear 12-month system for turning defensive-security practice into honest portfolio evidence.</description>
     <language>en</language>
+    <lastBuildDate>Thu, 16 Jul 2026 13:11:36 GMT</lastBuildDate>
     <atom:link href="https://antisociale6.github.io/cybersecurity-study-command-center-site/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cyber Risk Baseline Template for Students</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/defensible-cyber-risk-baseline.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/defensible-cyber-risk-baseline.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>An evidence-led method for documenting assets, risks, current safeguards, and priority decisions in a controlled cybersecurity study scenario.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -17,6 +19,7 @@
       <title>Beginner Web Service Threat Model Example</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/threat-model-small-web-service.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/threat-model-small-web-service.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A design-stage workflow for mapping assets, actors, data flows, trust boundaries, and reviewable security decisions for a small web service.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -24,6 +27,7 @@
       <title>Secure Configuration Drift Checklist for Students</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secure-configuration-drift-check.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secure-configuration-drift-check.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A practical method for defining an evidence-based configuration baseline and reviewing change safely in a disposable study environment.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -31,6 +35,7 @@
       <title>Authentication and Session Security Review Checklist</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/authentication-session-control-review.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>An evidence-led design review for authentication, recovery, session handling, monitoring, and user-safe failure behavior.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -38,6 +43,7 @@
       <title>Beginner API Authorization Test Matrix</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/api-authorization-abuse-controls.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A controlled workflow for reviewing object-level authorization, role boundaries, safe failure behavior, and abuse-resistant API decisions.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -45,6 +51,7 @@
       <title>Secrets Lifecycle Checklist for Developers</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secrets-lifecycle-leak-guard.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/secrets-lifecycle-leak-guard.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A safe study method for mapping how synthetic secrets are created, stored, used, rotated, detected, revoked, and evidenced.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -52,6 +59,7 @@
       <title>SBOM Review Workflow for Students</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/sbom-dependency-risk-decision.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>An evidence-led workflow for reviewing a software bill of materials, dependency identity, known risk signals, and documented remediation decisions.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -59,6 +67,7 @@
       <title>Container Hardening Checklist for Students</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/least-privilege-container-hardening.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/least-privilege-container-hardening.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A controlled container review covering provenance, privileges, filesystem access, configuration, resource boundaries, and evidence-led tradeoffs.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -66,6 +75,7 @@
       <title>Network Segmentation Validation Checklist</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/network-segmentation-policy-validation.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/network-segmentation-policy-validation.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>An evidence-led method for translating approved communication needs into least-access network policy and reviewable validation cases.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -73,6 +83,7 @@
       <title>Beginner Detection Engineering Lab Workflow</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/detection-engineering-tuning.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A safe detection-engineering workflow for defining behavior, using synthetic events, testing positive and negative cases, and recording limitations.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -80,6 +91,7 @@
       <title>Cyber Incident Response Tabletop Template</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/evidence-led-incident-tabletop.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/evidence-led-incident-tabletop.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A structured tabletop method for testing roles, evidence handling, decisions, communications, recovery priorities, and follow-up actions.</description>
       <category>Defensive cybersecurity education</category>
     </item>
@@ -87,6 +99,7 @@
       <title>Safe Ransomware Recovery Exercise Without Malware</title>
       <link>https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/safe-ransomware-recovery-exercise.html</link>
       <guid isPermaLink="true">https://antisociale6.github.io/cybersecurity-study-command-center-site/articles/safe-ransomware-recovery-exercise.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:11:53 GMT</pubDate>
       <description>A malware-free recovery exercise using disposable copies, integrity evidence, restore criteria, and documented recovery limitations.</description>
       <category>Defensive cybersecurity education</category>
     </item>

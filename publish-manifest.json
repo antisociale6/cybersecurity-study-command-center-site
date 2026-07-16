@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "86f9f3acf05e0124a6fb38efeaa9c4d10ca86b7d1e2fbaa7d3b3b9777a52a8b2",
-  "site_hash": "42777f6b29c17d491645f1354976e3eff1583ae795f3669c8d47cd78efe29e15",
+  "source_build_id": "0333e0429735a5966c5ce1c41ce997ec50bc34e88c20b31ff05f6abb72c8878d",
+  "site_hash": "a35529e4598b8540f0c09a22562f2ac867f91457811a61a8b08b608d965d3b24",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -58,51 +58,51 @@
     },
     {
       "path": "articles/api-authorization-abuse-controls.html",
-      "sha256": "556ab751c21999dacae928578b3b18c54fcda377c3dae751ba072dd3e171072c"
+      "sha256": "1c6ee5bda90dd38708884121bc537ea43ec2ff69b343a96ddacf15a751768010"
     },
     {
       "path": "articles/authentication-session-control-review.html",
-      "sha256": "2aa33864f2417e2d713841b9d61027050820b1080d409d7608bedcf49996f1d4"
+      "sha256": "fbeb7f498eb976206e66e58bcf8a57c6268581f663b62fbab8e1703081b0e58f"
     },
     {
       "path": "articles/defensible-cyber-risk-baseline.html",
-      "sha256": "155c52a9c23a1c4d311a7dd3f6f1e4a16517e7e2c5f710da8e2e768a9c465c5f"
+      "sha256": "10db750aa00e7a6c648c66d45b548d63754b5a249f87ba53e5cff38cfd40a48f"
     },
     {
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "c4fa9c60e72e68684e6a1e898eb804c85e10a42ae1567fa3deb8803761828742"
+      "sha256": "97fa7462c9e93f886ecf686e73d017b63baa4e99926a3f8268992afdb5ff84d3"
     },
     {
       "path": "articles/evidence-led-incident-tabletop.html",
-      "sha256": "5025f5c23f5bb99c6c7e553d354457462602250481a2ccba6a11d0ffa9bf0574"
+      "sha256": "738dd8bdfe31433af43f53726742376b971760ffc621691ff3264e7bc3e03c57"
     },
     {
       "path": "articles/least-privilege-container-hardening.html",
-      "sha256": "b2e3229715c004f1057002644f76a7ff5638483a4b3d782b7ded1e59c52b5907"
+      "sha256": "84bae6f57b1e0f0d14e8f4c62fc17f4f2442a32ed76449425fbca2dd05f01234"
     },
     {
       "path": "articles/network-segmentation-policy-validation.html",
-      "sha256": "870b15c2967558eea3056deaec60bc182263f939df25a06d1f0e2cb0ada72927"
+      "sha256": "cd3f45d5e7020415a60edd0e0883b0384dd0db9ab742aad9eb843a5a3837b520"
     },
     {
       "path": "articles/safe-ransomware-recovery-exercise.html",
-      "sha256": "7d0f2e90a00b4fa1cd6b0c75f133e0062de0618ffb55405405242922a64b368e"
+      "sha256": "f3ce5fd0a473526e494dfd2d56a75c5baa312e5bfd363c37fc52a970e3245c43"
     },
     {
       "path": "articles/sbom-dependency-risk-decision.html",
-      "sha256": "4454c039163663c0b15e8aea3cd1aef8aaf1f183d61a7bd24d3f6819625329ac"
+      "sha256": "743dee80e07aba0e18f275f5bcb5cffbd5584ee3fc839cc1da4cce37de3bfa04"
     },
     {
       "path": "articles/secrets-lifecycle-leak-guard.html",
-      "sha256": "006f2d86811c2d24483ae06b4e28e4cdd974e1be7063d9eef72c4e32232d2f85"
+      "sha256": "29ee95d3f498d477c3e7266c0e660ed034c4944f07489541f986068e5f909f64"
     },
     {
       "path": "articles/secure-configuration-drift-check.html",
-      "sha256": "847d2280e899c50c7ea451ce90234a2b8a4238db757971dfa9d5c3c2f7d1e717"
+      "sha256": "f485e5c420aa273b1718cdce9ad81a46fb2598aa1620c8eafb705d1f1698f496"
     },
     {
       "path": "articles/threat-model-small-web-service.html",
-      "sha256": "c0678c3451300daff2548e414cbf0d7c7f7be1d8e2cf5c6c3eb62332918adc58"
+      "sha256": "4cc3e69a722f7f872a457e88181800a8116b5d0a877012f9b384ea8fbe8d2246"
     },
     {
       "path": "assets/cover01overview.png",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "3d419fc54d6a958c8c6060c52d161b6eab3ad5ab569cc913fdc761327bc6c411"
+      "sha256": "36e727abb2bd4b1d1ae518a11ab40347c9c34b544b91efe0ccb82ee61953bf6f"
     },
     {
       "path": "data/membership-manifest.json",
@@ -134,7 +134,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "f64754bf26ab86fe17fbeea5190c8b1c1cb4d14f264ac83aa4ed464f971bfcba"
+      "sha256": "fc118e1d7ae4df6e34ec42d4d444b551a4ac771f140f34568a0cece472364d4f"
     },
     {
       "path": "free-security-lab-command-checklist.html",
@@ -158,7 +158,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "e9abe6a4e0ab9d888212ac1b6c96964365fe0f1d82d546defe46b54c3805b46d"
+      "sha256": "4fb533eac80d1051dde9ad177d9573284fdb2c2f102f40e0a8928caa3bf26f47"
     },
     {
       "path": "styles.css",
