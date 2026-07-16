@@ -266,7 +266,7 @@
       "sha256": "35f3dffce75cbda54c5b1247aae016bc80c04a4fa037b2279a3bb9f28b1493ef"
     }
   ],
-  "build_id": "85d87e97ad86c7eef0e37a6deb17a4975649b73769d36e458f44917c6354116b",
+  "build_id": "7a2d9a209593cc812c0c3b8cffe6ea7a369ee0aa16da5b4a85717fd2a59ea95d",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -281,7 +281,7 @@
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "6e7f8baaa9e0737e5fe80aa563a7ef810f018a1ebd2f272bef7840881506aa75",
     "articles": "2129f39e6b7b255c58bebd6be74909c9488a289e4a6c50f1b75b613647aa273a",
-    "builder": "c7f63b4e11c6a80c54008c84d58f701e70111771f3548728f1e4e372e1ef2b3f",
+    "builder": "42c809693c7b7aa6262c96dda9ff31570844db7ddaf5d87978b69b0b23477108",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "de503e5a89a49a391336a219c132cae453996e7a50395cf8889abcea029008d6",
