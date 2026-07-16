@@ -2,6 +2,12 @@
 
 Free study planning, evidence-led notes, and blank portfolio worksheets for controlled defensive-security labs.
 
+## Judge the method by a completed example
+
+[Read the detection engineering portfolio project worked example](examples/detection-engineering-worked-example.md)
+
+Inspect four fictional events, a transparent detection hypothesis, positive and negative tests, computed before-and-after metrics, an analyst handoff, and explicit blind spots. It is synthetic evidence of the method, not a testimonial or production benchmark.
+
 ## Build your free study plan
 
 [Open the interactive 12-month cybersecurity study planner](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1)

@@ -906,6 +906,107 @@ h3 {
   margin-top: 2.5rem;
 }
 
+.worked-example-route {
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--line));
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.worked-example-route h3 {
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+}
+
+.worked-example-route p:last-child {
+  margin-bottom: 0;
+}
+
+.worked-example {
+  padding: clamp(1.2rem, 3vw, 2rem);
+  margin-top: 3rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.worked-example > h2:first-of-type {
+  margin-top: 0;
+}
+
+.worked-example-summary {
+  max-width: 48rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.worked-example-boundary,
+.worked-example-paid-boundary {
+  padding: 1rem 1.2rem;
+  border-left: 0.22rem solid var(--accent);
+  background: var(--surface-strong);
+}
+
+.worked-example-code {
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.7);
+  background: var(--ink);
+  color: var(--background);
+  white-space: pre-wrap;
+}
+
+.worked-example-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.7);
+}
+
+.worked-example-table {
+  width: 100%;
+  min-width: 48rem;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+
+.worked-example-table th,
+.worked-example-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.worked-example-table thead th {
+  background: var(--surface-strong);
+}
+
+.worked-example-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.worked-example-metrics {
+  display: grid;
+  margin: 1rem 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.worked-example-metrics article {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.7);
+  background: var(--surface-strong);
+}
+
+.worked-example-metrics h4,
+.worked-example-metrics p:last-child {
+  margin-bottom: 0;
+}
+
 .article-intro {
   max-width: 46rem;
   color: var(--muted);
@@ -1145,7 +1246,8 @@ h3 {
 
   .artifact-outline,
   .reference-list,
-  .worksheet-fields-summary {
+  .worksheet-fields-summary,
+  .worked-example-metrics {
     grid-template-columns: 1fr;
   }
 
