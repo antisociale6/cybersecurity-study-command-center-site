@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "abeba34f8e140187b17536d81ff847c3e4c588fa5f7d564d168ab0c807c66424",
-  "site_hash": "f9c6cb627d39dbe8336d1cffbadb2af7587068ea24e52e50807559718055998f",
+  "source_build_id": "58b7d4bdf840c59a39125698f3da3b6121fb26240f292f3fe5a23bd1738d542d",
+  "site_hash": "4699b3029d5a5f8de440375f6e91f5bc604273b990a5c85cb89a63b8f8245ccc",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -70,7 +70,7 @@
     },
     {
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "9fc6d36eb5731c599e75fc24ecac00048ac3593b4991c457c704498bed3cec2c"
+      "sha256": "ce3d33338791ca65883043e534b85ce220965b56e3dc6b24d492f7f74fdd34f7"
     },
     {
       "path": "articles/evidence-led-incident-tabletop.html",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "811dd4182e3cdc8d644b658dfd0c39519fa8822e0865ad06d56038d22258200a"
+      "sha256": "2d9f2bc83c0e87faba142576f7d8789c288090e2dd1b03dcacbbe41de119e74a"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -142,7 +142,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "b13f4c1074275ef3458bf8a247f6b819d0f9d5612efe071ec552d71865fe9db2"
+      "sha256": "3cc3f3b3705c93763fee7733c356d52bb4c8525e7f72e633ef79e258c625fca7"
     },
     {
       "path": "free-security-lab-command-checklist.html",
@@ -166,7 +166,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "86efac3040bfa7e3bb337e2545d755fedd1cebf99c1132e59b4b9a77dcc4f456"
+      "sha256": "4e6ebc5a653d0d597911275607dec20e86ee2d9284ece727f14a930ab895ebf3"
     },
     {
       "path": "styles.css",

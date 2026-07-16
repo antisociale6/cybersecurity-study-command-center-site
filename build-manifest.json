@@ -28,7 +28,7 @@
     {
       "bytes": 23106,
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "9fc6d36eb5731c599e75fc24ecac00048ac3593b4991c457c704498bed3cec2c"
+      "sha256": "ce3d33338791ca65883043e534b85ce220965b56e3dc6b24d492f7f74fdd34f7"
     },
     {
       "bytes": 14988,
@@ -113,7 +113,7 @@
     {
       "bytes": 8706,
       "path": "feed.xml",
-      "sha256": "b13f4c1074275ef3458bf8a247f6b819d0f9d5612efe071ec552d71865fe9db2"
+      "sha256": "3cc3f3b3705c93763fee7733c356d52bb4c8525e7f72e633ef79e258c625fca7"
     },
     {
       "bytes": 13254,
@@ -138,7 +138,7 @@
     {
       "bytes": 4515,
       "path": "sitemap.xml",
-      "sha256": "86efac3040bfa7e3bb337e2545d755fedd1cebf99c1132e59b4b9a77dcc4f456"
+      "sha256": "4e6ebc5a653d0d597911275607dec20e86ee2d9284ece727f14a930ab895ebf3"
     },
     {
       "bytes": 22885,
@@ -276,7 +276,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "abeba34f8e140187b17536d81ff847c3e4c588fa5f7d564d168ab0c807c66424",
+  "build_id": "58b7d4bdf840c59a39125698f3da3b6121fb26240f292f3fe5a23bd1738d542d",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -290,8 +290,8 @@
   "input_hashes": {
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "848e33dbfa7f000ebfec9e37e07201d7ed8dfcd4aa5696bddaa4e4e9e27be420",
-    "articles": "e0eac31eb03d057fede9d5883a95aa4734e6ba74a0ae314c2ea9af34fe4e8b77",
-    "builder": "2144fdd2de007a41da378a4e8b4522daa25724d9adab25ed7710af9e0ab7becf",
+    "articles": "4e6a2d7947f1e70e73b384c734bef657615d9be5be522d9328f851eab38f9519",
+    "builder": "bbbecf800426c6fa1e90f4d7588c947f2a764bff995ffaf8428f7f2cb79e2b50",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
