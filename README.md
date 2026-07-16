@@ -64,6 +64,8 @@ Copy one of these blank Markdown worksheets into an owned or explicitly authoriz
 
 ## Continue with the complete system
 
+[Verify the complete 12-sprint membership inventory before checkout.](https://antisociale6.github.io/cybersecurity-study-command-center-site/membership-contents.html)
+
 [Use the free study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the paid €9/month 12-sprint membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1).
 
 The membership is a fixed 12-month plan. Every prepared file is available from day one; monthly messages provide pacing, not access control.

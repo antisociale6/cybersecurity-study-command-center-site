@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 13130,
+      "bytes": 13298,
       "path": "README.md",
-      "sha256": "e7e42a469b62c818259ba19fd353e8a862ac23a190e88ad996c0ec5a4f0557e1"
+      "sha256": "a99504c8df80de9059a2b652a3acd071877affdb3cb3252800cdcbfe736c90bc"
     },
     {
       "bytes": 9072,
@@ -11,64 +11,64 @@
       "sha256": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b"
     },
     {
-      "bytes": 14916,
+      "bytes": 15082,
       "path": "articles/api-authorization-abuse-controls.html",
-      "sha256": "2525515ea0554f34e37e15044a07e62efcdd64ac2c23f77ce22e98216a88b2a3"
+      "sha256": "ee3e7ab63240fc9be354b1a62e23cd467fc8a0d736f77d1dc0458dc6597b19f8"
     },
     {
-      "bytes": 14998,
+      "bytes": 15164,
       "path": "articles/authentication-session-control-review.html",
-      "sha256": "84411894c6c613c1cf292db4914585546dbc3b5ec402aa7ab12abec9778ffe0e"
+      "sha256": "5c179702b815afa30b1c7da2b860b03a771789916dfe06c7ae6381083626889d"
     },
     {
-      "bytes": 14559,
+      "bytes": 14725,
       "path": "articles/defensible-cyber-risk-baseline.html",
-      "sha256": "0e970e1aed26c0a5c94682e9d6b64198ca2d4011ac07ae59fe1a8e9220522786"
+      "sha256": "844c99a4abb2dbfcf71d73c2951650cd1966d6c6b1a59ca39c07adedeaacb44e"
     },
     {
-      "bytes": 23189,
+      "bytes": 23355,
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "0e79681d6e11068e9ba557802340b754271c752ca1535ba0feef8dcd397b3629"
+      "sha256": "5aa35c9d0dd3606d89079945f6dbcc4dd1ef645656008d6f55a00e0a1ce81140"
     },
     {
-      "bytes": 14988,
+      "bytes": 15154,
       "path": "articles/evidence-led-incident-tabletop.html",
-      "sha256": "a7cee9d1b2efc127287417f2cbb7baa8b5bb3567e816fa4408ef99b164aad031"
+      "sha256": "434c7f308a421fc8435356e8ad19e23cd030300f162fc54fefd4b2a17596c10c"
     },
     {
-      "bytes": 14915,
+      "bytes": 15081,
       "path": "articles/least-privilege-container-hardening.html",
-      "sha256": "a19f624e0eff81661203973266ebb5e0f21a4e1e273d1ee57c492f1d72dcfe62"
+      "sha256": "a32bc99f236abfaaa55e335824768c42ebccf405917580e8c4f5bd439475c200"
     },
     {
-      "bytes": 14868,
+      "bytes": 15034,
       "path": "articles/network-segmentation-policy-validation.html",
-      "sha256": "170ee9a572446d835a7dde67ab9705ae2bc1d9765004331179c46137e24da863"
+      "sha256": "86ae792c9169e69c5cac1c29ba1313c84d7a99d56a8cb2da719237559ded7b5f"
     },
     {
-      "bytes": 14670,
+      "bytes": 14836,
       "path": "articles/safe-ransomware-recovery-exercise.html",
-      "sha256": "b1b47d56e96fdebb9f894265a483d89dc4ad00eea5e38b4384d54d9329392f2a"
+      "sha256": "46fd00b6750e6011f53476cd6c18714d4a49dad67cb3077340712afe74c194ac"
     },
     {
-      "bytes": 14900,
+      "bytes": 15066,
       "path": "articles/sbom-dependency-risk-decision.html",
-      "sha256": "a083ef7328cad9cc16acecce69fecbc9c647a73d217efc4f409a42602e3e2105"
+      "sha256": "272b752ecc9fb4b77dbe295da83cbcf9dfa411c10d53a098181a184c5cbfb697"
     },
     {
-      "bytes": 14833,
+      "bytes": 14999,
       "path": "articles/secrets-lifecycle-leak-guard.html",
-      "sha256": "fc96be04dd07ae8f35d7991316c84fd1f3503df13cdd48ce30ce9ce00a749d85"
+      "sha256": "3af9601c6c35ed3bbcc340bb9eb4275fc9f0824587fae29a1d4c01461aa868bc"
     },
     {
-      "bytes": 15161,
+      "bytes": 15327,
       "path": "articles/secure-configuration-drift-check.html",
-      "sha256": "653201695d7f6f3c09b6d8780c7c469d5976dc655921322c7aa09d896755f354"
+      "sha256": "37446ebb28e12c1b27c282f692d49541d272768c712aa43046999ac5eeace676"
     },
     {
-      "bytes": 14930,
+      "bytes": 15096,
       "path": "articles/threat-model-small-web-service.html",
-      "sha256": "3860f094f18f8b8e8373231baa079aff9dc7d8a253f7abe710f540722056884d"
+      "sha256": "ff9b060c3d45c610e6b694a61990e31ae6c8ba14ff3418c1f2e1aab42715b58c"
     },
     {
       "bytes": 302864,
@@ -121,9 +121,14 @@
       "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
     },
     {
-      "bytes": 50586,
+      "bytes": 50773,
       "path": "index.html",
-      "sha256": "ccc2ebf92e4bc97dc55cdf23e14f0bef51e678625beb69b89c7f67846cf65413"
+      "sha256": "0ca496167c4837332c7489c4d04d5f214553a911d1a41b5a126011381b313bfe"
+    },
+    {
+      "bytes": 55912,
+      "path": "membership-contents.html",
+      "sha256": "702a6ff9d3bb66851764b95ddfeed442dd39186eead8019f5fad47236e826f2b"
     },
     {
       "bytes": 182,
@@ -141,9 +146,9 @@
       "sha256": "c1c900ddba147b14420084e1274e6ff927a08916f22157dee0619974e3deda31"
     },
     {
-      "bytes": 22885,
+      "bytes": 25224,
       "path": "styles.css",
-      "sha256": "1fca1a3b2657efa50985e4c2c34c0868ace6f4aaf2fc73c5fdd9a6509f3e3a40"
+      "sha256": "e9ded9066445cace8ca96b5898e8c358052019d06543481ff310ed46f135cf66"
     },
     {
       "bytes": 8217,
@@ -276,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "739de79c1d616a271ca95f720fce0e338ea844b90b3121f5402efc7295015711",
+  "build_id": "765ecfd4568c3a7a2da3139fc80b71ace8d0e70b328b568a9625523092da5cad",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -285,23 +290,24 @@
     "robots": "robots.txt",
     "site_url": "https://antisociale6.github.io/cybersecurity-study-command-center-site/",
     "sitemap": "sitemap.xml",
-    "structured_data_pages": 28
+    "structured_data_pages": 29
   },
   "input_hashes": {
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
-    "article_template": "848e33dbfa7f000ebfec9e37e07201d7ed8dfcd4aa5696bddaa4e4e9e27be420",
+    "article_template": "cf4073870a1e889a05115eadb19dacf707e52263ec5b66d40d4d4330df528643",
     "articles": "63f9745525b2e308ba6ddd6439811e59e2584db42c47f005f5a3a6b1ea68f0b5",
-    "builder": "bbbecf800426c6fa1e90f4d7588c947f2a764bff995ffaf8428f7f2cb79e2b50",
+    "builder": "446118015fa2e254b24a7f938160ac8bfc3752ae5dcc53919ccfcbf8ea353605",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "12319d988b7d5ecd710abfe51937b1e8f0b9190e29213c2001fb665ecf04422b",
+    "index_template": "a9233528c5205b34750484c6833c6fd094efd2cf76dbc71c25a4b4552f0c89ac",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
+    "membership_contents_template": "c15e9347dc0cab3e0d141f1866cbf96e018744d7277af3d44663fecdb7769b6b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_projects_template": "fed78b8e5c4dd5eba735ea49b1d91cce8a15ae44194b6f30dca38b23732487d7",
     "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",
-    "repository_readme_template": "848728cec2d618eaac839503afb88146ac67d099d35af2fbcfd255558b677c67",
+    "repository_readme_template": "0c7c9565699a5ca555c56751711a41b0a30d25e48d5a47550a1cb7f491f032b3",
     "site_config": "d722624ad15b534231f1ffc69663df6601289beb7317c9220b5a832d339f1555",
     "site_variants": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c",
     "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
@@ -309,7 +315,7 @@
     "storefront_cover02worksheet.png": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c",
     "storefront_cover03review.png": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22",
     "storefront_thumbnail.png": "329496f405e700e502a9f8514e635f49638a872535f1dd81cde2c3a4464b3107",
-    "styles": "1fca1a3b2657efa50985e4c2c34c0868ace6f4aaf2fc73c5fdd9a6509f3e3a40",
+    "styles": "e9ded9066445cace8ca96b5898e8c358052019d06543481ff310ed46f135cf66",
     "template_page_template": "636cd64b2a1873ca4f1fad97dd8f8c716771bf8ebe753f4d456cf7b068346c56",
     "templates_index_template": "598b7226ac39caf7a2d406f07e691ed65514910a65005200a3126b5a6d6caeca",
     "templates_readme_template": "62df368df3465053ec2dc758837cc040706b5a0085dd3bfef58dc12ccc0adc17",
@@ -396,6 +402,8 @@
     "free_checklist_page": "free-security-lab-command-checklist.html",
     "free_checklist_page_count": 1,
     "html_template_page_count": 12,
+    "membership_contents_page": "membership-contents.html",
+    "membership_contents_page_count": 1,
     "portfolio_projects_page": "cybersecurity-portfolio-projects-for-beginners.html",
     "portfolio_projects_page_count": 1,
     "template_count": 12,
