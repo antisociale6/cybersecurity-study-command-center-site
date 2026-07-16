@@ -527,6 +527,48 @@ h3 {
   color: var(--muted);
 }
 
+.comparison-grid {
+  display: grid;
+  margin-top: 2.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.comparison-card {
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.comparison-card-paid {
+  border-color: rgb(94 242 194 / 48%);
+  background: linear-gradient(145deg, rgb(94 242 194 / 8%), var(--surface));
+}
+
+.comparison-card h3 {
+  margin-top: 0.35rem;
+}
+
+.comparison-card .completion-list {
+  margin-block: 1.35rem;
+}
+
+.comparison-card > p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.comparison-price {
+  font-weight: 700;
+}
+
+.comparison-action {
+  display: flex;
+  margin-top: 1.25rem;
+  justify-content: flex-end;
+}
+
 .sprint-grid {
   grid-template-columns: repeat(3, 1fr);
   list-style: none;
@@ -921,6 +963,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
   .preview-card-wide {
     grid-column: auto;
   }
@@ -966,6 +1012,8 @@ h3 {
   .button-row .button,
   .button-stack,
   .button-stack .button,
+  .comparison-action,
+  .comparison-action .button,
   .study-planner-actions,
   .study-planner-actions .button {
     width: 100%;
