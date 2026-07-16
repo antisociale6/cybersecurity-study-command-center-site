@@ -528,12 +528,9 @@ h3 {
   font-weight: 700;
 }
 
-.supporting-preview-title {
-  margin-top: 2.5rem;
-}
-
-.supporting-preview-grid {
-  margin-top: 1rem;
+.supporting-preview-section {
+  border-block: 1px solid var(--line);
+  background: var(--surface-strong);
 }
 
 .proof-caption {

@@ -116,9 +116,9 @@
       "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
     },
     {
-      "bytes": 49659,
+      "bytes": 49952,
       "path": "index.html",
-      "sha256": "29e856393a15cd0fcc8d93f0302e7aaed475ca1d9d4663f2ed298849a652bddb"
+      "sha256": "b16dc95e2f95d8d8eabd091e011bcd7b64682064263fed6b8a3e5a138f84f587"
     },
     {
       "bytes": 182,
@@ -136,9 +136,9 @@
       "sha256": "86efac3040bfa7e3bb337e2545d755fedd1cebf99c1132e59b4b9a77dcc4f456"
     },
     {
-      "bytes": 20829,
+      "bytes": 20835,
       "path": "styles.css",
-      "sha256": "5d500c19ec9a5dbadc1186881ed1d1580539c36daf501ac8816921507a731452"
+      "sha256": "abf3ba3071531303ca1178ab8226e14dc7eabd72ae3411dd167b9b2361c3a3e0"
     },
     {
       "bytes": 8209,
@@ -271,7 +271,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "79a7fce7be00f0a579164e01657d7b913e9a4926991c7dcd3452d167d5f745f0",
+  "build_id": "abd9b7a339446b7ab4172c13a17235c02073fbd9701588d06bfdddbb6c84c7c7",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -286,12 +286,12 @@
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
     "article_template": "ac80b6a2071d3709c057866827c6a43e81825e98d92715bff6b9b257ced47bfc",
     "articles": "e0eac31eb03d057fede9d5883a95aa4734e6ba74a0ae314c2ea9af34fe4e8b77",
-    "builder": "48f16cc5a52c36b0a1e3e33da4f63d277185740f5a100988b14ee3b4fd05a6c2",
+    "builder": "c31d4cb965c31b664326b217964b78e612ac43f905742caee499a4738bee9e32",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
-    "index_template": "e29a72be3f7013244efda350ac33aa56641095be3e1ef9bc6575edaaa1ae7758",
+    "index_template": "3100f9f131de0f77bba84b18a3118fd993d311793c51f655270909c1532c9036",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_projects_template": "fed78b8e5c4dd5eba735ea49b1d91cce8a15ae44194b6f30dca38b23732487d7",
@@ -304,7 +304,7 @@
     "storefront_cover02worksheet.png": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c",
     "storefront_cover03review.png": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22",
     "storefront_thumbnail.png": "329496f405e700e502a9f8514e635f49638a872535f1dd81cde2c3a4464b3107",
-    "styles": "5d500c19ec9a5dbadc1186881ed1d1580539c36daf501ac8816921507a731452",
+    "styles": "abf3ba3071531303ca1178ab8226e14dc7eabd72ae3411dd167b9b2361c3a3e0",
     "template_page_template": "636cd64b2a1873ca4f1fad97dd8f8c716771bf8ebe753f4d456cf7b068346c56",
     "templates_index_template": "598b7226ac39caf7a2d406f07e691ed65514910a65005200a3126b5a6d6caeca",
     "templates_readme_template": "62df368df3465053ec2dc758837cc040706b5a0085dd3bfef58dc12ccc0adc17"
