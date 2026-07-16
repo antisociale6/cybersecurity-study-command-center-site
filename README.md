@@ -10,7 +10,9 @@ Choose two, four, or six hours per week and get a complete twelve-sprint route. 
 
 ## Get the lab checklist
 
-[Get the Authorized Security Lab Command Checklist](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1)
+[Preview the Authorized Security Lab Command Checklist](https://antisociale6.github.io/cybersecurity-study-command-center-site/free-security-lab-command-checklist.html)
+
+[Claim the free checklist on Gumroad](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1)
 
 Use the checklist only on systems you own or are explicitly authorized to test.
 

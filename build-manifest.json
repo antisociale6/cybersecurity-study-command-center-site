@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 8471,
+      "bytes": 8627,
       "path": "README.md",
-      "sha256": "5b44a6a6c70107942b09cb457525d2ba24dbdf6d00011156254d5eb56b57fa5d"
+      "sha256": "3e9dee15c4cd66df5ba1344de5593e694078c87e9b7e0ad16ce86d7cea4f018d"
     },
     {
       "bytes": 9072,
@@ -11,64 +11,64 @@
       "sha256": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b"
     },
     {
-      "bytes": 14562,
+      "bytes": 14437,
       "path": "articles/api-authorization-abuse-controls.html",
-      "sha256": "24ae69b11c68ab27ba8148631c6beeb9fbac74e17d0f353504077b589162d547"
+      "sha256": "556ab751c21999dacae928578b3b18c54fcda377c3dae751ba072dd3e171072c"
     },
     {
-      "bytes": 14650,
+      "bytes": 14519,
       "path": "articles/authentication-session-control-review.html",
-      "sha256": "f745851eeb0a79c411b7bd35adb0d4edfacea23c4896abb1b91c62817810352b"
+      "sha256": "2aa33864f2417e2d713841b9d61027050820b1080d409d7608bedcf49996f1d4"
     },
     {
-      "bytes": 14201,
+      "bytes": 14080,
       "path": "articles/defensible-cyber-risk-baseline.html",
-      "sha256": "6412a07611ca924cd6e65a1e0d213091362e2ef59329ff0d71b60e795ea39187"
+      "sha256": "155c52a9c23a1c4d311a7dd3f6f1e4a16517e7e2c5f710da8e2e768a9c465c5f"
     },
     {
-      "bytes": 14454,
+      "bytes": 14329,
       "path": "articles/detection-engineering-tuning.html",
-      "sha256": "fa76d466afff8288030dfafa8bb1133bbf99c3cb7727bb49e6559e4f480f4312"
+      "sha256": "c4fa9c60e72e68684e6a1e898eb804c85e10a42ae1567fa3deb8803761828742"
     },
     {
-      "bytes": 14634,
+      "bytes": 14509,
       "path": "articles/evidence-led-incident-tabletop.html",
-      "sha256": "7e2b6e058817298969ca41c12acffb42691faf5aceb24e0612498f20538811cc"
+      "sha256": "5025f5c23f5bb99c6c7e553d354457462602250481a2ccba6a11d0ffa9bf0574"
     },
     {
-      "bytes": 14563,
+      "bytes": 14436,
       "path": "articles/least-privilege-container-hardening.html",
-      "sha256": "385838beac58160e9ffcdf479cbd0ac0f43682029afefb4043193e028df48e01"
+      "sha256": "b2e3229715c004f1057002644f76a7ff5638483a4b3d782b7ded1e59c52b5907"
     },
     {
-      "bytes": 14517,
+      "bytes": 14389,
       "path": "articles/network-segmentation-policy-validation.html",
-      "sha256": "b41212d257ac810627c4932acba5e72b6ea82aef0686e62f5f6703a2a7dbe926"
+      "sha256": "870b15c2967558eea3056deaec60bc182263f939df25a06d1f0e2cb0ada72927"
     },
     {
-      "bytes": 14318,
+      "bytes": 14191,
       "path": "articles/safe-ransomware-recovery-exercise.html",
-      "sha256": "82d78bd8cb3e9a3a7f5b7342959d8ac2fea888f2506f0f87901658894d1843b9"
+      "sha256": "7d0f2e90a00b4fa1cd6b0c75f133e0062de0618ffb55405405242922a64b368e"
     },
     {
-      "bytes": 14549,
+      "bytes": 14421,
       "path": "articles/sbom-dependency-risk-decision.html",
-      "sha256": "fd575a893b8f80408c7408cc8085ac50a16450e9c59934eb9dac0aa14115f039"
+      "sha256": "4454c039163663c0b15e8aea3cd1aef8aaf1f183d61a7bd24d3f6819625329ac"
     },
     {
-      "bytes": 14479,
+      "bytes": 14354,
       "path": "articles/secrets-lifecycle-leak-guard.html",
-      "sha256": "8b7f140d1213ab29cf74a5b2f149bb185c2b73592a812fbb3d41007fefe34cb9"
+      "sha256": "006f2d86811c2d24483ae06b4e28e4cdd974e1be7063d9eef72c4e32232d2f85"
     },
     {
-      "bytes": 14809,
+      "bytes": 14682,
       "path": "articles/secure-configuration-drift-check.html",
-      "sha256": "517806160e671c094f4d51fae16a772a85c399c8d233743641d9d653ace840fd"
+      "sha256": "847d2280e899c50c7ea451ce90234a2b8a4238db757971dfa9d5c3c2f7d1e717"
     },
     {
-      "bytes": 14571,
+      "bytes": 14451,
       "path": "articles/threat-model-small-web-service.html",
-      "sha256": "292c46bdd98377a7b20934ae3be5fc22e39631e75e7e09bed7b04eaf570c7f0d"
+      "sha256": "c0678c3451300daff2548e414cbf0d7c7f7be1d8e2cf5c6c3eb62332918adc58"
     },
     {
       "bytes": 302864,
@@ -266,7 +266,7 @@
       "sha256": "35f3dffce75cbda54c5b1247aae016bc80c04a4fa037b2279a3bb9f28b1493ef"
     }
   ],
-  "build_id": "7a2d9a209593cc812c0c3b8cffe6ea7a369ee0aa16da5b4a85717fd2a59ea95d",
+  "build_id": "86f9f3acf05e0124a6fb38efeaa9c4d10ca86b7d1e2fbaa7d3b3b9777a52a8b2",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -279,9 +279,9 @@
   },
   "input_hashes": {
     "app": "79b2f7e19dd9060c91392e6b0ff54a9cc64efd994ecae43de12e59ab19c3ed6b",
-    "article_template": "6e7f8baaa9e0737e5fe80aa563a7ef810f018a1ebd2f272bef7840881506aa75",
+    "article_template": "2035c1ed3273b7958411f436f03fc757a1883f841aac883bfbcfb545b60f04db",
     "articles": "2129f39e6b7b255c58bebd6be74909c9488a289e4a6c50f1b75b613647aa273a",
-    "builder": "42c809693c7b7aa6262c96dda9ff31570844db7ddaf5d87978b69b0b23477108",
+    "builder": "c84476908f3b5dd279d4fec4c8404d12afd77b938dba86251fe8c7004512b012",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "de503e5a89a49a391336a219c132cae453996e7a50395cf8889abcea029008d6",
@@ -290,7 +290,7 @@
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_template": "246c59709809985cc5b3147c8b14a20c210ae2b64b0512c151ceb72bdc9ceb1b",
-    "repository_readme_template": "ca0fd06422edfd1bd40d2ce2b1a003efab4f05f1c3ea49ee8487bb77fedb4a13",
+    "repository_readme_template": "cca610f5162e6d4190188accea57d6b9b34127e674d2e77651baaa04e8b4b9df",
     "site_config": "a7d15922741c92a7bff04845ebdbcabe6fc431aa5662bff05e34783ebbf93b81",
     "site_variants": "21484c5f8a0572a2c43827451cd4bd748d99024971cd150d9f4e016a9a76c1b6",
     "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
