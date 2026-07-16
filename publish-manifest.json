@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "abd9b7a339446b7ab4172c13a17235c02073fbd9701588d06bfdddbb6c84c7c7",
-  "site_hash": "44fa4d0db0e4c9dfbe896137785b78d9b1af6da1af379c422591bd41c87c51c0",
+  "source_build_id": "5956fc2cc8bf32fe34bcb95985611940e537fd38670c7f006471e019a12f96c1",
+  "site_hash": "382a5c2572a153555c764d6a0e851ec38de3d0aa906794d6f22cf100c171fbe1",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "a09118a2de4a802f8bb02c8cc41b7ff983f7c6bb8b85923806408407d16252e1"
+      "sha256": "9be605350c4cc3fc532f663bb9c2a709ac9c0d85d8d6928b670d8e9e36af8e2e"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -146,7 +146,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b16dc95e2f95d8d8eabd091e011bcd7b64682064263fed6b8a3e5a138f84f587"
+      "sha256": "b528411367cadfeae3ccc8bd2aca283d1e76de842192744db95ae1ede1c1a694"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
@@ -166,7 +166,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "abf3ba3071531303ca1178ab8226e14dc7eabd72ae3411dd167b9b2361c3a3e0"
+      "sha256": "2dd28a83512bbed241591ec24c2a1d57dfe53d9ed0d87e7aafdafab02b14861c"
     },
     {
       "path": "templates/README.md",

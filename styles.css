@@ -716,8 +716,8 @@ h3 {
 
 .comparison-action {
   display: flex;
-  margin-top: 1.25rem;
-  justify-content: flex-end;
+  margin: 1.25rem 0 2.5rem;
+  justify-content: flex-start;
 }
 
 .sprint-grid {
