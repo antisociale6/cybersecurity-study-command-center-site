@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "c9f30c284e588b215032d80e61c46392c4d8225209a2aa82af0ad1450f7d12ab",
-  "site_hash": "780000bf6d6a2e510bc64de50bfc102ca881a30e85522fd01dabf2d99f0e5d53",
+  "source_build_id": "a90061d4920e63293a5ef536403eace295e3c35e2f902d29e0c317fe884b5338",
+  "site_hash": "67603cd37d4eb589284f9280ad241ac1de9ca99f32733004078635ae834da785",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -50,7 +50,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "a99504c8df80de9059a2b652a3acd071877affdb3cb3252800cdcbfe736c90bc"
+      "sha256": "f4daf7e00218b91856cc7ba500a3a13b8c86523da2b17fbb42cf74e5ba5db622"
     },
     {
       "path": "app.js",
@@ -118,11 +118,11 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "e7b250aa87f4c347c5db3b4ce18471d094078575c2779dc1bf4582f356279849"
+      "sha256": "b1754ce1968997ef027095150683fe0a940ac732ca4b5d11c3cdc4756e2e2457"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
-      "sha256": "66e3e8f6d323db86e2d366fe0466a6e26c80ae9496f98d49c46ed18354e2ea5c"
+      "sha256": "724320341a0d2bc46d749555a9349f762971b646731e24eb38661d3497081c32"
     },
     {
       "path": "data/membership-manifest.json",
@@ -174,7 +174,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "e9ded9066445cace8ca96b5898e8c358052019d06543481ff310ed46f135cf66"
+      "sha256": "4369a9f03a52c40e0fc8e0fe6412a9d115045c731295d5f8ca564d1247945f62"
     },
     {
       "path": "templates/README.md",

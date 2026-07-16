@@ -16,7 +16,7 @@ Choose two, four, or six hours per week and get a complete twelve-sprint route. 
 
 ## Build a cybersecurity portfolio
 
-[Explore 12 defensive cybersecurity portfolio projects for beginners](https://antisociale6.github.io/cybersecurity-study-command-center-site/cybersecurity-portfolio-projects-for-beginners.html)
+[Explore 12 cybersecurity portfolio project templates for beginners](https://antisociale6.github.io/cybersecurity-study-command-center-site/cybersecurity-portfolio-projects-for-beginners.html)
 
 Each project has a safe scope, a named evidence output, a free guide, and a blank worksheet.
 

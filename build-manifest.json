@@ -1,9 +1,9 @@
 {
   "artifacts": [
     {
-      "bytes": 13298,
+      "bytes": 13297,
       "path": "README.md",
-      "sha256": "a99504c8df80de9059a2b652a3acd071877affdb3cb3252800cdcbfe736c90bc"
+      "sha256": "f4daf7e00218b91856cc7ba500a3a13b8c86523da2b17fbb42cf74e5ba5db622"
     },
     {
       "bytes": 10913,
@@ -86,9 +86,9 @@
       "sha256": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22"
     },
     {
-      "bytes": 24798,
+      "bytes": 27556,
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
-      "sha256": "66e3e8f6d323db86e2d366fe0466a6e26c80ae9496f98d49c46ed18354e2ea5c"
+      "sha256": "724320341a0d2bc46d749555a9349f762971b646731e24eb38661d3497081c32"
     },
     {
       "bytes": 8818,
@@ -146,9 +146,9 @@
       "sha256": "c1c900ddba147b14420084e1274e6ff927a08916f22157dee0619974e3deda31"
     },
     {
-      "bytes": 25224,
+      "bytes": 25377,
       "path": "styles.css",
-      "sha256": "e9ded9066445cace8ca96b5898e8c358052019d06543481ff310ed46f135cf66"
+      "sha256": "4369a9f03a52c40e0fc8e0fe6412a9d115045c731295d5f8ca564d1247945f62"
     },
     {
       "bytes": 8217,
@@ -281,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "c9f30c284e588b215032d80e61c46392c4d8225209a2aa82af0ad1450f7d12ab",
+  "build_id": "a90061d4920e63293a5ef536403eace295e3c35e2f902d29e0c317fe884b5338",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -296,7 +296,7 @@
     "app": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea",
     "article_template": "cf4073870a1e889a05115eadb19dacf707e52263ec5b66d40d4d4330df528643",
     "articles": "63f9745525b2e308ba6ddd6439811e59e2584db42c47f005f5a3a6b1ea68f0b5",
-    "builder": "a617c083d9240cb6fd24561ae29124af9238a04bb5d6e3c99050d8afd60acf6d",
+    "builder": "4de42ae8e887628e5b57f37f0a5e654abfecf6d15e3fcb5edc3939c60e688cd0",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
@@ -305,9 +305,9 @@
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
     "membership_contents_template": "495fc03dc08decda7ee402237ebd9fcb4f2b45b5aa6092afdeab1a63caacd955",
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
-    "portfolio_projects_template": "fed78b8e5c4dd5eba735ea49b1d91cce8a15ae44194b6f30dca38b23732487d7",
+    "portfolio_projects_template": "481b819f1cd8bf507008bfab4e665c81ba9e13bd8bc08415b3aded59e814b5fa",
     "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",
-    "repository_readme_template": "0c7c9565699a5ca555c56751711a41b0a30d25e48d5a47550a1cb7f491f032b3",
+    "repository_readme_template": "f409279b9e5c13fc91377267ce3e21a3d20c258af58ab8d53b7accd892605e34",
     "site_config": "d722624ad15b534231f1ffc69663df6601289beb7317c9220b5a832d339f1555",
     "site_variants": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c",
     "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
@@ -315,7 +315,7 @@
     "storefront_cover02worksheet.png": "161c203969a41d9ddef5b46160f80a449bcc348e2e2d8ddd1e4313bb52c5984c",
     "storefront_cover03review.png": "2404f2498140d5a7df8eee24751f13b9cc9b698ac90ed7dc9628081422e06e22",
     "storefront_thumbnail.png": "329496f405e700e502a9f8514e635f49638a872535f1dd81cde2c3a4464b3107",
-    "styles": "e9ded9066445cace8ca96b5898e8c358052019d06543481ff310ed46f135cf66",
+    "styles": "4369a9f03a52c40e0fc8e0fe6412a9d115045c731295d5f8ca564d1247945f62",
     "template_page_template": "636cd64b2a1873ca4f1fad97dd8f8c716771bf8ebe753f4d456cf7b068346c56",
     "templates_index_template": "598b7226ac39caf7a2d406f07e691ed65514910a65005200a3126b5a6d6caeca",
     "templates_readme_template": "62df368df3465053ec2dc758837cc040706b5a0085dd3bfef58dc12ccc0adc17",

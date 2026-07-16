@@ -685,6 +685,12 @@ h3 {
   gap: 1rem;
 }
 
+.portfolio-project-comparison {
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+  padding-top: clamp(2rem, 5vw, 3.5rem);
+  border-top: 1px solid var(--line);
+}
+
 .comparison-card {
   padding: clamp(1.35rem, 3vw, 2rem);
   border: 1px solid var(--line);
