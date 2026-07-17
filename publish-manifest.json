@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "772c1406a77dacba62fa1dcd2526a1c2c85769e61c1edba41837bbdd2cd9d68e",
-  "site_hash": "0b61bf6128e51c950036891a6aa07b6ebba234d7360e44ecca43fc3ae74ad2ed",
+  "source_build_id": "de612bfa3b8ed2a3ada8a78597f4b6fe0bca542b1813a224e521148b2c340ac9",
+  "site_hash": "3980480da0728120bc2195fd2b67ce7a25f4381a09b0225a38b700f7c58167f6",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -50,11 +50,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "f4daf7e00218b91856cc7ba500a3a13b8c86523da2b17fbb42cf74e5ba5db622"
+      "sha256": "be0b3424b79f0094f7ddd4c4f6ad27820aee9132450c08abafc2c9f8c18161fe"
     },
     {
       "path": "app.js",
-      "sha256": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea"
+      "sha256": "6aadf1207d733f1297a39053299aae22105e3db6c66e6362999401849590f6de"
     },
     {
       "path": "articles/api-authorization-abuse-controls.html",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "6ce54f4a6b2de13c85890f99c7ad8fbc34fc97f1806856ebaa8e0f4b46417be9"
+      "sha256": "26a4799b1ee361fc54ea4a2961d2fbce0b728af91ca7aad3234d4f648e1a78e6"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -146,7 +146,7 @@
     },
     {
       "path": "free-security-lab-command-checklist.html",
-      "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
+      "sha256": "b14922349c331ff490c0dd6cdb44c3eaae41c0c7e2f6658bce49f94072646a44"
     },
     {
       "path": "index.html",

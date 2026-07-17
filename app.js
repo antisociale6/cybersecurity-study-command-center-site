@@ -88,18 +88,34 @@
     );
   }
 
-  function hasValidDirectCheckoutMarker(link) {
+  function directCheckoutControls(link) {
     const marker = link?.getAttribute("data-funnel-direct-checkout");
-    return marker === null || marker === "true";
+    const price = link?.getAttribute("data-funnel-direct-price");
+    const type = link?.dataset.funnelLink;
+
+    if (marker === null) {
+      return price === null ? Object.freeze({ enabled: false, price: null }) : null;
+    }
+    if (marker !== "true") {
+      return null;
+    }
+    if (price === null && type === "checkout") {
+      return Object.freeze({ enabled: true, price: null });
+    }
+    if (price === "0" && type === "lead_magnet") {
+      return Object.freeze({ enabled: true, price: "0" });
+    }
+    return null;
   }
 
   function hasSafeEmbeddedAttribution(destination, link) {
-    if (!hasValidDirectCheckoutMarker(link)) {
+    const controls = directCheckoutControls(link);
+    if (controls === null) {
       return false;
     }
-    const directCheckout = link?.dataset.funnelDirectCheckout === "true";
     const seen = new Set();
     let hasWanted = false;
+    let hasPrice = false;
 
     for (const [key, value] of destination.searchParams.entries()) {
       if (seen.has(key)) {
@@ -107,17 +123,27 @@
       }
       seen.add(key);
       if (key === "wanted") {
-        if (!directCheckout || value !== "true") {
+        if (!controls.enabled || value !== "true") {
           return false;
         }
         hasWanted = true;
+        continue;
+      }
+      if (key === "price") {
+        if (controls.price === null || value !== controls.price) {
+          return false;
+        }
+        hasPrice = true;
         continue;
       }
       if (!UTM_KEYS.includes(key) || cleanValue(value) !== value) {
         return false;
       }
     }
-    return hasWanted === directCheckout;
+    return (
+      hasWanted === controls.enabled &&
+      hasPrice === (controls.price !== null)
+    );
   }
 
   function validatedDestination(rawValue, type, link = null) {
@@ -161,10 +187,15 @@
     // Rebuild the query from reviewed controls so unknown or duplicate values
     // can never survive an embedded link or a refreshed site configuration.
     result.search = "";
-    if (link?.dataset.funnelDirectCheckout === "true") {
+    const controls = directCheckoutControls(link);
+    if (controls === null) {
+      return "";
+    }
+    if (controls.enabled) {
       result.searchParams.set("wanted", "true");
-    } else {
-      result.searchParams.delete("wanted");
+    }
+    if (controls.price !== null) {
+      result.searchParams.set("price", controls.price);
     }
     const linkTerm = cleanValue(link?.dataset.funnelUtmTerm);
     for (const key of UTM_KEYS) {
@@ -190,7 +221,7 @@
     const links = document.querySelectorAll(`[data-funnel-link="${type}"]`);
 
     for (const link of links) {
-      if (!destination || !hasValidDirectCheckoutMarker(link)) {
+      if (!destination || directCheckoutControls(link) === null) {
         disableLink(link);
         continue;
       }

@@ -1,14 +1,14 @@
 {
   "artifacts": [
     {
-      "bytes": 13297,
+      "bytes": 13407,
       "path": "README.md",
-      "sha256": "f4daf7e00218b91856cc7ba500a3a13b8c86523da2b17fbb42cf74e5ba5db622"
+      "sha256": "be0b3424b79f0094f7ddd4c4f6ad27820aee9132450c08abafc2c9f8c18161fe"
     },
     {
-      "bytes": 10913,
+      "bytes": 11736,
       "path": "app.js",
-      "sha256": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea"
+      "sha256": "6aadf1207d733f1297a39053299aae22105e3db6c66e6362999401849590f6de"
     },
     {
       "bytes": 15092,
@@ -116,9 +116,9 @@
       "sha256": "4c8b2a76d3d684a609746bec4056742f08324ba195c2761f12b73b1684db4190"
     },
     {
-      "bytes": 13254,
+      "bytes": 13501,
       "path": "free-security-lab-command-checklist.html",
-      "sha256": "9a1ae8816562eff8456d60a2f0787bbab26854e1db4aa8d3fc209e10cf0c8274"
+      "sha256": "b14922349c331ff490c0dd6cdb44c3eaae41c0c7e2f6658bce49f94072646a44"
     },
     {
       "bytes": 50727,
@@ -281,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "772c1406a77dacba62fa1dcd2526a1c2c85769e61c1edba41837bbdd2cd9d68e",
+  "build_id": "de612bfa3b8ed2a3ada8a78597f4b6fe0bca542b1813a224e521148b2c340ac9",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -293,13 +293,13 @@
     "structured_data_pages": 29
   },
   "input_hashes": {
-    "app": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea",
+    "app": "6aadf1207d733f1297a39053299aae22105e3db6c66e6362999401849590f6de",
     "article_template": "5fabc2fa7b53aa4b972581a4ab9755835f6acea0dd0a90360043c107df09df3c",
     "articles": "4ff18057a6475dc0d99f2ea20853cb8a597a974ad2fded65812abef232c47513",
-    "builder": "2fc25a4df82038bc5454aa24965d94725cfc48f9c62057897943bb41565b04ce",
+    "builder": "b6604cecabdd4fd6510eeef84dc7a0f993788e8f9303002e40da8080028844ab",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
-    "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
+    "free_checklist_template": "f2f93186e213647dde41caebafc1ebb8eed314a47bed27b487353a456e55119b",
     "hardened_lead_template": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "index_template": "5e79a87741991da8408c707bbc9235a4fe35b5c97313af111476a50aa3145afe",
     "indexnow_key": "ea7198e1aac1b5c716d268bd0a9f7cc049f3bc6c4fe1039b2f6c1a9801dbc67b",
@@ -307,7 +307,7 @@
     "membership_manifest": "3542e0333400e269f359ce8835bbb4236c99de1729ecb42780a239e3763cea68",
     "portfolio_projects_template": "481b819f1cd8bf507008bfab4e665c81ba9e13bd8bc08415b3aded59e814b5fa",
     "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",
-    "repository_readme_template": "f409279b9e5c13fc91377267ce3e21a3d20c258af58ab8d53b7accd892605e34",
+    "repository_readme_template": "43020237d1b924edc6602efecb019b3b27002538893ed2fdd8372cf91bf27ab8",
     "site_config": "d722624ad15b534231f1ffc69663df6601289beb7317c9220b5a832d339f1555",
     "site_variants": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c",
     "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
@@ -325,7 +325,7 @@
     "download": "downloads/authorized-security-lab-command-checklist.zip",
     "hardened_source_sha256": "fe57d5c3ab8e2b3b615d4e42b92374bb3c861d5862c527c234d3270dd35eda19",
     "landing_page": "free-security-lab-command-checklist.html",
-    "landing_template_sha256": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",
+    "landing_template_sha256": "f2f93186e213647dde41caebafc1ebb8eed314a47bed27b487353a456e55119b",
     "rendered_markdown_sha256": "f1ac398af73f361aa7eff2537a53a79d92ffbbf72a0cab92fca1b71e9e7ec253"
   },
   "offer": {

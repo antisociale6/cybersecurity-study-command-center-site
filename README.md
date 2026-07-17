@@ -2,6 +2,14 @@
 
 Free study planning, evidence-led notes, and blank portfolio worksheets for controlled defensive-security labs.
 
+## Get the free lab checklist first
+
+[Claim the free Authorized Security Lab Command Checklist on Gumroad](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_term=readme-primary-claim&utm_content=traffic-free-first-v1)
+
+[Preview exactly what you get before claiming](https://antisociale6.github.io/cybersecurity-study-command-center-site/free-security-lab-command-checklist.html)
+
+The checklist is €0. Use it only on systems you own or are explicitly authorized to test.
+
 ## Judge the method by a completed example
 
 [Read the detection engineering portfolio project worked example](examples/detection-engineering-worked-example.md)
@@ -19,14 +27,6 @@ Choose two, four, or six hours per week and get a complete twelve-sprint route. 
 [Explore 12 cybersecurity portfolio project templates for beginners](https://antisociale6.github.io/cybersecurity-study-command-center-site/cybersecurity-portfolio-projects-for-beginners.html)
 
 Each project has a safe scope, a named evidence output, a free guide, and a blank worksheet.
-
-## Get the lab checklist
-
-[Preview the Authorized Security Lab Command Checklist](https://antisociale6.github.io/cybersecurity-study-command-center-site/free-security-lab-command-checklist.html)
-
-[Claim the free checklist on Gumroad](https://corcoran7.gumroad.com/l/vlcjuo?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1)
-
-Use the checklist only on systems you own or are explicitly authorized to test.
 
 ## Use the copy-ready study notes
 
@@ -66,7 +66,7 @@ Copy one of these blank Markdown worksheets into an owned or explicitly authoriz
 
 [Verify the complete 12-sprint membership inventory before checkout.](https://antisociale6.github.io/cybersecurity-study-command-center-site/membership-contents.html)
 
-[Use the free study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the paid €9/month 12-sprint membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1).
+[Use the free study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the paid €9/month 12-sprint membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_term=readme-membership-review&utm_content=traffic-free-first-v1).
 
 The membership is a fixed 12-month plan. Every prepared file is available from day one; monthly messages provide pacing, not access control.
 
