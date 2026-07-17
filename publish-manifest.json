@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "de612bfa3b8ed2a3ada8a78597f4b6fe0bca542b1813a224e521148b2c340ac9",
-  "site_hash": "3980480da0728120bc2195fd2b67ce7a25f4381a09b0225a38b700f7c58167f6",
+  "source_build_id": "cfd917d02b240101bf8dcb5cf20a00430022bad8ed868805490b41dabfa26aa0",
+  "site_hash": "9e8eaa1ab7cb73b409c1f11ffd17f0e485bb37e36c2d6778e45019e800fa147a",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -50,7 +50,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "be0b3424b79f0094f7ddd4c4f6ad27820aee9132450c08abafc2c9f8c18161fe"
+      "sha256": "eef0005927ea47d2763efb09a161e6ed329672ee4a5be8c68f0f0f5c151df85b"
     },
     {
       "path": "app.js",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "26a4799b1ee361fc54ea4a2961d2fbce0b728af91ca7aad3234d4f648e1a78e6"
+      "sha256": "34255c00791f15b486993029e4560cd72265924560fe5806fe5ffd168aa78e0c"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -146,7 +146,7 @@
     },
     {
       "path": "free-security-lab-command-checklist.html",
-      "sha256": "b14922349c331ff490c0dd6cdb44c3eaae41c0c7e2f6658bce49f94072646a44"
+      "sha256": "4c2ef496207c10758ec1d091a98b06f8075ecc2b74b7926d8b4c1f68147686b7"
     },
     {
       "path": "index.html",

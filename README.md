@@ -16,6 +16,20 @@ The checklist is €0. Use it only on systems you own or are explicitly authoriz
 
 Inspect four fictional events, a transparent detection hypothesis, positive and negative tests, computed before-and-after metrics, an analyst handoff, and explicit blind spots. It is synthetic evidence of the method, not a testimonial or production benchmark.
 
+## Prefer the projects already prepared?
+
+Open matched project files instead of assembling the lab plan, synthetic sample, evidence log, review gate, official sources, and portfolio brief from scratch. You still do and explain the work.
+
+- 12 matched 7-file sprint packs keep each start-here guide beside its lab guide, portfolio brief, evidence log, review checklist, official sources, and synthetic sample.
+- 13 prepared archives with 101 editable working files: one 17-file base vault plus the 12 sprint packs.
+- 12 named portfolio outputs and 35 official-source references across the sprint packs.
+- Every prepared file is available from day one; monthly messages provide pacing, not access control.
+- The membership is a fixed 12-month plan at €9 per month (€108 total before applicable taxes).
+
+[Verify the complete 12-sprint membership inventory before checkout.](https://antisociale6.github.io/cybersecurity-study-command-center-site/membership-contents.html)
+
+[Review the paid €9/month membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_term=readme-membership-review&utm_content=traffic-free-first-v1)
+
 ## Build your free study plan
 
 [Open the interactive 12-month cybersecurity study planner](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1)
@@ -61,13 +75,5 @@ Copy one of these blank Markdown worksheets into an owned or explicitly authoriz
 10. Behavior-Based Detection Engineering and Tuning: [Use in browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/detection-tuning-evaluation-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=detection-tuning-evaluation-template&utm_content=traffic-free-first-v1) | [Copy Markdown](templates/detection-tuning-evaluation-template.md)
 11. Synthetic Incident Response Tabletop and After-Action Review: [Use in browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/incident-tabletop-decision-log-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=incident-tabletop-decision-log-template&utm_content=traffic-free-first-v1) | [Copy Markdown](templates/incident-tabletop-decision-log-template.md)
 12. Measured Ransomware-Resilience Restore Exercise: [Use in browser](https://antisociale6.github.io/cybersecurity-study-command-center-site/templates/recovery-evidence-report-template.html?utm_source=github&utm_medium=template&utm_campaign=portfolio-template-library&utm_term=recovery-evidence-report-template&utm_content=traffic-free-first-v1) | [Copy Markdown](templates/recovery-evidence-report-template.md)
-
-## Continue with the complete system
-
-[Verify the complete 12-sprint membership inventory before checkout.](https://antisociale6.github.io/cybersecurity-study-command-center-site/membership-contents.html)
-
-[Use the free study site](https://antisociale6.github.io/cybersecurity-study-command-center-site/?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_content=traffic-free-first-v1) or [review the paid €9/month 12-sprint membership](https://corcoran7.gumroad.com/l/vmyfq?utm_source=github&utm_medium=repository&utm_campaign=membership-traffic&utm_term=readme-membership-review&utm_content=traffic-free-first-v1).
-
-The membership is a fixed 12-month plan. Every prepared file is available from day one; monthly messages provide pacing, not access control.
 
 This project does not promise employment, income, certification, or security outcomes.
