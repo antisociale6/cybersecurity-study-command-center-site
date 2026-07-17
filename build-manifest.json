@@ -156,9 +156,9 @@
       "sha256": "b8debd4594f4aea74eeecf389140f301b787073b0c5425f83142862b546cf231"
     },
     {
-      "bytes": 14967,
+      "bytes": 14907,
       "path": "templates/api-authorization-test-matrix-template.html",
-      "sha256": "a4e54350002656d381c0e251878139c55e353c0e4f1ba28c40212d66c6622caf"
+      "sha256": "842233a3378c895937ddd6cafd9361b2a5a20ef81bbf696b7e488bb18169e7f0"
     },
     {
       "bytes": 6082,
@@ -166,9 +166,9 @@
       "sha256": "37661a2933b3a3dea381096099a4a538152361e99e538a9c984ae83c1564cc5b"
     },
     {
-      "bytes": 15115,
+      "bytes": 15055,
       "path": "templates/authentication-session-review-template.html",
-      "sha256": "b7d829e3ad2a3f164f4592a10222c9d94465dcb3fa534a65cd0db21b648a08d1"
+      "sha256": "8673b1d3d06301d5c1be7362fa81a97897804eed8e0c07dafd742adb9802aa07"
     },
     {
       "bytes": 6077,
@@ -176,9 +176,9 @@
       "sha256": "a0a7b5754c655d3ce7ea2a9442bd710cd30ba854452fa1b8356a8e9d06d312c3"
     },
     {
-      "bytes": 14865,
+      "bytes": 14805,
       "path": "templates/configuration-drift-check-template.html",
-      "sha256": "2dfa203b5d9ec7a54c591e432425ea77f38491e45041955a87cd81b59ed1aa45"
+      "sha256": "3b8778c72e570834600d0bc856cf537838a2346799b6c9f74005422323f6c65d"
     },
     {
       "bytes": 6068,
@@ -186,9 +186,9 @@
       "sha256": "25186147e9edd06b19455e1d7ee65063336113ea9fb6952fd74103b19c9517c9"
     },
     {
-      "bytes": 14821,
+      "bytes": 14761,
       "path": "templates/container-hardening-review-template.html",
-      "sha256": "cb6bfeaef3b89e8300fe59c2a7518fc9f632db913487ffaa29a2500ad869dde7"
+      "sha256": "44e588e95bef684c7d964b7608295667a91d617191d108c37e696b83e07ea777"
     },
     {
       "bytes": 6076,
@@ -196,9 +196,9 @@
       "sha256": "c2cbb29d63ade57a0195dc53b5819c154f0637b5e072d56b997f468592779de4"
     },
     {
-      "bytes": 14680,
+      "bytes": 14620,
       "path": "templates/cyber-risk-register-template.html",
-      "sha256": "d6e73c19a91c9e9d2e5777de0fabcd1d31f75fad2792838e20bbac57b04af509"
+      "sha256": "6d50b9112f8dfe7362b6314da175ef512c7eeee328b3d57ddb12e5df4a9b5487"
     },
     {
       "bytes": 6028,
@@ -206,9 +206,9 @@
       "sha256": "3ca9a69dfeaef4c618fbb68c1be6ae89f9eba0e23c123fb21b78368f1ccfaada"
     },
     {
-      "bytes": 14881,
+      "bytes": 14821,
       "path": "templates/detection-tuning-evaluation-template.html",
-      "sha256": "995ac60063fd01c0cc39bb12590394084d3e12715c5ab263877e85d3e45c1380"
+      "sha256": "ff771241e342223aba73301a6c25400462136f170594b8182f6df05d2a7ab7a9"
     },
     {
       "bytes": 6044,
@@ -216,9 +216,9 @@
       "sha256": "7f84f325d826df9220344b2aec4b2dd60b8191a0c24866c9395e82a8a585e01a"
     },
     {
-      "bytes": 15066,
+      "bytes": 15006,
       "path": "templates/incident-tabletop-decision-log-template.html",
-      "sha256": "2d29f7c0738a2b3ee56c9b9d73b333a4d7d5f209435eb83a9aa0b5cfcc7047ce"
+      "sha256": "89bfb796164f0bb645bb176b3ceaed7544c5aebf0d3eda29428140c11e07c824"
     },
     {
       "bytes": 6117,
@@ -226,14 +226,14 @@
       "sha256": "6497b008bed979aae8ccb381cb6d75525cb76311dc621057062cdc1b3175b4f7"
     },
     {
-      "bytes": 19591,
+      "bytes": 19447,
       "path": "templates/index.html",
-      "sha256": "789acd9d227e87e4f004dbb0924d88b2e83f7ff71a47aed5b3bcee479e201e3b"
+      "sha256": "121ee74d08cb59a60fe57b1cfd5aca846514833ac4b5441d7e22e46edd2210f8"
     },
     {
-      "bytes": 15043,
+      "bytes": 14983,
       "path": "templates/network-segmentation-test-matrix-template.html",
-      "sha256": "5984ab835d2b7a6fa81f11016a5ef4413eba8135729e957e5214f3b5c66b1f9b"
+      "sha256": "d427e0f566b444f43c45120e010ae25a9a1764459e1c2ef3a59ed76ca6900683"
     },
     {
       "bytes": 6086,
@@ -241,9 +241,9 @@
       "sha256": "3455387cf6c29b1d4ff606fd40c18ba5f25cbefe7df349810c858d2c364f8533"
     },
     {
-      "bytes": 14860,
+      "bytes": 14800,
       "path": "templates/recovery-evidence-report-template.html",
-      "sha256": "ffb7e7d479b73aa3f76d1c1a82c31336989590463abae9b173af6590272b0b6f"
+      "sha256": "63ed522625dc435409922fead3be151b82d3e6b92f610ea37a11ad076a548d5e"
     },
     {
       "bytes": 6095,
@@ -251,9 +251,9 @@
       "sha256": "fd4fb624ae868d68b0ec1d64ca9f60466194b2bae0470f32ef2d02c40f998a84"
     },
     {
-      "bytes": 14625,
+      "bytes": 14565,
       "path": "templates/sbom-risk-decision-template.html",
-      "sha256": "feec4b15ea21ad1b99864e424e755dd485e60367072f373faec2da8efb95b645"
+      "sha256": "8946b73252bf74abf86e16ca96a3a886317c9ce4f637445be1cfc09aa5e1069c"
     },
     {
       "bytes": 6057,
@@ -261,9 +261,9 @@
       "sha256": "04a4abeb99d15256091d0dc19588f8d71a8e8358129796f213323b995e1d0fdf"
     },
     {
-      "bytes": 14612,
+      "bytes": 14552,
       "path": "templates/secrets-lifecycle-template.html",
-      "sha256": "453fa8312c48a44c4ec6cca86fd40a05057f53d48e831e24ed7e5720bc506b56"
+      "sha256": "107e54876ed87060b198458f20d6d8a40d3aceb29d330f23d8261cb320e585ec"
     },
     {
       "bytes": 5995,
@@ -271,9 +271,9 @@
       "sha256": "0d18138cbadd983f62fd79739a2f72d7dc16a7c94e1f63218dd7af3708213a2f"
     },
     {
-      "bytes": 14840,
+      "bytes": 14780,
       "path": "templates/web-service-threat-model-template.html",
-      "sha256": "89c49d8d81690f400e30b823c219cb6b2c85fde86218f34e7311a38a4df49abc"
+      "sha256": "4391ace5b04c73e2b15a75632e65cb92e2ddb909f122f9a90de46f8f25b8c7a8"
     },
     {
       "bytes": 6067,
@@ -281,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "5d6b13a91225401d1a470ee7f355b9708be7a4dbdc9d86c378a086800061a420",
+  "build_id": "772c1406a77dacba62fa1dcd2526a1c2c85769e61c1edba41837bbdd2cd9d68e",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -296,7 +296,7 @@
     "app": "4e0a2f3ab393b6c2169e3c6918ff616c7ee90632dface480f15041b79ab7e7ea",
     "article_template": "5fabc2fa7b53aa4b972581a4ab9755835f6acea0dd0a90360043c107df09df3c",
     "articles": "4ff18057a6475dc0d99f2ea20853cb8a597a974ad2fded65812abef232c47513",
-    "builder": "a746d5d5e3a5a9d4fb8ca8ce23cd4ea1d6613c629a5f96dc5bcabdd7c85102d5",
+    "builder": "2fc25a4df82038bc5454aa24965d94725cfc48f9c62057897943bb41565b04ce",
     "canonical_lead_magnet": "a6d57706a08360d8bc7004f57c10451aeb1b1bbd93cb805a1e75f231195952ab",
     "discovery": "0e4fb91d15b1487b38905e1dba1ad1f3f6d89c1b57fcf7e8fde06d81f497f451",
     "free_checklist_template": "06a57853fcd6ee4179432b2b005f70f097690ccee08a720d5a5339dafcf9a34e",

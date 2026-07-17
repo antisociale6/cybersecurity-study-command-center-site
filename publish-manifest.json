@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "source_build_id": "5d6b13a91225401d1a470ee7f355b9708be7a4dbdc9d86c378a086800061a420",
-  "site_hash": "b47691caa595023ee6a7087a4f3ecd576c76829e1aa416b0f7085e2177b033c1",
+  "source_build_id": "772c1406a77dacba62fa1dcd2526a1c2c85769e61c1edba41837bbdd2cd9d68e",
+  "site_hash": "0b61bf6128e51c950036891a6aa07b6ebba234d7360e44ecca43fc3ae74ad2ed",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "4d6234a858bae8c3b72702ab28317a26490fa78782cfada4a3dd6f01e01bf979"
+      "sha256": "6ce54f4a6b2de13c85890f99c7ad8fbc34fc97f1806856ebaa8e0f4b46417be9"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -182,7 +182,7 @@
     },
     {
       "path": "templates/api-authorization-test-matrix-template.html",
-      "sha256": "a4e54350002656d381c0e251878139c55e353c0e4f1ba28c40212d66c6622caf"
+      "sha256": "842233a3378c895937ddd6cafd9361b2a5a20ef81bbf696b7e488bb18169e7f0"
     },
     {
       "path": "templates/api-authorization-test-matrix-template.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": "templates/authentication-session-review-template.html",
-      "sha256": "b7d829e3ad2a3f164f4592a10222c9d94465dcb3fa534a65cd0db21b648a08d1"
+      "sha256": "8673b1d3d06301d5c1be7362fa81a97897804eed8e0c07dafd742adb9802aa07"
     },
     {
       "path": "templates/authentication-session-review-template.md",
@@ -198,7 +198,7 @@
     },
     {
       "path": "templates/configuration-drift-check-template.html",
-      "sha256": "2dfa203b5d9ec7a54c591e432425ea77f38491e45041955a87cd81b59ed1aa45"
+      "sha256": "3b8778c72e570834600d0bc856cf537838a2346799b6c9f74005422323f6c65d"
     },
     {
       "path": "templates/configuration-drift-check-template.md",
@@ -206,7 +206,7 @@
     },
     {
       "path": "templates/container-hardening-review-template.html",
-      "sha256": "cb6bfeaef3b89e8300fe59c2a7518fc9f632db913487ffaa29a2500ad869dde7"
+      "sha256": "44e588e95bef684c7d964b7608295667a91d617191d108c37e696b83e07ea777"
     },
     {
       "path": "templates/container-hardening-review-template.md",
@@ -214,7 +214,7 @@
     },
     {
       "path": "templates/cyber-risk-register-template.html",
-      "sha256": "d6e73c19a91c9e9d2e5777de0fabcd1d31f75fad2792838e20bbac57b04af509"
+      "sha256": "6d50b9112f8dfe7362b6314da175ef512c7eeee328b3d57ddb12e5df4a9b5487"
     },
     {
       "path": "templates/cyber-risk-register-template.md",
@@ -222,7 +222,7 @@
     },
     {
       "path": "templates/detection-tuning-evaluation-template.html",
-      "sha256": "995ac60063fd01c0cc39bb12590394084d3e12715c5ab263877e85d3e45c1380"
+      "sha256": "ff771241e342223aba73301a6c25400462136f170594b8182f6df05d2a7ab7a9"
     },
     {
       "path": "templates/detection-tuning-evaluation-template.md",
@@ -230,7 +230,7 @@
     },
     {
       "path": "templates/incident-tabletop-decision-log-template.html",
-      "sha256": "2d29f7c0738a2b3ee56c9b9d73b333a4d7d5f209435eb83a9aa0b5cfcc7047ce"
+      "sha256": "89bfb796164f0bb645bb176b3ceaed7544c5aebf0d3eda29428140c11e07c824"
     },
     {
       "path": "templates/incident-tabletop-decision-log-template.md",
@@ -238,11 +238,11 @@
     },
     {
       "path": "templates/index.html",
-      "sha256": "789acd9d227e87e4f004dbb0924d88b2e83f7ff71a47aed5b3bcee479e201e3b"
+      "sha256": "121ee74d08cb59a60fe57b1cfd5aca846514833ac4b5441d7e22e46edd2210f8"
     },
     {
       "path": "templates/network-segmentation-test-matrix-template.html",
-      "sha256": "5984ab835d2b7a6fa81f11016a5ef4413eba8135729e957e5214f3b5c66b1f9b"
+      "sha256": "d427e0f566b444f43c45120e010ae25a9a1764459e1c2ef3a59ed76ca6900683"
     },
     {
       "path": "templates/network-segmentation-test-matrix-template.md",
@@ -250,7 +250,7 @@
     },
     {
       "path": "templates/recovery-evidence-report-template.html",
-      "sha256": "ffb7e7d479b73aa3f76d1c1a82c31336989590463abae9b173af6590272b0b6f"
+      "sha256": "63ed522625dc435409922fead3be151b82d3e6b92f610ea37a11ad076a548d5e"
     },
     {
       "path": "templates/recovery-evidence-report-template.md",
@@ -258,7 +258,7 @@
     },
     {
       "path": "templates/sbom-risk-decision-template.html",
-      "sha256": "feec4b15ea21ad1b99864e424e755dd485e60367072f373faec2da8efb95b645"
+      "sha256": "8946b73252bf74abf86e16ca96a3a886317c9ce4f637445be1cfc09aa5e1069c"
     },
     {
       "path": "templates/sbom-risk-decision-template.md",
@@ -266,7 +266,7 @@
     },
     {
       "path": "templates/secrets-lifecycle-template.html",
-      "sha256": "453fa8312c48a44c4ec6cca86fd40a05057f53d48e831e24ed7e5720bc506b56"
+      "sha256": "107e54876ed87060b198458f20d6d8a40d3aceb29d330f23d8261cb320e585ec"
     },
     {
       "path": "templates/secrets-lifecycle-template.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "templates/web-service-threat-model-template.html",
-      "sha256": "89c49d8d81690f400e30b823c219cb6b2c85fde86218f34e7311a38a4df49abc"
+      "sha256": "4391ace5b04c73e2b15a75632e65cb92e2ddb909f122f9a90de46f8f25b8c7a8"
     },
     {
       "path": "templates/web-service-threat-model-template.md",
