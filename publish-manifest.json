@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "source_build_id": "43a0c5e8804496a9419d88acbc1b5aafc585a2593e4d6daf3025c7d4115fb174",
-  "site_hash": "62cb002dfc9a9979306a94f1e04a04b36d90a44490c8c4c803059765047ba7b9",
+  "source_build_id": "02b3b751f21ac8a70af7b2690850261958a84c1aaa6d6fad635d7f7239d3d375",
+  "site_hash": "9b97990321270cb616afc357d8b00b442dbc802c544e1e5452127ff56f9fc485",
   "publication_plan": {
     "schema_version": 1,
     "stage": "traffic",
-    "window_key": "2026-07-21",
+    "window_key": "2026-07-24",
     "variant_id": "traffic-free-first-v1",
-    "featured_article_sequence": 10,
+    "featured_article_sequence": 11,
     "catalog_sha256": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c"
   },
   "checkout_url": "https://corcoran7.gumroad.com/l/vmyfq",
@@ -118,7 +118,7 @@
     },
     {
       "path": "build-manifest.json",
-      "sha256": "e2ab878c4127eb422d8fe43b70bd02cbff3a21078b075d2e05b8e64f192e4081"
+      "sha256": "9af6ced6c26bd58f0784cb5f6489cfe2613485013221b1dc9e2c810bb072b5a4"
     },
     {
       "path": "cybersecurity-portfolio-projects-for-beginners.html",
@@ -150,7 +150,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "1bbc75fba089fc8d9adb66b781213fc9b0fa9498040bfd51f816f11cb1a9cde2"
+      "sha256": "33b9f3e0088c1346b17340972d90f7159b1f4123d3b1e84682adfc6d69d98a5a"
     },
     {
       "path": "member-delivery/16c25e15fab750505bae8ed3a96d3a03b25d892ffdfe55e2/cybersecurity-study-command-center.7z",
