@@ -123,7 +123,7 @@
     {
       "bytes": 50727,
       "path": "index.html",
-      "sha256": "5705f2b64ffe35b190bb6a8dbf864b444676c7dccf93bca6206f19e95949f57d"
+      "sha256": "9488d70df084cbce6defdde79e1b55c9510ff47ff643bda39dea4dc658d31a44"
     },
     {
       "bytes": 55977,
@@ -281,7 +281,7 @@
       "sha256": "42d34bbd59fdd306b3d5e09a1523887a12ccc03a815123b14ba9b3871faeca79"
     }
   ],
-  "build_id": "535cc23c9e6c892b2f512fd11ffc34c43ad0be90588f61328a34274a48d73706",
+  "build_id": "0cac24a2f8b803734fecaf8a14963771652cbe54369d9e5d9e3b0ba1dd79acaf",
   "canonical_lead_magnet_usage": "Validated for provenance only; the distributed ZIP is rebuilt from the safety-hardened local template.",
   "checkout_ready": true,
   "discovery": {
@@ -308,7 +308,7 @@
     "portfolio_projects_template": "481b819f1cd8bf507008bfab4e665c81ba9e13bd8bc08415b3aded59e814b5fa",
     "portfolio_template": "c3f2f1e2715338dce2453d4e4138d5b616a065d9bdab165a4f2150be6d134e70",
     "repository_readme_template": "493d5637f8169fc07f1170635ba3e2033ca7e8505497e1cb8f10af57e5d49d81",
-    "site_config": "97dfc6b1d0be635b6b9f8ab5c76613f6222017d2539fbcd0bc4ebd5a282d5f97",
+    "site_config": "62e8d1edcae5fc6cd42da04a073381148a1efaba39e2265d44367bcf5237d796",
     "site_variants": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c",
     "storefront_asset_manifest": "98de82db935bf6827243cef1bc8705f2d39d26f32eae4862d4c15149ea492f8b",
     "storefront_cover01overview.png": "d0dc2c7fd703cbad8c69918c5e84042bb984b88a41eb5d6ce6dca917466dfd8b",
@@ -462,11 +462,11 @@
   },
   "publication_plan": {
     "catalog_sha256": "1a87005b33e180f9aa5268ba23033a9604b875ebb1a9ab9133f09f390dd7d87c",
-    "featured_article_sequence": 5,
+    "featured_article_sequence": 6,
     "schema_version": 1,
     "stage": "traffic",
     "variant_id": "traffic-free-first-v1",
-    "window_key": "2026-08-11"
+    "window_key": "2026-08-14"
   },
   "schema_version": 2,
   "variant_sha256": "d5689b50d2d365f301ef0b14f873b687448883f548d47d485f363eb10dae3418"
